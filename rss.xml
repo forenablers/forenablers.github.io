@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 05 Jul 2018 20:25:45 GMT</lastBuildDate><item><title><![CDATA[Hackatrain 2018]]></title><description><![CDATA[Intro How about having a hackathon in the train? 6 hours in the train, without internet, going with the speed over 180 km/h. Sounds crazy…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</guid><pubDate>Wed, 20 Jun 2018 21:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Intro&lt;/h2&gt;
-&lt;p&gt;How about having a hackathon in the train? 6 hours in the train, without internet, going with the speed over 180 km/h. Sounds crazy, but rather cool, isn’t it? Consider high-speed train heading to Berlin with 100+ participants spread over two train wagons. Here at &lt;a href=&quot;https://parkmobile.nl&quot;&gt;Parkmobile&lt;/a&gt;, we like cool things and the spirit of innovation, needless to say I am in!&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 05 Jul 2018 21:44:07 GMT</lastBuildDate><item><title><![CDATA[Hackatrain 2018]]></title><description><![CDATA[Intro How about having a hackathon in a train? 6 hours in a train, without internet, going with the speed over 180 km/h. Sounds crazy, but…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</guid><pubDate>Wed, 20 Jun 2018 21:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Intro&lt;/h2&gt;
+&lt;p&gt;How about having a hackathon in a train? 6 hours in a train, without internet, going with the speed over 180 km/h. Sounds crazy, but rather cool, isn’t it? Consider high-speed train heading to Berlin with 100+ participants spread over two train wagons. Here at &lt;a href=&quot;https://parkmobile.nl&quot;&gt;Parkmobile&lt;/a&gt;, we like cool things and the spirit of innovation, needless to say I am in!&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -113,7 +113,7 @@
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;There were 14 teams with 6 participants in each team. A team contains a few software developers (usually 2-3), scientists and 1-2 students (comletely non-IT folks). For example, there were two students of Theatre and Performance Studies in my team. There are also people outside of the teams: coaches, mentors and supporting staff. Time is very limited and you start conding only in the evening of Day 1 (certainly after dinner and a few beers) while pitches start at 2:00 PM on the Day 2. The winning team gets 5, 000 euro gross.&lt;/p&gt;
+&lt;p&gt;There were 14 teams with 6 participants in each team. A team contains a few software developers (usually 2-3), scientists and 1-2 students (completely non-IT folks). For example, there were two students of Theatre and Performance Studies in my team. There are also people outside of the teams: coaches, mentors and support staff. Time is very limited and you start coding only in the evening of Day 1 (certainly after dinner and a few beers) while pitches start at 2:00 PM on the Day 2. The winning team gets 5, 000 euro gross.&lt;/p&gt;
 &lt;p&gt;Parkmobile mates
 
   &lt;a
@@ -152,25 +152,29 @@
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;h2&gt;Lessons learned&lt;/h2&gt;
-&lt;p&gt;There are a few key points I took away from this event. There are actually a lot more of them, but here I list crucial only:  &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;I do hate scrolling down all the way to the bottom of the page to see what really matters. Hence I break the rules and put imprortant stuff right here.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;There are a few key points I took from this event. There are actually a lot more of them, but here I list crucial only:  &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://parkmobile.nl&quot;&gt;Parkmobile&lt;/a&gt; is a great company! Ahaha, now seriously. Having talked to the other participants (huh, competitors!) I clearly see that &lt;a href=&quot;https://parkmobile.nl&quot;&gt;Parkmobile&lt;/a&gt; invests much more into innovation and technical development of our people. Perhaps because we are a part of BMW Group. Or, let’s be honest, that’s why we are a part of BMW Group.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://parkmobile.nl&quot;&gt;Parkmobile&lt;/a&gt; is a great company! Ahaha, now seriously. Having talked to the other participants (huh, competitors!) I clearly see that &lt;a href=&quot;https://parkmobile.nl&quot;&gt;Parkmobile&lt;/a&gt; invests much more into innovation and technical development of our people. Perhaps because we are part of BMW Group. Or, let’s be honest, that’s why we are part of BMW Group.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Acceptance criteria. Ask how jury is going to choose the winner. We were all surprised with the choice. Even the winners…&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Communication. People like to talk and they do talk a lot, a lot more than needed. Absolutely not listening nor analyzing what others just have said. And they try to make a &lt;del&gt;useless&lt;/del&gt; point and then they try to prove their point. And you have to learn how to stop those useless discussions and wasting the time and instead keep the team’s focus on the challenge. That is the best what you gain from the hackathons&lt;/p&gt;
+&lt;p&gt;Communication. People like to talk and they do talk a lot, a lot more than needed. Absolutely neither listening nor analyzing what others just have said. And they try to make a &lt;del&gt;useless&lt;/del&gt; point and then they try to prove their point. And you have to learn how to stop those useless discussions and wasting the time and instead keep the team’s focus on the challenge. That is the best you can gain from hackathons&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Time management. Oh how many participants I’ve seen in panic mode on the Day 2, especially closer to the pitch time. Finally they realize how much time they wasted for nothing. The hackathon is a great excercise that builds a discipline&lt;/p&gt;
+&lt;p&gt;Time management. Oh how many participants I’ve seen in panic mode on the Day 2, especially closer to the pitch time. Finally they realize how much time they wasted on nothing. Hackathon is a great excercise that builds discipline&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Teamwork. Don’t do the same mistake when you want to sit alone doing &lt;strong&gt;your part&lt;/strong&gt;. You will end up with typical problem: your part works pretty well, however whole solution does not work at all.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Energy and drive. Every team needs someone energetic and proactive. The team is loosing willingness to win as soon as they encounter issues. Form the team in such a way that you have at least one &lt;strong&gt;energetic doer&lt;/strong&gt;. Someone who pushes forward and does not give up.&lt;/p&gt;
+&lt;p&gt;Energy and drive. Every team needs someone energetic and proactive. Any team is loosing willingness to win as soon as they encounter issues. Form the team in such a way that you have at least one &lt;strong&gt;energetic doer&lt;/strong&gt;. Someone who pushes forward and does not give up.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Go to the first row if you want nice pictures afterwards. Seriously, those lazy photographers did not bother taking pictures of people further than 1-2 row. Sit in the first row during all events and you become a star :)&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Challenge&lt;/h2&gt;
@@ -178,8 +182,78 @@
 &lt;blockquote&gt;
 &lt;p&gt;You are going to the concert that ends at the late night. Develop the solution by utilizing Mobility-As-A-Service, 3rd party API and Blockchain to help the users to return home in time and according to their preferences.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;The solution is not a big deal. The 3rd party API are well specified, we’ve got the specs from 9292, NS train ad Parkmobile. This covers all the transport and logistics from train and buses to the cars and even parking lots. The main problem was a blockchain. What are you going to use it for??&lt;/p&gt;
-&lt;p&gt;IBM Hyperledger modeling
+&lt;p&gt;Solution is not a big deal. The 3rd party API are well specified, we’ve got the specs from 9292, NS train ad Parkmobile. This covers all the transport and logistics from train and buses to cars and even parking lots. The main problem was a blockchain. What are you going to use it for??&lt;/p&gt;
+&lt;h2&gt;Solution&lt;/h2&gt;
+&lt;p&gt;High-level architecture
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/solution-a551ed78bd5d27e9df56069daa3b5162-b5cbb.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 72.99270072992701%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAACn0lEQVQ4y42Uy27TUBCG84wIKDsWvAKXli3iAUBcNqyRkFgBUgEVECxaIGnjODfHbmzHsR07TnO1kzix83GctmqrFsRIvzyeI/0z88+Zk+OCrVitVmsvjuc4HQ/H9fD8AFf48/mCK211AmG5C/ETsnHLwmmoVA/y1KQ9DmsF5MJvbD1P4L6kbTzFd55jNcXXfk7QeUHXfsbIV64mHNodPLVFp/idjvGZrrVDU/qGkn9DpXIdqXSNWv0GZeFn8Lu3WSZ30CtvryaMwpDxeIztODQVFfOwiWlaBL5FW9+mdfgevfFOVPgBU/uA195m0P0kqlcvEp4nPa9POJ4QRRGj0YRplFzSbpVCkvxFw7OhxAS9I9y2i205uJ7HYDDk37b6e4XT6Yxet4MqF9DK+0J4F89WCQdf6PsfGQaf1ggHOySzHWbDPGkiCE+rOo/M5vMYs56nWdxGlz5S3/1K7ddrqpUNJOkGJekmsnyTSvkWurEhdHzAbBJdrvC0yjRNCYIeuqKJa6Nitx2h5QC3VcQxD9boWMe+bRREBzWWyyW5UEz0FJPJRFQ2v5QgO/tfy5VlGU1TUQVkuUSj0SAUxBnJdDolEv54NFony+JpmpxIk16UiuP/nGG2KJeqSAcyTtvjqN8nXh6vWLVWp7QvMwiG9Hp92rbLchGf3ZVTZEmSY+1zvqHj63tCmz2GnX0MpYKtGRy5XaxqicDcIzwSyTRZnB3Q1h6ja/fFZd9aQ1e3RMKHRL1XxLOEXN+xsdVdLH2XlvIDrSYzG4ekiwTfOFzHTPUHSvGnGI4k9vsR0v5dysVNKtImUuEBSuWe2JonzKIZubqiUBTtZi0XRXvVak28MK54XVyxr8o6lqFcrtLUDeL5kmSRitaTE6Qs4mSNTMk/RixaOJvjlrIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Solution Architecture&quot;
+        title=&quot;&quot;
+        src=&quot;/static/solution-a551ed78bd5d27e9df56069daa3b5162-fb8a0.png&quot;
+        srcset=&quot;/static/solution-a551ed78bd5d27e9df56069daa3b5162-1a291.png 148w,
+/static/solution-a551ed78bd5d27e9df56069daa3b5162-2bc4a.png 295w,
+/static/solution-a551ed78bd5d27e9df56069daa3b5162-fb8a0.png 590w,
+/static/solution-a551ed78bd5d27e9df56069daa3b5162-b5cbb.png 685w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;User interface written in python
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/solution2-bf36fe804a1d92ab377b4a9fef16081b-16258.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 380px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 181.05263157894737%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAkCAIAAAAGkY33AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFW0lEQVRIx4VVWXMUVRSeH+SLvlhaLCqFAhH9M1b5CyzUQAigQKWQB0pBEimWjFBaAUqJmX2mp5eZXmef3reZXmbL4tfdQ0IiVZ7c7tzb9373nPOdZVLFYuHbC99cXrq4dGkxGRcXv8Ny+fKlZGB++fUWxpXlpWtXlxe//zaT2Urdvn3rvXff+fijYyeOf4Bx8sSHpz45ce7sp+c/P3t+4cyXXyxgsnD29Ml4F+PMZ6cWzp0+fuz9G9d/SCmKIklSq9lstTBaosBvbr7K53P5fH5rK4Prs9lMoVAUBKEVSTORRqPR7/dTjuMMh8NBLJi4rrO2ev+nlRv3V39bX08/hDxYu/PzXUFqhmHouu7+Sdu2U3gsy8LbcV3DNHGXruuy3Nd0XYPoWqfTVlXNNC3TNN1YcCZBpfDgmnqNyRUKFEWTVaLGcjCSoSlBFOEJz7ECZoLA88Lu7u7e3t50OgU+Akc6HQe31ussjgThaO//ZDKZHALDlMD3hl4wGERW+b4Pc7ANP2EfzAQr8BdfdnZ3Z7PZHJyYzbP1XDZbLJVrNaYKIalSqVQsFhmmRsEZisznsjzPlStEq90xLQuczcGYSaJAMwzHcTjB1GoUSVZJUhRFokoKolADARRTKuRlRTUMXTeMQ2B4i8BSFAklxVKlXmciK+oslNM0VS6VKJpBSGaz7aOEQeAkYuB5Hpz0/WAcSxCGQeBjEoLG0XifsENgBL7bbiFASDP4zPM8TTOSJEhSQ2o2sWy3W3CqxjAsywqiFAQBNB2YHQWWocqVSrFQAF1cnUa04SpBVEsVgiAqOEDSNKYgEgYeBVfKJSQ0Q8NHigNLPJvNZSsVQojpwI0FpHihwHKcrGoHhMUZRmO7XqsViyWSJMtlGFHGjY1GVDAsy4FRlFCzIblDb3t7e56ekc+u2+v1+r1et9tVNV1R5AbqrNPZ2dl5a4YdIgz/QOmRE0Di0HQymcaCKEQBmERrEPYG266L4kReVIkq+GTAap2FkZ021Hdbca0jlkkx7b8PchvFh5bAc7wkIa/EZqMJHzgWlyBSnCjNw2PGcgDGg68oYKJSQRjANrIKEcIfDgk8FwSj7dlsNBoBgPxDFpoxBLek3IGb3ARrEMComcSNYt5YBgMPGRcE2LFfixOL7TqpV3dz/thzbMfQNTjMRyIkHUsUohaAIOGLoqhJD4lgpuVNgurq36nHF/4MZ4Ft2bqmop5YjsUbmYLugfBiAseRm/2+vA+2TCvYGf+z9Cj1+9ILgLFGrXueH/j+eBTClSpR4VkW+VxFb4oF5ibwCLw9yvyYTq0vbsTgeRBass52VK6jVPkWLXbanUh6XSRQD41xznMEHmeupVMbK5vBxIfZ+IoWxHX1giiXJIVoG0wv+oyuGXVRXVcVxYpa0hvgZ1dehtNIc6QYnWzoTvzBNBxq3SZTjYIHxUkZgf8DnxNw+uLc7KQNdlST72pi34DN5bqIekbaG4YZdR9dP6o5fen5vs8wu95WM5yc4+WCqMJyzTDR+5VIZE3V7ViB/V9wYpI3cIPhIPSGrgWcoidiOZrttuVOu68qpmMa5tvBMMCEae4AxYDegB9gkqTasikp3VfF55v5alOzNc0IdwBeT8C+FSEOSfIDZsWCZFZ1UzdtzbDgyCHCRrPQseCM69rxOxlI+ngSxcCyseXYVjyxcY0/Dbeg+enyC3ds95Seqsuarfe1vmqCGa2n9WVDlXXZ8pxgGvrjwEvGJBiG3nRvN3fzaereV483Vl/cv7r2ZOXJg+sP7y3/mr61vr7yCMvHNx+uXfnlr3vPqT/K5LMi9awQjad5Kp1lXxIbX9/5F9npRgdTQmu1AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Frontend&quot;
+        title=&quot;&quot;
+        src=&quot;/static/solution2-bf36fe804a1d92ab377b4a9fef16081b-16258.png&quot;
+        srcset=&quot;/static/solution2-bf36fe804a1d92ab377b4a9fef16081b-8ca7e.png 148w,
+/static/solution2-bf36fe804a1d92ab377b4a9fef16081b-0ff7a.png 295w,
+/static/solution2-bf36fe804a1d92ab377b4a9fef16081b-16258.png 380w&quot;
+        sizes=&quot;(max-width: 380px) 100vw, 380px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;IBM Hyperledger Fabric model
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -330,7 +404,7 @@
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;At that moment, the main challenge was to stay together and follow the discussion. A lot of people constantly passing nearby distracts you. As well as the noise produced by all of us.
+&lt;p&gt;At that moment, the main challenge was to stay together and follow the discussion. A lot of people constantly passing nearby were distracting us. And the noise produced by all of us.
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -360,6 +434,380 @@
 /static/brainstorming-3a3f51dd62de8712717c112cefe0cfeb-85e3d.jpg 885w,
 /static/brainstorming-3a3f51dd62de8712717c112cefe0cfeb-d1924.jpg 1180w,
 /static/brainstorming-3a3f51dd62de8712717c112cefe0cfeb-4df2f.jpg 1361w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;And that fluffy unicorn
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/unicorn-ba80dd3be075f9e75485c66bd1871906-6a73d.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBP/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAUm+JGomRr//xAAaEAACAwEBAAAAAAAAAAAAAAABAgADIhIh/9oACAEBAAEFAq6NNl2bklo3kBJn/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAECEv/aAAgBAwEBPwGWZo//xAAXEQADAQAAAAAAAAAAAAAAAAAAAQIR/9oACAECAQE/AXJiP//EABsQAQACAgMAAAAAAAAAAAAAAAEAEQIQITFB/9oACAEBAAY/AkxanKKWSnuCex1//8QAGxAAAwEBAAMAAAAAAAAAAAAAAAERIVExodH/2gAIAQEAAT8hW2lkrGYgIr16we15nyVDZmPonrfo/9oADAMBAAIAAwAAABAz/wD/xAAWEQEBAQAAAAAAAAAAAAAAAAAAAWH/2gAIAQMBAT8QpWb/xAAWEQEBAQAAAAAAAAAAAAAAAAAAQWH/2gAIAQIBAT8Qo1f/xAAeEAEAAgICAwEAAAAAAAAAAAABABEhMVGBQWGRof/aAAgBAQABPxASrrNm/URifhkN7fncY15KBp7m5SWueH7KFgssC8m5TKOtJ//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Unicorn&quot;
+        title=&quot;&quot;
+        src=&quot;/static/unicorn-ba80dd3be075f9e75485c66bd1871906-f8fb9.jpg&quot;
+        srcset=&quot;/static/unicorn-ba80dd3be075f9e75485c66bd1871906-e8976.jpg 148w,
+/static/unicorn-ba80dd3be075f9e75485c66bd1871906-63df2.jpg 295w,
+/static/unicorn-ba80dd3be075f9e75485c66bd1871906-f8fb9.jpg 590w,
+/static/unicorn-ba80dd3be075f9e75485c66bd1871906-85e3d.jpg 885w,
+/static/unicorn-ba80dd3be075f9e75485c66bd1871906-d1924.jpg 1180w,
+/static/unicorn-ba80dd3be075f9e75485c66bd1871906-9452e.jpg 1770w,
+/static/unicorn-ba80dd3be075f9e75485c66bd1871906-6a73d.jpg 4160w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;In a few more hours we were completely exhausted, and (finally) silence came to the stage.
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/silence-9fc334a44e4e57e63d26675be20f8c08-6a73d.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgb/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABZEnEvREwn//EABkQAQEBAQEBAAAAAAAAAAAAAAIBAxIRMf/aAAgBAQABBQLSlWfTT5dOUdF0NLB//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAEh/9oACAEDAQE/AZWv/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEh/9oACAECAQE/AYx//8QAHhAAAgIABwAAAAAAAAAAAAAAAAIBIRESMVFhgaH/2gAIAQEABj8CbL0al4tyTZUxe4sK/h//xAAZEAEAAwEBAAAAAAAAAAAAAAABABExIVH/2gAIAQEAAT8hHx5jPSWANadSZlfBc4lWsA1GOLlZACux/9oADAMBAAIAAwAAABBrL//EABgRAQEAAwAAAAAAAAAAAAAAAAEAESFR/9oACAEDAQE/EENZk4v/xAAYEQEAAwEAAAAAAAAAAAAAAAABABEhMf/aAAgBAgEBPxBDtQudn//EAB0QAQACAwADAQAAAAAAAAAAAAEAESExQVFhcYH/2gAIAQEAAT8Q217KorJRXGYGVG8/DtQOZHeLjifsaytFujy+25puBoXi4na/AuRZ/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Silence&quot;
+        title=&quot;&quot;
+        src=&quot;/static/silence-9fc334a44e4e57e63d26675be20f8c08-f8fb9.jpg&quot;
+        srcset=&quot;/static/silence-9fc334a44e4e57e63d26675be20f8c08-e8976.jpg 148w,
+/static/silence-9fc334a44e4e57e63d26675be20f8c08-63df2.jpg 295w,
+/static/silence-9fc334a44e4e57e63d26675be20f8c08-f8fb9.jpg 590w,
+/static/silence-9fc334a44e4e57e63d26675be20f8c08-85e3d.jpg 885w,
+/static/silence-9fc334a44e4e57e63d26675be20f8c08-d1924.jpg 1180w,
+/static/silence-9fc334a44e4e57e63d26675be20f8c08-9452e.jpg 1770w,
+/static/silence-9fc334a44e4e57e63d26675be20f8c08-6a73d.jpg 4160w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Ho-ho-ho. 100+ geeks in front of Berlin Central Station.
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/arrived-c1fa884eba602b3e9f1729ab9cb0e292-8e6ec.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwAC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAFsGAlmuf/EABsQAAMAAgMAAAAAAAAAAAAAAAABAgMEERIU/9oACAEBAAEFAvQ0XldypSNbrxdCVZD/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAdEAABBAIDAAAAAAAAAAAAAAAAARESIQIxIkGB/9oACAEBAAY/AqL0MpkseSdjP4Sls//EABwQAQADAAIDAAAAAAAAAAAAAAEAESExQVGBkf/aAAgBAQABPyFTSt7yb1o+w5XSNexXmWAMGtcgWA8p/9oADAMBAAIAAwAAABDrH//EABcRAAMBAAAAAAAAAAAAAAAAAAABEYH/2gAIAQMBAT8QilMP/8QAFhEBAQEAAAAAAAAAAAAAAAAAERAh/9oACAECAQE/EHSf/8QAHxABAAIBAwUAAAAAAAAAAAAAAQARITGB8EFRcaHx/9oACAEBAAE/EMYuXoLtcY4aABTkac6RQY1Uqp5qBEprfUce4oX21VOM7xYXCinD8qf/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Arrived&quot;
+        title=&quot;&quot;
+        src=&quot;/static/arrived-c1fa884eba602b3e9f1729ab9cb0e292-f8fb9.jpg&quot;
+        srcset=&quot;/static/arrived-c1fa884eba602b3e9f1729ab9cb0e292-e8976.jpg 148w,
+/static/arrived-c1fa884eba602b3e9f1729ab9cb0e292-63df2.jpg 295w,
+/static/arrived-c1fa884eba602b3e9f1729ab9cb0e292-f8fb9.jpg 590w,
+/static/arrived-c1fa884eba602b3e9f1729ab9cb0e292-85e3d.jpg 885w,
+/static/arrived-c1fa884eba602b3e9f1729ab9cb0e292-d1924.jpg 1180w,
+/static/arrived-c1fa884eba602b3e9f1729ab9cb0e292-9452e.jpg 1770w,
+/static/arrived-c1fa884eba602b3e9f1729ab9cb0e292-8e6ec.jpg 2592w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;On site. Everybody is looking for a cozy place for the team.
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/venue-04e84075cb5289bb286a5fede46fae82-6a73d.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAYblFmTMSFf/xAAaEAEAAgMBAAAAAAAAAAAAAAACAAEREyEj/9oACAEBAAEFAi1NlklZNdmfPeZ//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Bp//EABgQAAMBAQAAAAAAAAAAAAAAAAABETEi/9oACAEBAAY/Al2OiuijKjGf/8QAGhAAAwADAQAAAAAAAAAAAAAAAAERITFBUf/aAAgBAQABPyFTCIolKWuzURQcitAuoWZqr0ezn7T/2gAMAwEAAgADAAAAEK/P/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/EIiI/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxDS5f/EABoQAQEAAwEBAAAAAAAAAAAAAAERACExUbH/2gAIAQEAAT8QQbRpNa4czosFWzGFKtmdwJZM1Xl3v5jAYABIcq4AQlr0z//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Venue&quot;
+        title=&quot;&quot;
+        src=&quot;/static/venue-04e84075cb5289bb286a5fede46fae82-f8fb9.jpg&quot;
+        srcset=&quot;/static/venue-04e84075cb5289bb286a5fede46fae82-e8976.jpg 148w,
+/static/venue-04e84075cb5289bb286a5fede46fae82-63df2.jpg 295w,
+/static/venue-04e84075cb5289bb286a5fede46fae82-f8fb9.jpg 590w,
+/static/venue-04e84075cb5289bb286a5fede46fae82-85e3d.jpg 885w,
+/static/venue-04e84075cb5289bb286a5fede46fae82-d1924.jpg 1180w,
+/static/venue-04e84075cb5289bb286a5fede46fae82-9452e.jpg 1770w,
+/static/venue-04e84075cb5289bb286a5fede46fae82-6a73d.jpg 4160w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Time for dinner.
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dinner-aef073e4c0f3c5f26735f4e2083fdd9c-a5ccc.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAZ63bI0nFgF//8QAGRAAAwEBAQAAAAAAAAAAAAAAAAECAxMi/9oACAEBAAEFArkc+6xaM5WiSUV0P//EABURAQEAAAAAAAAAAAAAAAAAABEA/9oACAEDAQE/ARi//8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8Bqv/EABoQAAICAwAAAAAAAAAAAAAAAAABEBEhMTL/2gAIAQEABj8CTUbLZg5R/8QAGRABAQEBAQEAAAAAAAAAAAAAAREhABBh/9oACAEBAAE/ITWXYJ96KCocoY0vanownZMU2+T/2gAMAwEAAgADAAAAEDTf/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARMf/aAAgBAwEBPxBC05Zv/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxBxhZ//xAAfEAACAgIBBQAAAAAAAAAAAAABEQBBITFRkaGxwdH/2gAIAQEAAT8QqEUNvUI1oQ010j9OsFXebigDEDUzPDyWTzAgHgHyf//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Dinner&quot;
+        title=&quot;&quot;
+        src=&quot;/static/dinner-aef073e4c0f3c5f26735f4e2083fdd9c-f8fb9.jpg&quot;
+        srcset=&quot;/static/dinner-aef073e4c0f3c5f26735f4e2083fdd9c-e8976.jpg 148w,
+/static/dinner-aef073e4c0f3c5f26735f4e2083fdd9c-63df2.jpg 295w,
+/static/dinner-aef073e4c0f3c5f26735f4e2083fdd9c-f8fb9.jpg 590w,
+/static/dinner-aef073e4c0f3c5f26735f4e2083fdd9c-85e3d.jpg 885w,
+/static/dinner-aef073e4c0f3c5f26735f4e2083fdd9c-a5ccc.jpg 900w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;And coding started
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/begincoding-35a33e51a9c8b48271d5abce17402e67-a5ccc.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAD/9oADAMBAAIQAxAAAAHnM2l64jIL/8QAGhABAAIDAQAAAAAAAAAAAAAAAQACAxESIf/aAAgBAQABBQL2bWcu8Na3xITtJ//EABcRAAMBAAAAAAAAAAAAAAAAAAABERL/2gAIAQMBAT8B06Vn/8QAGBEAAgMAAAAAAAAAAAAAAAAAABEBAkH/2gAIAQIBAT8BstHB/8QAHhAAAQMEAwAAAAAAAAAAAAAAAAECIhAREiExQYH/2gAIAQEABj8CMVb6coXcnZGO6f/EABoQAQADAQEBAAAAAAAAAAAAAAEAESExYVH/2gAIAQEAAT8hqoh5kDAgvxcbVEX9ipC5NnAKaxlhqt3k/9oADAMBAAIAAwAAABCg7//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QNf/EABcRAAMBAAAAAAAAAAAAAAAAAAABEWH/2gAIAQIBAT8Qq6MT/8QAHRABAQADAAIDAAAAAAAAAAAAAREAITFBUWGBkf/aAAgBAQABPxCBZbA5YdyUGCKhO31hBsEBIffnI1S3QDV185baEKLzlfGsNMaqE3+Z/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Coding&quot;
+        title=&quot;&quot;
+        src=&quot;/static/begincoding-35a33e51a9c8b48271d5abce17402e67-f8fb9.jpg&quot;
+        srcset=&quot;/static/begincoding-35a33e51a9c8b48271d5abce17402e67-e8976.jpg 148w,
+/static/begincoding-35a33e51a9c8b48271d5abce17402e67-63df2.jpg 295w,
+/static/begincoding-35a33e51a9c8b48271d5abce17402e67-f8fb9.jpg 590w,
+/static/begincoding-35a33e51a9c8b48271d5abce17402e67-85e3d.jpg 885w,
+/static/begincoding-35a33e51a9c8b48271d5abce17402e67-a5ccc.jpg 900w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;And coding continues at night
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/codingnight-6756cdad84b01f632dd503b82a44c831-6a73d.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAABzGl6UoHEf//EABwQAAEDBQAAAAAAAAAAAAAAAAIAARIDEBETIf/aAAgBAQABBQKfBxaTA41VsX//xAAWEQEBAQAAAAAAAAAAAAAAAAAAEgH/2gAIAQMBAT8BtWv/xAAYEQADAQEAAAAAAAAAAAAAAAAAElEBAv/aAAgBAgEBPwFMovNP/8QAGBAAAwEBAAAAAAAAAAAAAAAAABEyEFH/2gAIAQEABj8CSJedJJP/xAAdEAADAAICAwAAAAAAAAAAAAAAAREhcTFBYYHw/9oACAEBAAE/IV1LEivJSLXorSJoQsc35h8I/9oADAMBAAIAAwAAABAoD//EABcRAQEBAQAAAAAAAAAAAAAAAAEAIWH/2gAIAQMBAT8QGulwv//EABcRAQADAAAAAAAAAAAAAAAAAAABEfD/2gAIAQIBAT8QpNIf/8QAHhABAQACAgIDAAAAAAAAAAAAAREAITFxUWGRofH/2gAIAQEAAT8QgmaJa/ORXyRtOOsIba8bTFkXOh1+8unQePynrIdwdpn/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Coding&quot;
+        title=&quot;&quot;
+        src=&quot;/static/codingnight-6756cdad84b01f632dd503b82a44c831-f8fb9.jpg&quot;
+        srcset=&quot;/static/codingnight-6756cdad84b01f632dd503b82a44c831-e8976.jpg 148w,
+/static/codingnight-6756cdad84b01f632dd503b82a44c831-63df2.jpg 295w,
+/static/codingnight-6756cdad84b01f632dd503b82a44c831-f8fb9.jpg 590w,
+/static/codingnight-6756cdad84b01f632dd503b82a44c831-85e3d.jpg 885w,
+/static/codingnight-6756cdad84b01f632dd503b82a44c831-d1924.jpg 1180w,
+/static/codingnight-6756cdad84b01f632dd503b82a44c831-9452e.jpg 1770w,
+/static/codingnight-6756cdad84b01f632dd503b82a44c831-6a73d.jpg 4160w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Late night
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/codinglatenight-f1dc6bb5b8ccb0196a7960c20a383c98-6a73d.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFAv/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAGUMuUc4yB//8QAGhAAAgMBAQAAAAAAAAAAAAAAAQMAAhEEEP/aAAgBAQABBQKoMK7SgXnMca9u+f/EABYRAQEBAAAAAAAAAAAAAAAAAAABEv/aAAgBAwEBPwFmP//EABYRAQEBAAAAAAAAAAAAAAAAAAARIf/aAAgBAgEBPwGYj//EABsQAAICAwEAAAAAAAAAAAAAAAABESEQIjEy/9oACAEBAAY/Aq6WmbzJKVnlTj//xAAZEAADAQEBAAAAAAAAAAAAAAAAAREhMXH/2gAIAQEAAT8hUk18nRTUjj/Bk5BpukDqW61SM//aAAwDAQACAAMAAAAQQP8A/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERIWH/2gAIAQMBAT8QjqUw5H//xAAWEQEBAQAAAAAAAAAAAAAAAAARARD/2gAIAQIBAT8QjWP/xAAdEAEAAwACAwEAAAAAAAAAAAABABEhQZFRYaHB/9oACAEBAAE/ED1paS3Uur67Yh9gkDL4s9xbjEWw4/YF/E1GW8D1P//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Coding&quot;
+        title=&quot;&quot;
+        src=&quot;/static/codinglatenight-f1dc6bb5b8ccb0196a7960c20a383c98-f8fb9.jpg&quot;
+        srcset=&quot;/static/codinglatenight-f1dc6bb5b8ccb0196a7960c20a383c98-e8976.jpg 148w,
+/static/codinglatenight-f1dc6bb5b8ccb0196a7960c20a383c98-63df2.jpg 295w,
+/static/codinglatenight-f1dc6bb5b8ccb0196a7960c20a383c98-f8fb9.jpg 590w,
+/static/codinglatenight-f1dc6bb5b8ccb0196a7960c20a383c98-85e3d.jpg 885w,
+/static/codinglatenight-f1dc6bb5b8ccb0196a7960c20a383c98-d1924.jpg 1180w,
+/static/codinglatenight-f1dc6bb5b8ccb0196a7960c20a383c98-9452e.jpg 1770w,
+/static/codinglatenight-f1dc6bb5b8ccb0196a7960c20a383c98-6a73d.jpg 4160w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Very late night
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/coding-3ef8fa5e690fb53faf28c62471220cd5-30631.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAABBP/aAAwDAQACEAMQAAABzLLkrBYn/8QAHBAAAgEFAQAAAAAAAAAAAAAAAAECERIhIjEy/9oACAEBAAEFAuJS1voLIm0S9f/EABgRAAMBAQAAAAAAAAAAAAAAAAABAhEh/9oACAEDAQE/AbyjbXEf/8QAFhEAAwAAAAAAAAAAAAAAAAAAAQIQ/9oACAECAQE/AVE//8QAGBABAAMBAAAAAAAAAAAAAAAAAAEQMUH/2gAIAQEABj8CdZcv/8QAGhABAAMAAwAAAAAAAAAAAAAAAQARIUFRgf/aAAgBAQABPyEq1hNE8yqSNt2KFPMAo9z/2gAMAwEAAgADAAAAEPDP/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQAhEf/aAAgBAwEBPxACDhBemF//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREx/9oACAECAQE/EIaNn//EABoQAQEBAQEBAQAAAAAAAAAAAAERACExgaH/2gAIAQEAAT8QpeEcJ5XaR/Mt6UfUB+mbDlLHuZ5WHhhQqqu//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Coding&quot;
+        title=&quot;&quot;
+        src=&quot;/static/coding-3ef8fa5e690fb53faf28c62471220cd5-f8fb9.jpg&quot;
+        srcset=&quot;/static/coding-3ef8fa5e690fb53faf28c62471220cd5-e8976.jpg 148w,
+/static/coding-3ef8fa5e690fb53faf28c62471220cd5-63df2.jpg 295w,
+/static/coding-3ef8fa5e690fb53faf28c62471220cd5-f8fb9.jpg 590w,
+/static/coding-3ef8fa5e690fb53faf28c62471220cd5-85e3d.jpg 885w,
+/static/coding-3ef8fa5e690fb53faf28c62471220cd5-d1924.jpg 1180w,
+/static/coding-3ef8fa5e690fb53faf28c62471220cd5-30631.jpg 1600w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Closer to the morning. Only 2 of us and a photographer (obviously)
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/codingverylatenight-babeada3bc4dcb13035d8649c770f47b-30631.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAED/9oADAMBAAIQAxAAAAHCfbMWaSln/8QAGhABAAIDAQAAAAAAAAAAAAAAAQACAxEhMv/aAAgBAQABBQIIbJpmDuO3tsk//8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECEiH/2gAIAQMBAT8BUcLI/8QAGREAAgMBAAAAAAAAAAAAAAAAAAIBERIh/9oACAECAQE/AVbtGoP/xAAaEAACAgMAAAAAAAAAAAAAAAAAAQIhMWGR/9oACAEBAAY/AjBTjwitkimf/8QAGhAAAwEAAwAAAAAAAAAAAAAAAAERITFhgf/aAAgBAQABPyGg0lA2bN2NJqvBfPghJkP/2gAMAwEAAgADAAAAENfP/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERMf/aAAgBAwEBPxCVDRp//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERUf/aAAgBAgEBPxCzjRH/xAAbEAEBAAIDAQAAAAAAAAAAAAABEQAhMUFhUf/aAAgBAQABPxBhQ196y5J7FUxkoeBxPHAARRUUSGEAEHQamusjiji5/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Coding&quot;
+        title=&quot;&quot;
+        src=&quot;/static/codingverylatenight-babeada3bc4dcb13035d8649c770f47b-f8fb9.jpg&quot;
+        srcset=&quot;/static/codingverylatenight-babeada3bc4dcb13035d8649c770f47b-e8976.jpg 148w,
+/static/codingverylatenight-babeada3bc4dcb13035d8649c770f47b-63df2.jpg 295w,
+/static/codingverylatenight-babeada3bc4dcb13035d8649c770f47b-f8fb9.jpg 590w,
+/static/codingverylatenight-babeada3bc4dcb13035d8649c770f47b-85e3d.jpg 885w,
+/static/codingverylatenight-babeada3bc4dcb13035d8649c770f47b-d1924.jpg 1180w,
+/static/codingverylatenight-babeada3bc4dcb13035d8649c770f47b-30631.jpg 1600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
