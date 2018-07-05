@@ -5,7 +5,7 @@ date: "2018-06-20T21:00:00Z"
 
 ## Intro
 
-How about having a hackathon in the train? 6 hours in the train, without internet, going with the speed over 180 km/h. Sounds crazy, but rather cool, isn't it? Consider high-speed train heading to Berlin with 100+ participants spread over two train wagons. Here at [Parkmobile](https://parkmobile.nl), we like cool things and the spirit of innovation, needless to say I am in!
+How about having a hackathon in a train? 6 hours in a train, without internet, going with the speed over 180 km/h. Sounds crazy, but rather cool, isn't it? Consider high-speed train heading to Berlin with 100+ participants spread over two train wagons. Here at [Parkmobile](https://parkmobile.nl), we like cool things and the spirit of innovation, needless to say I am in!
 
 ![Hackatrain 2018](./images/train.jpg)
 
@@ -19,22 +19,25 @@ Yeah right, I wish. The beers will come later. First get you hands dirty:
 
 ![Working hard](./images/begin.jpg)
 
-There were 14 teams with 6 participants in each team. A team contains a few software developers (usually 2-3), scientists and 1-2 students (comletely non-IT folks). For example, there were two students of Theatre and Performance Studies in my team. There are also people outside of the teams: coaches, mentors and supporting staff. Time is very limited and you start conding only in the evening of Day 1 (certainly after dinner and a few beers) while pitches start at 2:00 PM on the Day 2. The winning team gets 5, 000 euro gross.
+There were 14 teams with 6 participants in each team. A team contains a few software developers (usually 2-3), scientists and 1-2 students (completely non-IT folks). For example, there were two students of Theatre and Performance Studies in my team. There are also people outside of the teams: coaches, mentors and support staff. Time is very limited and you start coding only in the evening of Day 1 (certainly after dinner and a few beers) while pitches start at 2:00 PM on the Day 2. The winning team gets 5, 000 euro gross.
 
 Parkmobile mates
 ![Hackatrain 2018](./images/Parkmobile.jpg)
 
 ## Lessons learned
 
-There are a few key points I took away from this event. There are actually a lot more of them, but here I list crucial only:  
+_I do hate scrolling down all the way to the bottom of the page to see what really matters. Hence I break the rules and put imprortant stuff right here._
 
-* [Parkmobile](https://parkmobile.nl) is a great company! Ahaha, now seriously. Having talked to the other participants (huh, competitors!) I clearly see that [Parkmobile](https://parkmobile.nl) invests much more into innovation and technical development of our people. Perhaps because we are a part of BMW Group. Or, let's be honest, that's why we are a part of BMW Group.
+There are a few key points I took from this event. There are actually a lot more of them, but here I list crucial only:  
+
+* [Parkmobile](https://parkmobile.nl) is a great company! Ahaha, now seriously. Having talked to the other participants (huh, competitors!) I clearly see that [Parkmobile](https://parkmobile.nl) invests much more into innovation and technical development of our people. Perhaps because we are part of BMW Group. Or, let's be honest, that's why we are part of BMW Group.
 
 * Acceptance criteria. Ask how jury is going to choose the winner. We were all surprised with the choice. Even the winners...
-* Communication. People like to talk and they do talk a lot, a lot more than needed. Absolutely not listening nor analyzing what others just have said. And they try to make a ~~useless~~ point and then they try to prove their point. And you have to learn how to stop those useless discussions and wasting the time and instead keep the team's focus on the challenge. That is the best what you gain from the hackathons
-* Time management. Oh how many participants I've seen in panic mode on the Day 2, especially closer to the pitch time. Finally they realize how much time they wasted for nothing. The hackathon is a great excercise that builds a discipline
+* Communication. People like to talk and they do talk a lot, a lot more than needed. Absolutely neither listening nor analyzing what others just have said. And they try to make a ~~useless~~ point and then they try to prove their point. And you have to learn how to stop those useless discussions and wasting the time and instead keep the team's focus on the challenge. That is the best you can gain from hackathons
+* Time management. Oh how many participants I've seen in panic mode on the Day 2, especially closer to the pitch time. Finally they realize how much time they wasted on nothing. Hackathon is a great excercise that builds discipline
 * Teamwork. Don't do the same mistake when you want to sit alone doing **your part**. You will end up with typical problem: your part works pretty well, however whole solution does not work at all.
-* Energy and drive. Every team needs someone energetic and proactive. The team is loosing willingness to win as soon as they encounter issues. Form the team in such a way that you have at least one **energetic doer**. Someone who pushes forward and does not give up.
+* Energy and drive. Every team needs someone energetic and proactive. Any team is loosing willingness to win as soon as they encounter issues. Form the team in such a way that you have at least one **energetic doer**. Someone who pushes forward and does not give up.
+* Go to the first row if you want nice pictures afterwards. Seriously, those lazy photographers did not bother taking pictures of people further than 1-2 row. Sit in the first row during all events and you become a star :)
 
 ## Challenge
 
@@ -42,9 +45,17 @@ The challenge was kept in a secret till the very last moment, before we get into
 
 > You are going to the concert that ends at the late night. Develop the solution by utilizing Mobility-As-A-Service, 3rd party API and Blockchain to help the users to return home in time and according to their preferences.
 
-The solution is not a big deal. The 3rd party API are well specified, we've got the specs from 9292, NS train ad Parkmobile. This covers all the transport and logistics from train and buses to the cars and even parking lots. The main problem was a blockchain. What are you going to use it for??
+Solution is not a big deal. The 3rd party API are well specified, we've got the specs from 9292, NS train ad Parkmobile. This covers all the transport and logistics from train and buses to cars and even parking lots. The main problem was a blockchain. What are you going to use it for??
 
-IBM Hyperledger modeling
+## Solution
+
+High-level architecture
+![Solution Architecture](./images/solution.png)
+
+User interface written in python
+![Frontend](./images/solution2.png)
+
+IBM Hyperledger Fabric model
 ![Blockchain](./images/blockchain.png)
 
 ## Day 1
@@ -61,8 +72,39 @@ That was quite warm weather and it was incredibly hot inside the train. We had t
 Finally the team sits together and we begin brainstorming.
 ![Cards](./images/cards.jpg)
 
-At that moment, the main challenge was to stay together and follow the discussion. A lot of people constantly passing nearby distracts you. As well as the noise produced by all of us.
+At that moment, the main challenge was to stay together and follow the discussion. A lot of people constantly passing nearby were distracting us. And the noise produced by all of us.
 ![Brainstorming](./images/brainstorming.jpg)
+
+And that fluffy unicorn
+![Unicorn](./images/unicorn.jpg)
+
+In a few more hours we were completely exhausted, and (finally) silence came to the stage.
+![Silence](./images/silence.jpg)
+
+Ho-ho-ho. 100+ geeks in front of Berlin Central Station.
+![Arrived](./images/arrived.jpg)
+
+On site. Everybody is looking for a cozy place for the team.
+![Venue](./images/venue.jpg)
+
+Time for dinner.
+![Dinner](./images/dinner.jpg)
+
+And coding started
+![Coding](./images/begincoding.jpg)
+
+And coding continues at night
+![Coding](./images/codingnight.jpg)
+
+Late night
+![Coding](./images/codinglatenight.jpg)
+
+Very late night
+![Coding](./images/coding.jpg)
+
+Closer to the morning. Only 2 of us and a photographer (obviously)
+![Coding](./images/codingverylatenight.jpg)
 
 
 ## Day 2
+
