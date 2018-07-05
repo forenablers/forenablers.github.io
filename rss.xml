@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 05 Jul 2018 06:23:59 GMT</lastBuildDate><item><title><![CDATA[First post]]></title><description><![CDATA[How to inpaint? Here are a small simple code on how to inpaint an image It uses a .NET library. How it says on GitHub project page: Content…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//first-post/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//first-post/</guid><pubDate>Fri, 15 Jun 2018 09:31:03 GMT</pubDate><content:encoded>&lt;h2&gt;How to inpaint?&lt;/h2&gt;
+&lt;p&gt;Here are a small simple code on how to inpaint an image&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-csharp&quot;&gt;&lt;code class=&quot;language-csharp&quot;&gt;Console.WriteLine($&amp;quot;Begin processing ...&amp;quot;);
+var result = inpainter.Inpaint(imageArgb, markupArgb, donors);
+result
+    .FromArgbToBitmap()
+    .SaveTo(resultPath, ImageFormat.Png)
+    .ShowFile();&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;It uses a .NET library. How it says on GitHub project page:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Content aware fill is used to fill in unwanted or missing areas of photographs. See an example of such fill below where we don’t want to have the man in blue t-shirt on our picture&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;/process-b65af67a56155f351ca7514b7ca1b606.gif&quot; alt=&quot;inpaint process&quot;&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
