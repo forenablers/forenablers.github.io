@@ -108,3 +108,27 @@ Closer to the morning. Only 2 of us and a photographer (obviously)
 
 ## Day 2
 
+Next day we started at 7:00 AM. Quick breakfast and taking [DriveNow](https://www.drive-now.com/de/en) to get back to the venue
+![DriveNow](./images/drivenow.jpg)
+
+Covertible helps to wake up
+![Convertible](./images/drivenowwakeup.jpg)
+
+Creating the presentation
+![Drawings](./images/presentation.jpg)
+
+Getting ready for the pitch
+![Drawings](./images/drawings.jpg)
+
+And we are ready for the pitch. Jury liked our presentation, that's promising
+![Pitch](./images/pitch.jpg)
+
+Let the fun begin!
+![Pitch](./images/pitchpresenting.jpg)
+
+Done. We were close, but nope. We hate the winners, obviously. Nothing personal.
+
+It was great event and a lot of fun. We've gained great experience and made new connections, especially guys from IBM and ING.
+
+Time to go home. Tired but happy!
+![Back home](./images/back.jpg)
