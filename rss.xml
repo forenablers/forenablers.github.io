@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 05 Jul 2018 21:44:07 GMT</lastBuildDate><item><title><![CDATA[Hackatrain 2018]]></title><description><![CDATA[Intro How about having a hackathon in a train? 6 hours in a train, without internet, going with the speed over 180 km/h. Sounds crazy, but…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</guid><pubDate>Wed, 20 Jun 2018 21:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Intro&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 05 Jul 2018 22:10:04 GMT</lastBuildDate><item><title><![CDATA[Hackatrain 2018]]></title><description><![CDATA[Intro How about having a hackathon in a train? 6 hours in a train, without internet, going with the speed over 180 km/h. Sounds crazy, but…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</guid><pubDate>Wed, 20 Jun 2018 21:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Intro&lt;/h2&gt;
 &lt;p&gt;How about having a hackathon in a train? 6 hours in a train, without internet, going with the speed over 180 km/h. Sounds crazy, but rather cool, isn’t it? Consider high-speed train heading to Berlin with 100+ participants spread over two train wagons. Here at &lt;a href=&quot;https://parkmobile.nl&quot;&gt;Parkmobile&lt;/a&gt;, we like cool things and the spirit of innovation, needless to say I am in!&lt;/p&gt;
 &lt;p&gt;
   &lt;a
@@ -815,7 +815,270 @@
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;h2&gt;Day 2&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[First post]]></title><description><![CDATA[How to inpaint? Here are a small simple code on how to inpaint an image It uses a .NET library. How it says on GitHub project page: Content…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//first-post/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//first-post/</guid><pubDate>Fri, 15 Jun 2018 09:31:03 GMT</pubDate><content:encoded>&lt;h2&gt;How to inpaint?&lt;/h2&gt;
+&lt;h2&gt;Day 2&lt;/h2&gt;
+&lt;p&gt;Next day we started at 7:00 AM. Quick breakfast and taking &lt;a href=&quot;https://www.drive-now.com/de/en&quot;&gt;DriveNow&lt;/a&gt; to get back to the venue
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/drivenow-edcb47f43e37466a8f02c73355fa8fb6-7a78d.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 74.95826377295492%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABnQ/YSFxb/8QAGhAAAgMBAQAAAAAAAAAAAAAAAQIAAxEEEv/aAAgBAQABBQKtfUtLathA0qR1yxxv/8QAFREBAQAAAAAAAAAAAAAAAAAAABL/2gAIAQMBAT8BS//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB0QAAICAQUAAAAAAAAAAAAAAAARAQISAyJRYYH/2gAIAQEABj8CeD6N0T6JQOBJ1Ix06JcH/8QAHBAAAwABBQAAAAAAAAAAAAAAAAERITFBUWGR/9oACAEBAAE/IXYUX0inBeEFNA3g6IOpdaI2jVR//9oADAMBAAIAAwAAABAfz//EABcRAQEBAQAAAAAAAAAAAAAAAAEAETH/2gAIAQMBAT8Q5DTdL//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPxBsf//EAB4QAQEAAQMFAAAAAAAAAAAAAAERACExYUFRgZGh/9oACAEBAAE/ELrqQC1OKcYYNEKKuun3IkJ33wtUO+31iKuQSFPDpjgIqEtuf//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;DriveNow&quot;
+        title=&quot;&quot;
+        src=&quot;/static/drivenow-edcb47f43e37466a8f02c73355fa8fb6-f8fb9.jpg&quot;
+        srcset=&quot;/static/drivenow-edcb47f43e37466a8f02c73355fa8fb6-e8976.jpg 148w,
+/static/drivenow-edcb47f43e37466a8f02c73355fa8fb6-63df2.jpg 295w,
+/static/drivenow-edcb47f43e37466a8f02c73355fa8fb6-f8fb9.jpg 590w,
+/static/drivenow-edcb47f43e37466a8f02c73355fa8fb6-85e3d.jpg 885w,
+/static/drivenow-edcb47f43e37466a8f02c73355fa8fb6-d1924.jpg 1180w,
+/static/drivenow-edcb47f43e37466a8f02c73355fa8fb6-7a78d.jpg 1198w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Covertible helps to wake up
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/drivenowwakeup-9b8c9cdc0e9778c5008265c3e27812c1-0e3ec.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 74.98020585906572%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/2gAMAwEAAhADEAAAAdDNplGQR//EABoQAAMAAwEAAAAAAAAAAAAAAAECAwAREhP/2gAIAQEAAQUCpYZ6EO77Y0w87oQr/wD/xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/AY1T/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHRAAAwABBQEAAAAAAAAAAAAAAAERAwITITJBkf/aAAgBAQAGPwJzmF9Oy+mnJDIpRrbR/8QAGxAAAgMBAQEAAAAAAAAAAAAAAREAIWExQVH/2gAIAQEAAT8hpOxCPGGMhSHtCigR6PmxiWzGCFjTs//aAAwDAQACAAMAAAAQqC//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QBHF//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/ELGP/8QAHBABAQACAwEBAAAAAAAAAAAAAREAITFBcVFh/9oACAEBAAE/EFJGCA7Z19xuElW6Ry4EYbFnWEjRn7tHrrXJhSOBQ5OjxmLRXBGa61n/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Convertible&quot;
+        title=&quot;&quot;
+        src=&quot;/static/drivenowwakeup-9b8c9cdc0e9778c5008265c3e27812c1-f8fb9.jpg&quot;
+        srcset=&quot;/static/drivenowwakeup-9b8c9cdc0e9778c5008265c3e27812c1-e8976.jpg 148w,
+/static/drivenowwakeup-9b8c9cdc0e9778c5008265c3e27812c1-63df2.jpg 295w,
+/static/drivenowwakeup-9b8c9cdc0e9778c5008265c3e27812c1-f8fb9.jpg 590w,
+/static/drivenowwakeup-9b8c9cdc0e9778c5008265c3e27812c1-85e3d.jpg 885w,
+/static/drivenowwakeup-9b8c9cdc0e9778c5008265c3e27812c1-d1924.jpg 1180w,
+/static/drivenowwakeup-9b8c9cdc0e9778c5008265c3e27812c1-0e3ec.jpg 1263w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Creating the presentation
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/presentation-181d942712f4df4c2053eeda5ff2f578-6a73d.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFAf/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAAF2y2BUycUf/8QAGRABAQEBAQEAAAAAAAAAAAAAAgEAAxIR/9oACAEBAAEFAioNXy05+sl9V9qxob//xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAIAQMBAT8Bia//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8BbH//xAAcEAADAAEFAAAAAAAAAAAAAAAAARESAiEyQWH/2gAIAQEABj8CmqK9nJFW/pjKkXFUh//EABsQAAIDAQEBAAAAAAAAAAAAAAERADFBIVFx/9oACAEBAAE/IUCyrVAAF2orIrQz1CALIcFsYN5PjZ//2gAMAwEAAgADAAAAEKc//8QAGBEAAgMAAAAAAAAAAAAAAAAAAAERMUH/2gAIAQMBAT8QeBz2f//EABcRAQEBAQAAAAAAAAAAAAAAAAEAEVH/2gAIAQIBAT8QEDWOd//EABsQAQADAAMBAAAAAAAAAAAAAAEAESFBUXEx/9oACAEBAAE/EKE0OGx3DZHIT69h891ZVO6hU1bWr3AwwENKOMKgGVKUDhnyf//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Drawings&quot;
+        title=&quot;&quot;
+        src=&quot;/static/presentation-181d942712f4df4c2053eeda5ff2f578-f8fb9.jpg&quot;
+        srcset=&quot;/static/presentation-181d942712f4df4c2053eeda5ff2f578-e8976.jpg 148w,
+/static/presentation-181d942712f4df4c2053eeda5ff2f578-63df2.jpg 295w,
+/static/presentation-181d942712f4df4c2053eeda5ff2f578-f8fb9.jpg 590w,
+/static/presentation-181d942712f4df4c2053eeda5ff2f578-85e3d.jpg 885w,
+/static/presentation-181d942712f4df4c2053eeda5ff2f578-d1924.jpg 1180w,
+/static/presentation-181d942712f4df4c2053eeda5ff2f578-9452e.jpg 1770w,
+/static/presentation-181d942712f4df4c2053eeda5ff2f578-6a73d.jpg 4160w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Getting ready for the pitch
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/drawings-5bac55ca54e64affbcaba6f8397c6a23-6a73d.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAABw9HdSWcAv//EABsQAAMAAgMAAAAAAAAAAAAAAAECAwARFCEi/9oACAEBAAEFAooDjorIx7nQzPJ8k7P/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAbEAACAQUAAAAAAAAAAAAAAAAAIQECEBEiQf/aAAgBAQAGPwJxqKl8tglMk//EABoQAQADAQEBAAAAAAAAAAAAAAEAETFBIVH/2gAIAQEAAT8hTHBGB4DES5lTqp8YEsZzGVes/9oADAMBAAIAAwAAABCL/wD/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPxBn/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQEQ/9oACAECAQE/EIGf/8QAGxABAQEAAgMAAAAAAAAAAAAAAREAITFRccH/2gAIAQEAAT8Q6IZAe0xYa44PrBdzUj3kI5mnxTEsHJaXLFKivnf/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Drawings&quot;
+        title=&quot;&quot;
+        src=&quot;/static/drawings-5bac55ca54e64affbcaba6f8397c6a23-f8fb9.jpg&quot;
+        srcset=&quot;/static/drawings-5bac55ca54e64affbcaba6f8397c6a23-e8976.jpg 148w,
+/static/drawings-5bac55ca54e64affbcaba6f8397c6a23-63df2.jpg 295w,
+/static/drawings-5bac55ca54e64affbcaba6f8397c6a23-f8fb9.jpg 590w,
+/static/drawings-5bac55ca54e64affbcaba6f8397c6a23-85e3d.jpg 885w,
+/static/drawings-5bac55ca54e64affbcaba6f8397c6a23-d1924.jpg 1180w,
+/static/drawings-5bac55ca54e64affbcaba6f8397c6a23-9452e.jpg 1770w,
+/static/drawings-5bac55ca54e64affbcaba6f8397c6a23-6a73d.jpg 4160w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;And we are ready for the pitch. Jury liked our presentation, that’s promising
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/pitch-1a1215e63b80d6f57fe6c88a617e4e3b-6a73d.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFAv/EABQBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAXbksGqRxP/EABwQAAICAgMAAAAAAAAAAAAAAAECAAMREhMUQf/aAAgBAQABBQJb6weZc9kTx9EgTI//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwFH/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAgIDAAAAAAAAAAAAAAAAAAExQRAREv/aAAgBAQAGPwKWx4XNSW2bP//EABkQAAMBAQEAAAAAAAAAAAAAAAABESFBYf/aAAgBAQABPyFDngKyVb0xXDeBcMIo8BJZyn//2gAMAwEAAgADAAAAEADP/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/EMGP/8QAFREBAQAAAAAAAAAAAAAAAAAAEQD/2gAIAQIBAT8QSb//xAAeEAEBAAICAgMAAAAAAAAAAAABEQAhMUFRgaHB0f/aAAgBAQABPxAWhw2eX11lhUSrWAecCZtFO78YBPcCgR75c0cnRe7+TEIYUNuvrP/Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Pitch&quot;
+        title=&quot;&quot;
+        src=&quot;/static/pitch-1a1215e63b80d6f57fe6c88a617e4e3b-f8fb9.jpg&quot;
+        srcset=&quot;/static/pitch-1a1215e63b80d6f57fe6c88a617e4e3b-e8976.jpg 148w,
+/static/pitch-1a1215e63b80d6f57fe6c88a617e4e3b-63df2.jpg 295w,
+/static/pitch-1a1215e63b80d6f57fe6c88a617e4e3b-f8fb9.jpg 590w,
+/static/pitch-1a1215e63b80d6f57fe6c88a617e4e3b-85e3d.jpg 885w,
+/static/pitch-1a1215e63b80d6f57fe6c88a617e4e3b-d1924.jpg 1180w,
+/static/pitch-1a1215e63b80d6f57fe6c88a617e4e3b-9452e.jpg 1770w,
+/static/pitch-1a1215e63b80d6f57fe6c88a617e4e3b-6a73d.jpg 4160w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Let the fun begin!
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/pitchpresenting-e5b0e9f8ec20f504076a867de2e2d610-a5ccc.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAACBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHKucimx6P/xAAbEAADAAIDAAAAAAAAAAAAAAABAgMAEQQSI//aAAgBAQABBQJ6OHNETIHtNRu1D48Uaj//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAeEAACAgAHAAAAAAAAAAAAAAAAAREhAgMSIkFhYv/aAAgBAQAGPwJ7uSW4ontmZquGYl5FZ//EABsQAQACAgMAAAAAAAAAAAAAAAEAESFBMbHR/9oACAEBAAE/IR+lQggRwh0d9kImwJgRR6iUkXmf/9oADAMBAAIAAwAAABDAD//EABURAQEAAAAAAAAAAAAAAAAAABAh/9oACAEDAQE/EIf/xAAWEQEBAQAAAAAAAAAAAAAAAAABERD/2gAIAQIBAT8QWzP/xAAcEAEBAAIDAQEAAAAAAAAAAAABEQAxIVFhwfD/2gAIAQEAAT8QEImApJ8wRUa7bdZRtHHnLNbATXN8zvAYPlxQIag7/Gf/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Pitch&quot;
+        title=&quot;&quot;
+        src=&quot;/static/pitchpresenting-e5b0e9f8ec20f504076a867de2e2d610-f8fb9.jpg&quot;
+        srcset=&quot;/static/pitchpresenting-e5b0e9f8ec20f504076a867de2e2d610-e8976.jpg 148w,
+/static/pitchpresenting-e5b0e9f8ec20f504076a867de2e2d610-63df2.jpg 295w,
+/static/pitchpresenting-e5b0e9f8ec20f504076a867de2e2d610-f8fb9.jpg 590w,
+/static/pitchpresenting-e5b0e9f8ec20f504076a867de2e2d610-85e3d.jpg 885w,
+/static/pitchpresenting-e5b0e9f8ec20f504076a867de2e2d610-a5ccc.jpg 900w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Done. We were close, but nope. We hate the winners, obviously. Nothing personal.&lt;/p&gt;
+&lt;p&gt;It was great event and a lot of fun. We’ve gained great experience and made new connections, especially guys from IBM and ING.&lt;/p&gt;
+&lt;p&gt;Time to go home. Tired but happy!
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/back-06dc241aeb134979dd0df4ec69f30a19-7a78d.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 74.95826377295492%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwT/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAUVZC1lhZ//EABkQAQADAQEAAAAAAAAAAAAAAAIAAQMREv/aAAgBAQABBQJlwW4dNvI0trblalXz/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEx/9oACAEDAQE/AcV//8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/AUGy/8QAHBAAAgICAwAAAAAAAAAAAAAAAAERIQKhMkGB/9oACAEBAAY/Ap6HCXpS0LHO1JFnPR//xAAbEAACAgMBAAAAAAAAAAAAAAAAARExIVFhcf/aAAgBAQABPyFZbtiMaU+CMoHOSECjRuxvNFGD/9oADAMBAAIAAwAAABC8D//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQMBAT8Q6clX/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QQn//xAAdEAEAAwABBQAAAAAAAAAAAAABABEhMUFRcYHh/9oACAEBAAE/EGgATRZCcjcHTuIOlxlCALWqtVvyMvKW5rx6yHBHoBuuFn//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Back home&quot;
+        title=&quot;&quot;
+        src=&quot;/static/back-06dc241aeb134979dd0df4ec69f30a19-f8fb9.jpg&quot;
+        srcset=&quot;/static/back-06dc241aeb134979dd0df4ec69f30a19-e8976.jpg 148w,
+/static/back-06dc241aeb134979dd0df4ec69f30a19-63df2.jpg 295w,
+/static/back-06dc241aeb134979dd0df4ec69f30a19-f8fb9.jpg 590w,
+/static/back-06dc241aeb134979dd0df4ec69f30a19-85e3d.jpg 885w,
+/static/back-06dc241aeb134979dd0df4ec69f30a19-d1924.jpg 1180w,
+/static/back-06dc241aeb134979dd0df4ec69f30a19-7a78d.jpg 1198w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[First post]]></title><description><![CDATA[How to inpaint? Here are a small simple code on how to inpaint an image It uses a .NET library. How it says on GitHub project page: Content…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//first-post/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//first-post/</guid><pubDate>Fri, 15 Jun 2018 09:31:03 GMT</pubDate><content:encoded>&lt;h2&gt;How to inpaint?&lt;/h2&gt;
 &lt;p&gt;Here are a small simple code on how to inpaint an image&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-csharp&quot;&gt;&lt;code class=&quot;language-csharp&quot;&gt;Console.WriteLine($&amp;quot;Begin processing ...&amp;quot;);
