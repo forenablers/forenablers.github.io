@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 05 Jul 2018 15:27:07 GMT</lastBuildDate><item><title><![CDATA[Hackatrain 2018]]></title><description><![CDATA[Intro How about having a hackathon in the train? Sounds crazy insane, but really cool, isn’t it? Consider high-speed train heading to Berlin…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</guid><pubDate>Wed, 20 Jun 2018 21:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Intro&lt;/h2&gt;
-&lt;p&gt;How about having a hackathon in the train? Sounds crazy insane, but really cool, isn’t it? Consider high-speed train heading to Berlin with 100+ participants spread over two train wagons. Here at Parkmobile, we like cool things with the spirit of innovation, needless to say I am in!&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 05 Jul 2018 20:25:45 GMT</lastBuildDate><item><title><![CDATA[Hackatrain 2018]]></title><description><![CDATA[Intro How about having a hackathon in the train? 6 hours in the train, without internet, going with the speed over 180 km/h. Sounds crazy…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</guid><pubDate>Wed, 20 Jun 2018 21:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Intro&lt;/h2&gt;
+&lt;p&gt;How about having a hackathon in the train? 6 hours in the train, without internet, going with the speed over 180 km/h. Sounds crazy, but rather cool, isn’t it? Consider high-speed train heading to Berlin with 100+ participants spread over two train wagons. Here at &lt;a href=&quot;https://parkmobile.nl&quot;&gt;Parkmobile&lt;/a&gt;, we like cool things and the spirit of innovation, needless to say I am in!&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -36,12 +36,12 @@
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;h2&gt;Hackathon overview&lt;/h2&gt;
-&lt;p&gt;There are 14 teams with 6 participants in each team. There are some people outside of the teams: coaches, mentors and supporting staff. A team contains a few software developers (usually 2-3), scientists and 1-2 students (comletely non-IT folks). For example, there were two students of Theatre and Performance Studies in my team. The hackathon begins in the train … in offline mode (yep, no internet!) and then continues in the venue in Berlin. Time is very limited and you start conding only in the evening of Day 1 (certainly after dinner and 1-2 beers) while pitches start at 2:00 PM on the Day 2. The winning team gets 5, 000 euro gross.&lt;/p&gt;
+&lt;h2&gt;Diving deeper&lt;/h2&gt;
+&lt;p&gt;You probably think that hackathon looked like this:&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/hackatrain-5ff210e19f1b64b293b4b28f914dff79-a5ccc.jpg&quot;
+    href=&quot;/static/beer-06f75e025fe7d8ffb22b87982a6741c2-8e6ec.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -53,19 +53,21 @@
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 50.22222222222222%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAABib7CVDAH/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAECEQMTMf/aAAgBAQABBQLhtHkRBFIpH//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAICAwAAAAAAAAAAAAAAAAABEDERMqH/2gAIAQEABj8CSRlmvIoo/8QAHRAAAgIBBQAAAAAAAAAAAAAAAREAIUExYXGRof/aAAgBAQABPyGzYJ0QxGoDWV5KApWGgE0GpQkXE2HU/9oADAMBAAIAAwAAABAs/wD/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPxBH/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/ENWv/8QAHBABAQACAwEBAAAAAAAAAAAAAREAITFBYVGx/9oACAEBAAE/EKW7w7h+YIooRA7525kwyAAOIfbchbQizbkmPFEyWgTwZ//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAFEW1IKzRGf/8QAGhAAAgMBAQAAAAAAAAAAAAAAAgMBEhMRIv/aAAgBAQABBQKV7RKvIJsCeCLKEaSXl//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPwGhf//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/AQn/xAAaEAACAwEBAAAAAAAAAAAAAAABEQACQSFh/9oACAEBAAY/AnXMjeypBA5DxGWYR8gdJ//EABoQAQACAwEAAAAAAAAAAAAAAAEAIRExQVH/2gAIAQEAAT8hZH0uEyIrBGp6ICpQgmjcTHCD0TsKf//aAAwDAQACAAMAAAAQtC//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QWndv/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/EHLS/8QAHBABAQADAAMBAAAAAAAAAAAAAREAIUExgeHw/9oACAEBAAE/EA6u2lf0zaG4AOPvN/SI2VrVxxdOoebcNCxE19POOVl1pG5//9k=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Hackatrain 2018&quot;
+        alt=&quot;Drinking beer&quot;
         title=&quot;&quot;
-        src=&quot;/static/hackatrain-5ff210e19f1b64b293b4b28f914dff79-f8fb9.jpg&quot;
-        srcset=&quot;/static/hackatrain-5ff210e19f1b64b293b4b28f914dff79-e8976.jpg 148w,
-/static/hackatrain-5ff210e19f1b64b293b4b28f914dff79-63df2.jpg 295w,
-/static/hackatrain-5ff210e19f1b64b293b4b28f914dff79-f8fb9.jpg 590w,
-/static/hackatrain-5ff210e19f1b64b293b4b28f914dff79-85e3d.jpg 885w,
-/static/hackatrain-5ff210e19f1b64b293b4b28f914dff79-a5ccc.jpg 900w&quot;
+        src=&quot;/static/beer-06f75e025fe7d8ffb22b87982a6741c2-f8fb9.jpg&quot;
+        srcset=&quot;/static/beer-06f75e025fe7d8ffb22b87982a6741c2-e8976.jpg 148w,
+/static/beer-06f75e025fe7d8ffb22b87982a6741c2-63df2.jpg 295w,
+/static/beer-06f75e025fe7d8ffb22b87982a6741c2-f8fb9.jpg 590w,
+/static/beer-06f75e025fe7d8ffb22b87982a6741c2-85e3d.jpg 885w,
+/static/beer-06f75e025fe7d8ffb22b87982a6741c2-d1924.jpg 1180w,
+/static/beer-06f75e025fe7d8ffb22b87982a6741c2-9452e.jpg 1770w,
+/static/beer-06f75e025fe7d8ffb22b87982a6741c2-8e6ec.jpg 2592w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -73,30 +75,47 @@
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;h2&gt;Lessons learned&lt;/h2&gt;
-&lt;p&gt;I really hate scrolling down all the way to the bottom of the page to see the most important section. Hence I break the tradition and put the most important stuff right here.&lt;/p&gt;
-&lt;p&gt;There were a few key points I took away from this event. There are lots of them, but here I listed crucial only:  &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Parkmobile is a great company! Ahaha, now seriously. Having talked to the fellow participants (huh, competitors!) from other companies I clearly see that Parkmobile invests much more into innovation and technical development of our people. Perhaps because we are a part of mature BMM Group. Or, let’s be honest, that’s why we are a part of BMW Group.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Acceptance criteria. Ask how jury is going to chose the winner. We were all surprised with the jury’s obscure choice. Even the winners…&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Communication. People like and do talk a lot. Absolutely not listening nor analyzing what others just said. And they try to make a point and they try to prove their point. And you have to be brave and delicated to stop useless discussions but keep the team’s focus on solving the challenge and efficiently distribute the work between developers.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Time management. Oh how many developers I’ve seen in panic mode on the Day 2, especially closer to the pitch time. No comments. The hackathon is a great real-world excercise of how to manage your time efficiently, go and try.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Teamwork. Don’t even think of sitting alone and &lt;strong&gt;doing your part&lt;/strong&gt;. You will end up with well known result: your part works well while whole solution does not work.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Energy and drive. Every team needs someone energetic and proactive. The team is loosing willingness to win as soon as they encounter issues. Push them forward, do not let your motivation go down.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Yeah right, I wish. The beers will come later. First get you hands dirty:&lt;/p&gt;
 &lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/begin-35c0f03715946f5b82bdd0d3569cb52a-6a73d.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1wtrAmV//8QAGxABAAICAwAAAAAAAAAAAAAAAQIDABESITH/2gAIAQEAAQUClTxbHYeWXMsJmSe//8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Bp//EABcRAQADAAAAAAAAAAAAAAAAAAABERL/2gAIAQIBAT8BqGX/xAAdEAACAQQDAAAAAAAAAAAAAAAAARECITFBUWGB/9oACAEBAAY/AlVKJ2cED7wWb9P/xAAbEAEAAwEBAQEAAAAAAAAAAAABABEhMUFRYf/aAAgBAQABPyHMq3PyIybtwlem3xmnrnagk6enpA2gj//aAAwDAQACAAMAAAAQSy//xAAWEQEBAQAAAAAAAAAAAAAAAAABAFH/2gAIAQMBAT8QEErl/8QAFxEBAAMAAAAAAAAAAAAAAAAAAQARIf/aAAgBAgEBPxC9Nibxn//EABsQAQEAAwEBAQAAAAAAAAAAAAERACExUWFx/9oACAEBAAE/EAINZVn6PME8wIbkWnzARJO4APKJ2fd5w8iIVkS9kxqQjTs5/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Working hard&quot;
+        title=&quot;&quot;
+        src=&quot;/static/begin-35c0f03715946f5b82bdd0d3569cb52a-f8fb9.jpg&quot;
+        srcset=&quot;/static/begin-35c0f03715946f5b82bdd0d3569cb52a-e8976.jpg 148w,
+/static/begin-35c0f03715946f5b82bdd0d3569cb52a-63df2.jpg 295w,
+/static/begin-35c0f03715946f5b82bdd0d3569cb52a-f8fb9.jpg 590w,
+/static/begin-35c0f03715946f5b82bdd0d3569cb52a-85e3d.jpg 885w,
+/static/begin-35c0f03715946f5b82bdd0d3569cb52a-d1924.jpg 1180w,
+/static/begin-35c0f03715946f5b82bdd0d3569cb52a-9452e.jpg 1770w,
+/static/begin-35c0f03715946f5b82bdd0d3569cb52a-6a73d.jpg 4160w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;There were 14 teams with 6 participants in each team. A team contains a few software developers (usually 2-3), scientists and 1-2 students (comletely non-IT folks). For example, there were two students of Theatre and Performance Studies in my team. There are also people outside of the teams: coaches, mentors and supporting staff. Time is very limited and you start conding only in the evening of Day 1 (certainly after dinner and a few beers) while pitches start at 2:00 PM on the Day 2. The winning team gets 5, 000 euro gross.&lt;/p&gt;
+&lt;p&gt;Parkmobile mates
+
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/Parkmobile-784a8eb27df4321698582dbbe774c6e3-30631.jpg&quot;
@@ -132,12 +151,109 @@
   
   &lt;/a&gt;
     &lt;/p&gt;
+&lt;h2&gt;Lessons learned&lt;/h2&gt;
+&lt;p&gt;There are a few key points I took away from this event. There are actually a lot more of them, but here I list crucial only:  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://parkmobile.nl&quot;&gt;Parkmobile&lt;/a&gt; is a great company! Ahaha, now seriously. Having talked to the other participants (huh, competitors!) I clearly see that &lt;a href=&quot;https://parkmobile.nl&quot;&gt;Parkmobile&lt;/a&gt; invests much more into innovation and technical development of our people. Perhaps because we are a part of BMW Group. Or, let’s be honest, that’s why we are a part of BMW Group.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Acceptance criteria. Ask how jury is going to choose the winner. We were all surprised with the choice. Even the winners…&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Communication. People like to talk and they do talk a lot, a lot more than needed. Absolutely not listening nor analyzing what others just have said. And they try to make a &lt;del&gt;useless&lt;/del&gt; point and then they try to prove their point. And you have to learn how to stop those useless discussions and wasting the time and instead keep the team’s focus on the challenge. That is the best what you gain from the hackathons&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Time management. Oh how many participants I’ve seen in panic mode on the Day 2, especially closer to the pitch time. Finally they realize how much time they wasted for nothing. The hackathon is a great excercise that builds a discipline&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Teamwork. Don’t do the same mistake when you want to sit alone doing &lt;strong&gt;your part&lt;/strong&gt;. You will end up with typical problem: your part works pretty well, however whole solution does not work at all.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Energy and drive. Every team needs someone energetic and proactive. The team is loosing willingness to win as soon as they encounter issues. Form the team in such a way that you have at least one &lt;strong&gt;energetic doer&lt;/strong&gt;. Someone who pushes forward and does not give up.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;Challenge&lt;/h2&gt;
+&lt;p&gt;The challenge was kept in a secret till the very last moment, before we get into the train.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;You are going to the concert that ends at the late night. Develop the solution by utilizing Mobility-As-A-Service and Blockchain to help the users to return home according to their preferences.&lt;/p&gt;
+&lt;p&gt;You are going to the concert that ends at the late night. Develop the solution by utilizing Mobility-As-A-Service, 3rd party API and Blockchain to help the users to return home in time and according to their preferences.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;The way it was formulated… well, you know, it could have been much better.&lt;/p&gt;
+&lt;p&gt;The solution is not a big deal. The 3rd party API are well specified, we’ve got the specs from 9292, NS train ad Parkmobile. This covers all the transport and logistics from train and buses to the cars and even parking lots. The main problem was a blockchain. What are you going to use it for??&lt;/p&gt;
+&lt;p&gt;IBM Hyperledger modeling
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/blockchain-c8096e49bcd7d5415a8d511cc40b457a-1e188.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 76.70504871567759%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAA7CAAAOwgEVKEqAAAACa0lEQVQ4y4WU6U4TYRSG5yo0oQqoUOgy03baTlegrVKJxki4JBAEZJEYEy9GotHYgEXicgP+EKQLpZ3OPm1fz3xNi0iFSZ6cr/Pj7XPOd1rONE1YtoVWq8WwbRuqZsK0gVYHsNvnlcq1D6eqKhoNGbpuwDBM9rJaq2NxeZPYxrPVHSw938Hq+jY2tl5hee0lvd/A4somlla2LsGVymeoVKpoNhVouo5Op4NfRycY80ThGhEwck/EMHH7joDhuwHcGuXhGhUwNOLHTZcbN4bGCXcfrlKto1QqQ1U1WJbFAo9/lxGJ34co5ZHMLCAxPQ8p9RheIQEPH2fVKyTZ+V84nayq1RrN0WYzdB4nUJSy8AhpCGIWfChDzFBICt5AmuH2RjHuiVyoDpym6ahUT5lhP/CkjGBkBsFoHomZBcSn5jHpd+xijAlf7FJQP7DdbrM2nerccC8wJGXIiAzDWWbnJ8uAmAIfTLLAQXYssLcu3ZU5NxRjOfDUbiTxiMLzZJZkls6XePjEQLurA9kMU9T2A4TjDxGI5NhFjHvCF+yuMey1XEEomqF2c5DST2iGT8lyFr5geqDVpRn2+PtSwtSyLzDFzHp2Ez6JcWWgs8zOUiuKCllusuCj4xK7ZS8FivE5mucc/MFpNke3V8LYpEiEB8I1FQWntRrO6g1oWnd1nMBYcpYtMB9KkWkSPjr7Agl29juf/wNnGBrZyWTXgGUa7NdSlxV8KBSx+76A3XcFfNr7gs8H37Ff/Nrl4BuKhz8Gwu0dHuHFmyLWXu/j7cefNEEbskJjoH8cWTEgqwYUzYKiW91KqLoN3WwP5A9N4gwhB0ufRgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Blockchain&quot;
+        title=&quot;&quot;
+        src=&quot;/static/blockchain-c8096e49bcd7d5415a8d511cc40b457a-fb8a0.png&quot;
+        srcset=&quot;/static/blockchain-c8096e49bcd7d5415a8d511cc40b457a-1a291.png 148w,
+/static/blockchain-c8096e49bcd7d5415a8d511cc40b457a-2bc4a.png 295w,
+/static/blockchain-c8096e49bcd7d5415a8d511cc40b457a-fb8a0.png 590w,
+/static/blockchain-c8096e49bcd7d5415a8d511cc40b457a-526de.png 885w,
+/static/blockchain-c8096e49bcd7d5415a8d511cc40b457a-1e188.png 1129w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;h2&gt;Day 1&lt;/h2&gt;
+&lt;p&gt;We gathered at Amsterdam Central Station at 8:30 AM, had a little breakfast and coffee and meet our teams. A few minutes for  socialization and we are ready to get into the train.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/outtrain-a31c0a0cb814ee82c1cb7929ea9ffddd-e5a0f.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAACBf/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAABIscVuzMaUHv5cyRV/8QAHhAAAgEEAwEAAAAAAAAAAAAAAgMBAAQRMxASMkH/2gAIAQEAAQUCTPSl4XReoCRpvDDNgW6oaLF4P7ba37P/xAAVEQEBAAAAAAAAAAAAAAAAAAAQAf/aAAgBAwEBPwEh/8QAFREBAQAAAAAAAAAAAAAAAAAAEAH/2gAIAQIBAT8BKf/EAB4QAAIBBAMBAAAAAAAAAAAAAAABEQIQIVEDEmGx/9oACAEBAAY/Atp6O30cmYNeWVDyOrkc5hDgVmf/xAAeEAEBAQABBAMAAAAAAAAAAAABEQAhMUFhsXGB8P/aAAgBAQABPyE1yJPxxbi3kHouapyV5yKr4TFqJUOXd0kPGESr1zEopvYxmTNPsS72vvJ1/9oADAMBAAIAAwAAABA4ygz/xAAXEQEBAQEAAAAAAAAAAAAAAAABACEx/9oACAEDAQE/EAE2e2Am/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/EBxiett//8QAHxABAQACAgMAAwAAAAAAAAAAAREAITFBYYGRcbHx/9oACAEBAAE/EHa8AqArH4zgM6tIdM5+4jAoobXGuDU4G/nD6ljppuk6ie7iTSgN+sTXzVwQ357zcbrIf74waZKdZAgbZ5VLihmq+BSej9Z//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Getting into train&quot;
+        title=&quot;&quot;
+        src=&quot;/static/outtrain-a31c0a0cb814ee82c1cb7929ea9ffddd-f8fb9.jpg&quot;
+        srcset=&quot;/static/outtrain-a31c0a0cb814ee82c1cb7929ea9ffddd-e8976.jpg 148w,
+/static/outtrain-a31c0a0cb814ee82c1cb7929ea9ffddd-63df2.jpg 295w,
+/static/outtrain-a31c0a0cb814ee82c1cb7929ea9ffddd-f8fb9.jpg 590w,
+/static/outtrain-a31c0a0cb814ee82c1cb7929ea9ffddd-85e3d.jpg 885w,
+/static/outtrain-a31c0a0cb814ee82c1cb7929ea9ffddd-d1924.jpg 1180w,
+/static/outtrain-a31c0a0cb814ee82c1cb7929ea9ffddd-9452e.jpg 1770w,
+/static/outtrain-a31c0a0cb814ee82c1cb7929ea9ffddd-e5a0f.jpg 3120w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;p&gt;Train is full. Berlin, here we come!
 
   &lt;a
@@ -159,7 +275,7 @@
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Hackatrain 2018&quot;
+        alt=&quot;Start&quot;
         title=&quot;&quot;
         src=&quot;/static/start-b989dfc04b5cacfd0444521aaaec1dc4-f8fb9.jpg&quot;
         srcset=&quot;/static/start-b989dfc04b5cacfd0444521aaaec1dc4-e8976.jpg 148w,
@@ -175,7 +291,46 @@
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;That was quite warm weather and it was incredibly hot inside the train. We had to change our sweaty T-shirts every now and then. My team gathered together and we started brainstorming. At that moment, the main challenge was to stay together and follow the discussion as there were people passing nearby and a lot of noise from other participants.
+&lt;p&gt;That was quite warm weather and it was incredibly hot inside the train. We had to change our sweaty T-shirts every now and then.&lt;/p&gt;
+&lt;p&gt;Finally the team sits together and we begin brainstorming.
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/cards-c7f06bcf77d734c3ca0b779575287af7-6a73d.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwAEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABRua2S2Kr/8QAGhABAAIDAQAAAAAAAAAAAAAAAQADAhETEv/aAAgBAQABBQLEIBqV2vnto7k//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFREBAQAAAAAAAAAAAAAAAAAAACH/2gAIAQIBAT8Bqv/EABsQAAIBBQAAAAAAAAAAAAAAAAAxAQIQITKR/9oACAEBAAY/AlwlwIxSjWLf/8QAGxABAAMBAAMAAAAAAAAAAAAAAQARMSFBUXH/2gAIAQEAAT8hqdtGeDzbOwjgSmwLXh7YpgH2f//aAAwDAQACAAMAAAAQWM//xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QUIj/xAAVEQEBAAAAAAAAAAAAAAAAAAAREP/aAAgBAgEBPxAUf//EABwQAQEAAgIDAAAAAAAAAAAAAAERACExUZGhsf/aAAgBAQABPxBcvZqsCAtDQuQ6jzi7RhqPXeKxLFtfWQnTcBX5n//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Cards&quot;
+        title=&quot;&quot;
+        src=&quot;/static/cards-c7f06bcf77d734c3ca0b779575287af7-f8fb9.jpg&quot;
+        srcset=&quot;/static/cards-c7f06bcf77d734c3ca0b779575287af7-e8976.jpg 148w,
+/static/cards-c7f06bcf77d734c3ca0b779575287af7-63df2.jpg 295w,
+/static/cards-c7f06bcf77d734c3ca0b779575287af7-f8fb9.jpg 590w,
+/static/cards-c7f06bcf77d734c3ca0b779575287af7-85e3d.jpg 885w,
+/static/cards-c7f06bcf77d734c3ca0b779575287af7-d1924.jpg 1180w,
+/static/cards-c7f06bcf77d734c3ca0b779575287af7-9452e.jpg 1770w,
+/static/cards-c7f06bcf77d734c3ca0b779575287af7-6a73d.jpg 4160w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;At that moment, the main challenge was to stay together and follow the discussion. A lot of people constantly passing nearby distracts you. As well as the noise produced by all of us.
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -196,7 +351,7 @@
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Hackatrain 2018&quot;
+        alt=&quot;Brainstorming&quot;
         title=&quot;&quot;
         src=&quot;/static/brainstorming-3a3f51dd62de8712717c112cefe0cfeb-f8fb9.jpg&quot;
         srcset=&quot;/static/brainstorming-3a3f51dd62de8712717c112cefe0cfeb-e8976.jpg 148w,
