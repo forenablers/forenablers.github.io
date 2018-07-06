@@ -18,7 +18,7 @@ class Bio extends React.Component {
       >
         <img
           src={profilePic}
-          alt={`Sergey Zavoloka`}
+          alt={`For Enablers`}
           style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
@@ -27,10 +27,7 @@ class Bio extends React.Component {
           }}
         />
         <p>
-          Written by <strong>Sergey Zavoloka</strong>.{' '}
-          <a href="https://twitter.com/zavolokas_eng">
-            You should follow him on Twitter
-          </a>
+          Written either by <a href="https://github.com/zavolokas"><strong>Sergey Zavoloka</strong></a> or <a href="https://github.com/bgener"><strong>Borys Generalov</strong></a>.{' '}
         </p>
       </div>
     )
