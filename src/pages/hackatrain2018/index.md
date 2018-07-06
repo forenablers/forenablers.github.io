@@ -5,21 +5,21 @@ date: "2018-06-20T21:00:00Z"
 
 ## Intro
 
-How about having a hackathon in a train? 6 hours in a train, without internet, going with the speed over 180 km/h. Sounds crazy, but rather cool, isn't it? Consider high-speed train heading to Berlin with 100+ participants spread over two train wagons. Here at [Parkmobile](https://parkmobile.nl), we like cool things and the spirit of innovation, needless to say I am in!
+How about having a hackathon on a train? 6 hours on a train, without internet, with the speed over 180 km/h. Sounds crazy but rather cool, isn’t it? Consider high-speed train heading to Berlin with 100+ participants spread over two train wagons. Here at [Parkmobile](https://parkmobile.nl), we like cool things and the spirit of innovation, needless to say, I'm in!
 
 ![Hackatrain 2018](./images/train.jpg)
 
 ## Diving deeper
 
-You probably think that hackathon looked like this:
+You probably think that hackathon looks like this:
 
 ![Drinking beer](./images/beer.jpg)
 
-Yeah right, I wish. The beers will come later. First get you hands dirty:
+Yeah right, I wish. The beers will come later. First get your hands dirty:
 
 ![Working hard](./images/begin.jpg)
 
-There were 14 teams with 6 participants in each team. A team contains a few software developers (usually 2-3), scientists and 1-2 students (completely non-IT folks). For example, there were two students of Theatre and Performance Studies in my team. There are also people outside of the teams: coaches, mentors and support staff. Time is very limited and you start coding only in the evening of Day 1 (certainly after dinner and a few beers) while pitches start at 2:00 PM on the Day 2. The winning team gets 5, 000 euro gross.
+There were 14 teams with 6 participants in each team. A team contains a few software developers (usually 2-3), scientists and 1-2 students (completely non-IT folks). For example, there were two students in Theatre and Performance Studies in my team. There are also people outside of the teams: coaches, mentors and support staff. Time is very limited and you start coding only in the evening of Day 1 (certainly after dinner and a few beers) while pitches start at 2:00 PM on the Day 2. The winning team gets 5, 000 euro gross.
 
 Parkmobile mates
 ![Hackatrain 2018](./images/Parkmobile.jpg)
@@ -60,7 +60,7 @@ IBM Hyperledger Fabric model
 
 ## Day 1
 
-We gathered at Amsterdam Central Station at 8:30 AM, had a little breakfast and coffee and meet our teams. A few minutes for  socialization and we are ready to get into the train.
+We gathered in Amsterdam Central Station at 8:30 AM, had breakfast and meet our teams. A few minutes to socialise and we are ready to get on the train.
 
 ![Getting into train](./images/outtrain.jpg)
 
