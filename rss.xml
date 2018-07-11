@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[For Enablers]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 11 Jul 2018 20:28:47 GMT</lastBuildDate><item><title><![CDATA[Hackatrain 2018]]></title><description><![CDATA[How about having a hackathon on a train? 6 hours on a train, without internet, with the speed over 180 km/h. Sounds crazy but rather cool…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</guid><pubDate>Wed, 20 Jun 2018 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;How about having a hackathon on a train? 6 hours on a train, without internet, with the speed over 180 km/h. Sounds crazy but rather cool, isn’t it? Consider high-speed train heading to Berlin with 100+ participants spread over two train wagons. Here at &lt;a href=&quot;https://parkmobile.nl&quot;&gt;Parkmobile&lt;/a&gt;, we like cool things and the spirit of innovation, needless to say, I’m in!&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[For Enablers]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 11 Jul 2018 20:35:57 GMT</lastBuildDate><item><title><![CDATA[Hackatrain 2018]]></title><description><![CDATA[How about having a hackathon on a train? 6 hours on a train, without internet, with the speed over 180 km/h. Sounds crazy but rather cool…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</guid><pubDate>Wed, 20 Jun 2018 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;How about having a hackathon on a train? 6 hours on a train, without internet, with the speed over 180 km/h. Sounds crazy but rather cool, isn’t it? Consider high-speed train heading to Berlin with 100+ participants spread over two train wagons. Here at &lt;a href=&quot;https://parkmobile.nl&quot;&gt;Parkmobile&lt;/a&gt;, we like cool things and the spirit of innovation, needless to say, I’m in!&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1209,7 +1209,7 @@
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Zahy&apos;s team&quot;
+        alt=&quot;Zahy team&quot;
         title=&quot;&quot;
         src=&quot;/static/pitchpresenting-e5b0e9f8ec20f504076a867de2e2d610-f8fb9.jpg&quot;
         srcset=&quot;/static/pitchpresenting-e5b0e9f8ec20f504076a867de2e2d610-e8976.jpg 148w,
@@ -1225,7 +1225,7 @@
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;p&gt;Lucas is invisible. There is his team is presenting
-&lt;img src=&quot;./images/lucasteam.jpg&quot; alt=&quot;Lucas&amp;#x27; team&quot;&gt;&lt;/p&gt;
+&lt;img src=&quot;./images/lucasteam.jpg&quot; alt=&quot;Lucas team&quot;&gt;&lt;/p&gt;
 &lt;p&gt;And here is my team presenting
 
   &lt;a
