@@ -1,2 +1,0 @@
-webpackJsonp([0x81b8806e4260],{509:function(t,a){t.exports={data:{site:{siteMetadata:{title:"For Enablers"}},allMarkdownRemark:{edges:[{node:{excerpt:"Intro How about having a hackathon on a train? 6 hours on a train, without internet, with the speed over 180 km/h. Sounds crazy but rather…",fields:{slug:"/hackatrain2018/"},frontmatter:{date:"20 June, 2018",title:"Hackatrain 2018"}}}]}},pathContext:{}}}});
-//# sourceMappingURL=path---index-e3e09146889e2401325a.js.map
