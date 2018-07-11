@@ -140,10 +140,10 @@ Or better this GLA-class? Certainly we tried both :)
 ## Back to Pitch
 
 Let the fun begin! Zahy is on fire
-![Zahy's team](./images/pitchpresenting.jpg)
+![Zahy team](./images/pitchpresenting.jpg)
 
 Lucas is invisible. There is his team is presenting
-![Lucas' team](./images/lucasteam.jpg)
+![Lucas team](./images/lucasteam.jpg)
 
 And here is my team presenting
 ![Haas team](./images/haas.jpg)
