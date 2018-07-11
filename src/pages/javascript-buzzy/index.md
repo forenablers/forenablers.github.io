@@ -1,5 +1,5 @@
 ---
-title: Weird Javascript: buzzy statement
+title: "Weird Javascript: Buzzy statement"
 date: "2017-02-10T02:22:00Z"
 ---
 
