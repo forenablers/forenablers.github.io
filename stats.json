@@ -21,8 +21,8 @@
       "component---src-layouts-index-js-0f06e048d27f266fc795.js.map"
     ],
     "path---index": [
-      "path---index-55196d18423f3cc7d905.js",
-      "path---index-55196d18423f3cc7d905.js.map"
+      "path---index-fb5a835bd6573f056580.js",
+      "path---index-fb5a835bd6573f056580.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -39,8 +39,12 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---beta-testing": [
-      "path---beta-testing-539c6e95cc913314d68f.js",
-      "path---beta-testing-539c6e95cc913314d68f.js.map"
+      "path---beta-testing-ee4002a7b6c0994492f1.js",
+      "path---beta-testing-ee4002a7b6c0994492f1.js.map"
+    ],
+    "path---dont-lie-to-user": [
+      "path---dont-lie-to-user-fcfbc47750e79f878e0c.js",
+      "path---dont-lie-to-user-fcfbc47750e79f878e0c.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
@@ -51,9 +55,9 @@
       "path---javascript-buzzy-286b645b45707f89b314.js.map"
     ],
     "app": [
-      "app-307a168d3579b3df4b70.js",
+      "app-ff6116b4ed35d9963b7d.js",
       "build-js-styles.css",
-      "app-307a168d3579b3df4b70.js.map",
+      "app-ff6116b4ed35d9963b7d.js.map",
       "build-js-styles.css.map"
     ],
     "path---hackatrain-2018": [
