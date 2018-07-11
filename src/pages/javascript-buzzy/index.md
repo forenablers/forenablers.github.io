@@ -53,7 +53,9 @@ Surprisingly, here we are dealing with an array, yet again. Bear in mind that an
 
 See? This is an array with an empty string where the indexing is applied, i.e. an element with 0 index is retrieved. Then the result is incremented by 1, which in turn causes its conversion to the number:
 
+```Javascript
 ++[""][0] == ++0 == 1
+```
 
 Huray, here is the final statement:
 
@@ -61,7 +63,7 @@ Huray, here is the final statement:
 
 Huh?? Ok, what's going on now? I am sure you did notice the * somewhere above. The righmost part was evaluated to 0, even more - to "0", which is a string. Hence we saw the string concantenation rather than numerical sum.
 
-And as a bonus, be sure you can now explain the result for these statements:
+And as a bonus, can you explain the following results?
 
 * ++[[1],[2]][+[]] = 2
 * [1,2]+[3] = [1,23]
