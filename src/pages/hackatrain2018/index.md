@@ -3,8 +3,6 @@ title: Hackatrain 2018
 date: "2018-06-20T21:00:00Z"
 ---
 
-## Intro
-
 How about having a hackathon on a train? 6 hours on a train, without internet, with the speed over 180 km/h. Sounds crazy but rather cool, isn’t it? Consider high-speed train heading to Berlin with 100+ participants spread over two train wagons. Here at [Parkmobile](https://parkmobile.nl), we like cool things and the spirit of innovation, needless to say, I'm in!
 
 ![Hackatrain 2018](./images/train.jpg)
@@ -105,10 +103,9 @@ Very late night
 Closer to the morning. Only 2 of us and a photographer (obviously)
 ![Coding](./images/codingverylatenight.jpg)
 
-
 ## Day 2
 
-Next day we started at 7:00 AM. Quick breakfast and taking [DriveNow](https://www.drive-now.com/de/en) to get back to the venue
+Next day we started at 7:00 AM. Quick breakfast and using a car sharing [DriveNow](https://www.drive-now.com/de/en) to get back to the venue
 ![DriveNow](./images/drivenow.jpg)
 
 Covertible helps to wake up
@@ -120,15 +117,47 @@ Creating the presentation
 Getting ready for the pitch
 ![Drawings](./images/drawings.jpg)
 
-And we are ready for the pitch. Jury liked our presentation, that's promising
+The pitch is ready and looks promising
 ![Pitch](./images/pitch.jpg)
 
-Let the fun begin!
-![Pitch](./images/pitchpresenting.jpg)
+## In the meantime
 
-Done. We were close, but nope. We hate the winners, obviously. Nothing personal.
+We found ParkNow advertisement (ParkNow is our brand in Germany)
+![ParkNow](./images/parknow.jpg)
+
+And this strange guy in front of The Berlin Wall
+![Strange guy](./images/lol.jpg)
+
+And the bike sharing services. Lime E-bike vs orange city bike
+![Bike sharing](./images/bikesharing.jpg)
+
+Oh, look at this! There is Mercedes A-class from Car2Go
+![Bike sharing](./images/car2go.jpg)
+
+Or better this GLA-class? Certainly we tried both :)
+![Bike sharing](./images/car2go2.jpg)
+
+## Back to Pitch
+
+Let the fun begin! Zahy is on fire
+![Zahy's team](./images/pitchpresenting.jpg)
+
+Lucas is invisible. There is his team is presenting
+![Lucas' team](./images/lucasteam.jpg)
+
+And here is my team presenting
+![Haas team](./images/haas.jpg)
+
+Done. Jury is deciding
+![Jury](./images/jury.jpg)
+
+Ah, and the sweaty winners. They worked hard
+![Winners](./images/winners.jpg)
 
 It was great event and a lot of fun. We've gained great experience and made new connections, especially guys from IBM and ING.
 
-Time to go home. Tired but happy!
+Time to go home
+![Back home](./images/home.jpg)
+
+Tired but happy!
 ![Back home](./images/back.jpg)
