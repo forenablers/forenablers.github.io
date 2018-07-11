@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[For Enablers]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 11 Jul 2018 19:30:18 GMT</lastBuildDate><item><title><![CDATA[Hackatrain 2018]]></title><description><![CDATA[Intro How about having a hackathon on a train? 6 hours on a train, without internet, with the speed over 180 km/h. Sounds crazy but rather…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</guid><pubDate>Wed, 20 Jun 2018 21:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Intro&lt;/h2&gt;
-&lt;p&gt;How about having a hackathon on a train? 6 hours on a train, without internet, with the speed over 180 km/h. Sounds crazy but rather cool, isn’t it? Consider high-speed train heading to Berlin with 100+ participants spread over two train wagons. Here at &lt;a href=&quot;https://parkmobile.nl&quot;&gt;Parkmobile&lt;/a&gt;, we like cool things and the spirit of innovation, needless to say, I’m in!&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[For Enablers]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 11 Jul 2018 20:28:47 GMT</lastBuildDate><item><title><![CDATA[Hackatrain 2018]]></title><description><![CDATA[How about having a hackathon on a train? 6 hours on a train, without internet, with the speed over 180 km/h. Sounds crazy but rather cool…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</guid><pubDate>Wed, 20 Jun 2018 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;How about having a hackathon on a train? 6 hours on a train, without internet, with the speed over 180 km/h. Sounds crazy but rather cool, isn’t it? Consider high-speed train heading to Berlin with 100+ participants spread over two train wagons. Here at &lt;a href=&quot;https://parkmobile.nl&quot;&gt;Parkmobile&lt;/a&gt;, we like cool things and the spirit of innovation, needless to say, I’m in!&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -816,7 +815,7 @@
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;h2&gt;Day 2&lt;/h2&gt;
-&lt;p&gt;Next day we started at 7:00 AM. Quick breakfast and taking &lt;a href=&quot;https://www.drive-now.com/de/en&quot;&gt;DriveNow&lt;/a&gt; to get back to the venue
+&lt;p&gt;Next day we started at 7:00 AM. Quick breakfast and using a car sharing &lt;a href=&quot;https://www.drive-now.com/de/en&quot;&gt;DriveNow&lt;/a&gt; to get back to the venue
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -966,7 +965,7 @@
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;And we are ready for the pitch. Jury liked our presentation, that’s promising
+&lt;p&gt;The pitch is ready and looks promising
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1004,7 +1003,192 @@
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;Let the fun begin!
+&lt;h2&gt;In the meantime&lt;/h2&gt;
+&lt;p&gt;We found ParkNow advertisement (ParkNow is our brand in Germany)
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/parknow-ca1299cecc33ed0da656fd9414b45c6d-aecb3.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.03961965134708%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFAf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAGdUjuAsaTf/8QAGxABAAICAwAAAAAAAAAAAAAAAQACAxIEITH/2gAIAQEAAQUCKDHDx6y+M2DvZj7/AP/EABURAQEAAAAAAAAAAAAAAAAAABAS/9oACAEDAQE/AZP/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwGq/8QAHBAAAgICAwAAAAAAAAAAAAAAAAERMRKhITJB/9oACAEBAAY/Akn5ZzseNEydtFn/xAAbEAEAAwEAAwAAAAAAAAAAAAABABFBITFR0f/aAAgBAQABPyFGp7BnkRdaZqmGc1gk5/CNW6n/2gAMAwEAAgADAAAAEGAv/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQBB/9oACAEDAQE/EF4wF//EABcRAQEBAQAAAAAAAAAAAAAAAAEAETH/2gAIAQIBAT8QAdtX/8QAGxABAAMBAQEBAAAAAAAAAAAAAQARITFRQXH/2gAIAQEAAT8QtKHJPXN+55MXINIf2iF034WXKgOLEnrZwYOB2rcqf//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;ParkNow&quot;
+        title=&quot;&quot;
+        src=&quot;/static/parknow-ca1299cecc33ed0da656fd9414b45c6d-f8fb9.jpg&quot;
+        srcset=&quot;/static/parknow-ca1299cecc33ed0da656fd9414b45c6d-e8976.jpg 148w,
+/static/parknow-ca1299cecc33ed0da656fd9414b45c6d-63df2.jpg 295w,
+/static/parknow-ca1299cecc33ed0da656fd9414b45c6d-f8fb9.jpg 590w,
+/static/parknow-ca1299cecc33ed0da656fd9414b45c6d-85e3d.jpg 885w,
+/static/parknow-ca1299cecc33ed0da656fd9414b45c6d-d1924.jpg 1180w,
+/static/parknow-ca1299cecc33ed0da656fd9414b45c6d-aecb3.jpg 1262w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;And this strange guy in front of The Berlin Wall
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/lol-15ce76371815094cebd9d8578ba0bd53-a574a.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 133.43239227340266%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAIDBAEF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAYukyooXw+t2XOIJ/8QAGxAAAwADAQEAAAAAAAAAAAAAAAECAxESMUL/2gAIAQEAAQUCc8nz4ZN8qjZk5Ytw3gdDiduUy5Sf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAHBAAAgMBAAMAAAAAAAAAAAAAACEBAhESEEFR/9oACAEBAAY/Akt+eamDkUuPUmWUm0tXDrmNGI//xAAdEAEAAwACAwEAAAAAAAAAAAABABEhMVFBYXGx/9oACAEBAAE/IR0DSz6iAuL7JwA6hANjb+xLcMRiBZGlILiZcPoCvOMqsOR91nzUBxdTAqn/2gAMAwEAAgADAAAAEFAkMv/EABcRAQEBAQAAAAAAAAAAAAAAABEAASH/2gAIAQMBAT8QOMbEX//EABYRAQEBAAAAAAAAAAAAAAAAAAARIf/aAAgBAgEBPxC6qq//xAAdEAEBAQEAAwADAAAAAAAAAAABEQAhMUFRkcHh/9oACAEBAAE/EApAgSHPD64BAJhOh7P7kkOdFxLDOPHEKovHxIPNIxUB+HP1kJrkFL0dv406KPACEXI8Miq1DuoQ4LpxcPzF0rAgwU3/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Strange guy&quot;
+        title=&quot;&quot;
+        src=&quot;/static/lol-15ce76371815094cebd9d8578ba0bd53-f8fb9.jpg&quot;
+        srcset=&quot;/static/lol-15ce76371815094cebd9d8578ba0bd53-e8976.jpg 148w,
+/static/lol-15ce76371815094cebd9d8578ba0bd53-63df2.jpg 295w,
+/static/lol-15ce76371815094cebd9d8578ba0bd53-f8fb9.jpg 590w,
+/static/lol-15ce76371815094cebd9d8578ba0bd53-a574a.jpg 673w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;And the bike sharing services. Lime E-bike vs orange city bike
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/bikesharing-fb9efb9086535af163e86ea9c5f417b8-7a78d.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 74.95826377295492%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAABA//EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABG4KssudX/8QAHBAAAgICAwAAAAAAAAAAAAAAAQMAIQIEERIT/9oACAEBAAEFArim5KOyfRtd8TZPE//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAIBBQAAAAAAAAAAAAAAAAARAhASITFh/9oACAEBAAY/AuitwOOhqv8A/8QAGRAAAwEBAQAAAAAAAAAAAAAAAREhAEFh/9oACAEBAAE/IYUaS50ORxTcqGkOInuYxziN3//aAAwDAQACAAMAAAAQrB//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPxCH/8QAFhEBAQEAAAAAAAAAAAAAAAAAADER/9oACAECAQE/EJGv/8QAHBABAAIDAQEBAAAAAAAAAAAAAQARITFBcYGR/9oACAEBAAE/EBodQBz88lrxyna1ZFIUBq3Xf25eOLhrhRlowIUa8mnmdbn/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Bike sharing&quot;
+        title=&quot;&quot;
+        src=&quot;/static/bikesharing-fb9efb9086535af163e86ea9c5f417b8-f8fb9.jpg&quot;
+        srcset=&quot;/static/bikesharing-fb9efb9086535af163e86ea9c5f417b8-e8976.jpg 148w,
+/static/bikesharing-fb9efb9086535af163e86ea9c5f417b8-63df2.jpg 295w,
+/static/bikesharing-fb9efb9086535af163e86ea9c5f417b8-f8fb9.jpg 590w,
+/static/bikesharing-fb9efb9086535af163e86ea9c5f417b8-85e3d.jpg 885w,
+/static/bikesharing-fb9efb9086535af163e86ea9c5f417b8-d1924.jpg 1180w,
+/static/bikesharing-fb9efb9086535af163e86ea9c5f417b8-7a78d.jpg 1198w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Oh, look at this! There is Mercedes A-class from Car2Go
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/car2go-b395e135abb4189507edc57d3f2acfd9-7a78d.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 74.95826377295492%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGG7NaRykP/xAAZEAEAAwEBAAAAAAAAAAAAAAACAAEDERL/2gAIAQEAAQUCoVDk6iyfrvYGjd7Kf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB0QAAEEAgMAAAAAAAAAAAAAAAABAiExAxARMpH/2gAIAQEABj8Cs5xOJYurg7r6f//EABwQAAICAgMAAAAAAAAAAAAAAAABETEhYUFx8P/aAAgBAQABPyHmTi0Z+JtUxdpL6kQW623ROr80f//aAAwDAQACAAMAAAAQtC//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQIBAT8QEtL/xAAcEAEBAAEFAQAAAAAAAAAAAAABEQAhMUFRcYH/2gAIAQEAAT8QKlVyATzvKmoAgM9ymVaprfTJHe8OT9VtZXE6wYtJspx//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Bike sharing&quot;
+        title=&quot;&quot;
+        src=&quot;/static/car2go-b395e135abb4189507edc57d3f2acfd9-f8fb9.jpg&quot;
+        srcset=&quot;/static/car2go-b395e135abb4189507edc57d3f2acfd9-e8976.jpg 148w,
+/static/car2go-b395e135abb4189507edc57d3f2acfd9-63df2.jpg 295w,
+/static/car2go-b395e135abb4189507edc57d3f2acfd9-f8fb9.jpg 590w,
+/static/car2go-b395e135abb4189507edc57d3f2acfd9-85e3d.jpg 885w,
+/static/car2go-b395e135abb4189507edc57d3f2acfd9-d1924.jpg 1180w,
+/static/car2go-b395e135abb4189507edc57d3f2acfd9-7a78d.jpg 1198w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Or better this GLA-class? Certainly we tried both :)
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/car2go2-318b4a1b0280edccd490e4ad533e2f30-0e3ec.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 74.98020585906572%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCBAb/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAABpukM5OTPh//EABkQAAMBAQEAAAAAAAAAAAAAAAABAgMRE//aAAgBAQABBQKc2ZJrL0hCoVuV0//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/Aar/xAAbEAABBQEBAAAAAAAAAAAAAAABAAIQEiERcf/aAAgBAQAGPwIGyq/fVjmiDyP/xAAbEAEAAgIDAAAAAAAAAAAAAAABACExURFxof/aAAgBAQABPyFh4DEJ83VkmIJqUhdQ4VO7uKn/2gAMAwEAAgADAAAAEKjP/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8QV//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/EAR//8QAHBAAAgIDAQEAAAAAAAAAAAAAAREAITFBUaGx/9oACAEBAAE/EB8Vgsoa+n5AEobNGgXqGtrgUF7AkA8Xplx8Wwh06HDcLOTP/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Bike sharing&quot;
+        title=&quot;&quot;
+        src=&quot;/static/car2go2-318b4a1b0280edccd490e4ad533e2f30-f8fb9.jpg&quot;
+        srcset=&quot;/static/car2go2-318b4a1b0280edccd490e4ad533e2f30-e8976.jpg 148w,
+/static/car2go2-318b4a1b0280edccd490e4ad533e2f30-63df2.jpg 295w,
+/static/car2go2-318b4a1b0280edccd490e4ad533e2f30-f8fb9.jpg 590w,
+/static/car2go2-318b4a1b0280edccd490e4ad533e2f30-85e3d.jpg 885w,
+/static/car2go2-318b4a1b0280edccd490e4ad533e2f30-d1924.jpg 1180w,
+/static/car2go2-318b4a1b0280edccd490e4ad533e2f30-0e3ec.jpg 1263w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Back to Pitch&lt;/h2&gt;
+&lt;p&gt;Let the fun begin! Zahy is on fire
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1025,7 +1209,7 @@
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Pitch&quot;
+        alt=&quot;Zahy&apos;s team&quot;
         title=&quot;&quot;
         src=&quot;/static/pitchpresenting-e5b0e9f8ec20f504076a867de2e2d610-f8fb9.jpg&quot;
         srcset=&quot;/static/pitchpresenting-e5b0e9f8ec20f504076a867de2e2d610-e8976.jpg 148w,
@@ -1040,9 +1224,156 @@
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;Done. We were close, but nope. We hate the winners, obviously. Nothing personal.&lt;/p&gt;
+&lt;p&gt;Lucas is invisible. There is his team is presenting
+&lt;img src=&quot;./images/lucasteam.jpg&quot; alt=&quot;Lucas&amp;#x27; team&quot;&gt;&lt;/p&gt;
+&lt;p&gt;And here is my team presenting
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/haas-f7faacaede7bde92bf127260fe701526-991cb.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.23043206011271%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAF5ZxDkBf/EABsQAQACAgMAAAAAAAAAAAAAAAEAAhESAxMh/9oACAEBAAEFAnm3K3tEsuz158yz/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAgIDAQAAAAAAAAAAAAAAAAECIREiMWH/2gAIAQEABj8C2irWCHqZZGWb4I6f/8QAGhABAAIDAQAAAAAAAAAAAAAAAQARIUFRYf/aAAgBAQABPyHOA3O9lQNGQ1HLe/WUkXTyKcuottP/2gAMAwEAAgADAAAAED/v/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAh/9oACAEDAQE/EBF//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAEh/9oACAECAQE/EF2v/8QAGhABAAMBAQEAAAAAAAAAAAAAAQARITFRQf/aAAgBAQABPxBzQqHVC8FfchKWfUEQwjhh16OTSxFJvCgVyLSrFHheHs//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Haas team&quot;
+        title=&quot;&quot;
+        src=&quot;/static/haas-f7faacaede7bde92bf127260fe701526-f8fb9.jpg&quot;
+        srcset=&quot;/static/haas-f7faacaede7bde92bf127260fe701526-e8976.jpg 148w,
+/static/haas-f7faacaede7bde92bf127260fe701526-63df2.jpg 295w,
+/static/haas-f7faacaede7bde92bf127260fe701526-f8fb9.jpg 590w,
+/static/haas-f7faacaede7bde92bf127260fe701526-85e3d.jpg 885w,
+/static/haas-f7faacaede7bde92bf127260fe701526-d1924.jpg 1180w,
+/static/haas-f7faacaede7bde92bf127260fe701526-991cb.jpg 1597w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Done. Jury is deciding
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/jury-8481147a63abd2e774c7584305d9a174-a5ccc.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAFromkaJPJn/8QAGhAAAgIDAAAAAAAAAAAAAAAAABMBAhESMf/aAAgBAQABBQJuRlRlRk7PsT3/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwFX/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8BV//EAB0QAAIBBAMAAAAAAAAAAAAAAAABEQIQITFioeH/2gAIAQEABj8CSaweG+h8dFMxb//EABsQAAMBAQADAAAAAAAAAAAAAAABESExQVFh/9oACAEBAAE/IfcR6ytSeCfmHudwEjBp8NVyn//aAAwDAQACAAMAAAAQqD//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/EB//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQIBAT8QAsl//8QAGxABAAMAAwEAAAAAAAAAAAAAAQARITFBkVH/2gAIAQEAAT8QWgKVl1V5jrBDdF0fsWUs90c9nEClnznZRASPRVm42NVbP//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Jury&quot;
+        title=&quot;&quot;
+        src=&quot;/static/jury-8481147a63abd2e774c7584305d9a174-f8fb9.jpg&quot;
+        srcset=&quot;/static/jury-8481147a63abd2e774c7584305d9a174-e8976.jpg 148w,
+/static/jury-8481147a63abd2e774c7584305d9a174-63df2.jpg 295w,
+/static/jury-8481147a63abd2e774c7584305d9a174-f8fb9.jpg 590w,
+/static/jury-8481147a63abd2e774c7584305d9a174-85e3d.jpg 885w,
+/static/jury-8481147a63abd2e774c7584305d9a174-a5ccc.jpg 900w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Ah, and the sweaty winners. They worked hard
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/winners-657090da07887c6213bff139dec04a32-a5ccc.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAFpdLeqJKI//8QAGxAAAgMAAwAAAAAAAAAAAAAAAQMAAiEEIiP/2gAIAQEAAQUCLtF2QMMuPSvIxB6f/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BJ//EABwQAAIBBQEAAAAAAAAAAAAAAAABEQIhMTJRgf/aAAgBAQAGPwJpEy7GCriNEen/xAAcEAADAAIDAQAAAAAAAAAAAAAAAREhQTFRkYH/2gAIAQEAAT8hx1fnozpZSj9tx8rZZXREN8I2h//aAAwDAQACAAMAAAAQcB//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREx/9oACAEDAQE/EHHpUf/EABcRAAMBAAAAAAAAAAAAAAAAAAABIRH/2gAIAQIBAT8QlUw//8QAHxABAAEEAQUAAAAAAAAAAAAAAREAITFBUWFxgaGx/9oACAEBAAE/EDHETWu2eMUghIFAydvXmhBIgkE2tfrRBqSJMWqDMoJJJtU+zK+Ff//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Winners&quot;
+        title=&quot;&quot;
+        src=&quot;/static/winners-657090da07887c6213bff139dec04a32-f8fb9.jpg&quot;
+        srcset=&quot;/static/winners-657090da07887c6213bff139dec04a32-e8976.jpg 148w,
+/static/winners-657090da07887c6213bff139dec04a32-63df2.jpg 295w,
+/static/winners-657090da07887c6213bff139dec04a32-f8fb9.jpg 590w,
+/static/winners-657090da07887c6213bff139dec04a32-85e3d.jpg 885w,
+/static/winners-657090da07887c6213bff139dec04a32-a5ccc.jpg 900w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;p&gt;It was great event and a lot of fun. We’ve gained great experience and made new connections, especially guys from IBM and ING.&lt;/p&gt;
-&lt;p&gt;Time to go home. Tired but happy!
+&lt;p&gt;Time to go home
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/home-98b0f8493c101b8a3273a50a9ef016d6-7a78d.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 74.95826377295492%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAACBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAHCeM5GQ4v/xAAaEAADAQADAAAAAAAAAAAAAAABAgMAEBIh/9oACAEBAAEFAlrLAzPCSLbqqYn3/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Bh//EABYRAQEBAAAAAAAAAAAAAAAAAAAREv/aAAgBAgEBPwHSv//EABsQAAICAwEAAAAAAAAAAAAAAAABESECEDJR/9oACAEBAAY/AvCskdwS3RCWv//EABwQAAMAAgMBAAAAAAAAAAAAAAABESFRMUGBkf/aAAgBAQABPyF6V+jk0x4nyoowrNmds1Ef/9oADAMBAAIAAwAAABBrP//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/EJR//8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8QtT//xAAcEAEBAAICAwAAAAAAAAAAAAABEQAhMVFBcdH/2gAIAQEAAT8Qm1byCxyCdcuII8XAfces1FGq9TA4PcG2+rkorA5M/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Back home&quot;
+        title=&quot;&quot;
+        src=&quot;/static/home-98b0f8493c101b8a3273a50a9ef016d6-f8fb9.jpg&quot;
+        srcset=&quot;/static/home-98b0f8493c101b8a3273a50a9ef016d6-e8976.jpg 148w,
+/static/home-98b0f8493c101b8a3273a50a9ef016d6-63df2.jpg 295w,
+/static/home-98b0f8493c101b8a3273a50a9ef016d6-f8fb9.jpg 590w,
+/static/home-98b0f8493c101b8a3273a50a9ef016d6-85e3d.jpg 885w,
+/static/home-98b0f8493c101b8a3273a50a9ef016d6-d1924.jpg 1180w,
+/static/home-98b0f8493c101b8a3273a50a9ef016d6-7a78d.jpg 1198w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Tired but happy!
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
