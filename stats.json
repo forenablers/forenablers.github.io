@@ -8,10 +8,6 @@
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
-    "path---test": [
-      "path---test-e4f325d57fb45b78435e.js",
-      "path---test-e4f325d57fb45b78435e.js.map"
-    ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
@@ -25,8 +21,8 @@
       "component---src-layouts-index-js-0f06e048d27f266fc795.js.map"
     ],
     "path---index": [
-      "path---index-d6f301f6c95c74bf57ed.js",
-      "path---index-d6f301f6c95c74bf57ed.js.map"
+      "path---index-55196d18423f3cc7d905.js",
+      "path---index-55196d18423f3cc7d905.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -42,18 +38,22 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---beta-testing": [
+      "path---beta-testing-539c6e95cc913314d68f.js",
+      "path---beta-testing-539c6e95cc913314d68f.js.map"
+    ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---javascript-buzzy": [
-      "path---javascript-buzzy-32df046034c53cc16df7.js",
-      "path---javascript-buzzy-32df046034c53cc16df7.js.map"
+      "path---javascript-buzzy-286b645b45707f89b314.js",
+      "path---javascript-buzzy-286b645b45707f89b314.js.map"
     ],
     "app": [
-      "app-93ad13e5578580aa5062.js",
+      "app-307a168d3579b3df4b70.js",
       "build-js-styles.css",
-      "app-93ad13e5578580aa5062.js.map",
+      "app-307a168d3579b3df4b70.js.map",
       "build-js-styles.css.map"
     ],
     "path---hackatrain-2018": [
