@@ -32,7 +32,10 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-        <Bio />
+        
+        <a href={post.frontmatter.authorProfileLink} target="_blank">{post.frontmatter.author}</a>
+        
+        {/* <Bio  /> */}
 
         <ul
           style={{
@@ -80,6 +83,8 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        author
+        authorProfileLink
       }
     }
   }
