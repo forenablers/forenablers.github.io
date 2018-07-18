@@ -1,6 +1,8 @@
 ---
-title: "Do not lie to your user "
+title: "Do not lie to your user"
 date: "2012-08-05T10:45:00Z"
+author: "Sergey Zavoloka"
+authorProfileLink: "https://github.com/zavolokas"
 ---
 Your app or service is ready to be released. Time to attract users - but how? What do you tell them about your masterpiece while temptation to praise it to the skies is high? Only positive aspects?
 
