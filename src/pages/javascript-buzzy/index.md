@@ -1,6 +1,7 @@
 ---
 title: "Weird Javascript: Buzzy statement"
 date: "2017-02-10T02:22:00Z"
+author: "Borys Generalov"
 ---
 
 ## Buzzy statement
