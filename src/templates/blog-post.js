@@ -37,7 +37,7 @@ class BlogPostTemplate extends React.Component {
           style={{
             ...scale(-1 / 5),
             display: 'block',
-            marginBottom: rhythm(1/2),
+            marginBottom: rhythm(1 / 2),
             marginTop: rhythm(-1),
           }}
         >
@@ -51,6 +51,13 @@ class BlogPostTemplate extends React.Component {
         </div>
 
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
+
+        <div style={{ minHeight: 60, visibility: this.state.showSocial ? 'visible' : 'hidden' }}>
+          <a href="https://twitter.com/share" className="twitter-share-button" data-show-count="true">Tweet</a>
+          <div className="google-plus"><div className="g-plusone" data-size="medium" /></div>
+          <div className="fb-like" data-href={blogPostUrl} data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true" />
+        </div>
+
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -61,11 +68,7 @@ class BlogPostTemplate extends React.Component {
 
         {/* <Bio  /> */}
 
-        <div style={{ minHeight: 60, visibility: this.state.showSocial ? 'visible' : 'hidden' }}>
-          <a href="https://twitter.com/share" className="twitter-share-button" data-show-count="true">Tweet</a>
-          <div className="google-plus"><div className="g-plusone" data-size="medium" /></div>
-          <div className="fb-like" data-href={blogPostUrl} data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true" />
-        </div>
+
 
         <ul
           style={{
