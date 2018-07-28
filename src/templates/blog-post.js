@@ -5,37 +5,67 @@ import get from 'lodash/get'
 
 import Bio from '../components/Bio'
 import { rhythm, scale } from '../utils/typography'
+import { runFacebookJs, runTwitterJs } from '../utils/social-buttons'
+import { styles } from '../fe-styles';
 
 class BlogPostTemplate extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  componentDidMount() {
+    runFacebookJs();
+    runTwitterJs();
+    setTimeout(() => { this.setState({ showSocial: true }) }, 2000);
+  }
+
   render() {
-    const post = this.props.data.markdownRemark
-    const siteTitle = get(this.props, 'data.site.siteMetadata.title')
-    const { previous, next } = this.props.pathContext
+    const post = this.props.data.markdownRemark;
+    const siteTitle = get(this.props, 'data.site.siteMetadata.title');
+    const { previous, next } = this.props.pathContext;
+    const blogPostUrl = post.frontmatter.postUrl;
 
     return (
       <div>
-        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
+        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} >
+          <style>{styles}</style>
+          <script src="https://apis.google.com/js/platform.js" async defer />
+        </Helmet>
         <h1>{post.frontmatter.title}</h1>
         <p
           style={{
             ...scale(-1 / 5),
             display: 'block',
-            marginBottom: rhythm(1),
+            marginBottom: rhythm(1/2),
             marginTop: rhythm(-1),
           }}
         >
           {post.frontmatter.date}
         </p>
+
+        <div style={{ minHeight: 60, visibility: this.state.showSocial ? 'visible' : 'hidden' }}>
+          <a href="https://twitter.com/share" className="twitter-share-button" data-show-count="true">Tweet</a>
+          <div className="google-plus"><div className="g-plusone" data-size="medium" /></div>
+          <div className="fb-like" data-href={blogPostUrl} data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true" />
+        </div>
+
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
             marginBottom: rhythm(1),
           }}
         />
-        
+
         <a href={post.frontmatter.authorProfileLink} target="_blank">{post.frontmatter.author}</a>
-        
+
         {/* <Bio  /> */}
+
+        <div style={{ minHeight: 60, visibility: this.state.showSocial ? 'visible' : 'hidden' }}>
+          <a href="https://twitter.com/share" className="twitter-share-button" data-show-count="true">Tweet</a>
+          <div className="google-plus"><div className="g-plusone" data-size="medium" /></div>
+          <div className="fb-like" data-href={blogPostUrl} data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true" />
+        </div>
 
         <ul
           style={{
