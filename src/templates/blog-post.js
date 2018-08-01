@@ -8,6 +8,8 @@ import { rhythm, scale } from '../utils/typography'
 import { runFacebookJs, runTwitterJs } from '../utils/social-buttons'
 import { styles } from '../fe-styles';
 
+import 'katex/dist/katex.min.css'
+
 class BlogPostTemplate extends React.Component {
   constructor(props) {
     super(props);

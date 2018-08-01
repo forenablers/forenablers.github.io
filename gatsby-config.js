@@ -98,6 +98,14 @@ module.exports = {
         // Avoids sending pageview hits from custom paths
         exclude: ["/preview/**", "/do-not-track/me/too/"],
       },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-katex`,
+        ],
+      },
     }
   ],
 }
