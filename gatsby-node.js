@@ -3,6 +3,8 @@ const Promise = require('bluebird')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 
+const createPaginatedPages = require("gatsby-paginate")
+
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators
 
@@ -31,6 +33,16 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           console.log(result.errors)
           reject(result.errors)
         }
+
+
+        // createPaginatedPages({
+        //   edges: result.data.allMarkdownRemark.edges,
+        //   createPage: createPage,
+        //   pageTemplate: "src/templates/index.js",
+        //   pageLength: 10 , // This is optional and defaults to 10 if not used
+        //   pathPrefix: "", // This is optional and defaults to an empty string if not used
+        //   context: {} // This is optional and defaults to an empty object if not used
+        // });
 
         // Create blog posts pages.
         const posts = result.data.allMarkdownRemark.edges;

@@ -17,6 +17,14 @@ npm install
 gatsby develop
 ```
 
+## Rebuild
+
+Use the following commands to rebuild the gatsby blog in case of html/js changes, for example when adding new plugin
+
+```bash
+gatsby build
+```
+
 ## Using gatsby starter template
 
 Gatsby starter for creating a blog
