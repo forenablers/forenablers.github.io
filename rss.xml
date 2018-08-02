@@ -1,4 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[For Enablers]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 28 Jul 2018 07:50:51 GMT</lastBuildDate><item><title><![CDATA[Hackatrain 2018]]></title><description><![CDATA[How about having a hackathon on a train? 6 hours on a train, without internet, with the speed over 180 km/h. Sounds crazy but rather cool…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</guid><pubDate>Wed, 20 Jun 2018 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;How about having a hackathon on a train? 6 hours on a train, without internet, with the speed over 180 km/h. Sounds crazy but rather cool, isn’t it? Consider high-speed train heading to Berlin with 100+ participants spread over two train wagons. Here at &lt;a href=&quot;https://parkmobile.nl&quot;&gt;Parkmobile&lt;/a&gt;, we like cool things and the spirit of innovation, needless to say, I’m in!&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[For Enablers]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 02 Aug 2018 20:21:16 GMT</lastBuildDate><item><title><![CDATA[Microservices: Handling timeouts]]></title><description><![CDATA[ The timeout pattern is perhaps the most basic way to reveal performance issues and satisfy the SLA. Even though the request did not succeed…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//microservice-timeout/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//microservice-timeout/</guid><pubDate>Wed, 01 Aug 2018 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt; The timeout pattern is perhaps the most basic way to reveal performance issues and satisfy the SLA. Even though the request did not succeed, the client gets the response within defined SLA time span and the request can be retried. It sounds easy to implement as well. Simply set the timeout in the service client, i.e. RestClient, HttpWebRequest, HttpClient. Once the timeout exceeded, the request is aborted. Wait, but is it really so simple?&lt;/p&gt;
+&lt;p&gt;Here is the excerpt from Kibana logs of the real-world production microservice. An attempt to create parking action has timed out and the caller received an error response with 500 http status code. Then the caller retried and received the error again, this time the response with 409 http status code, saying that the item already exists.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/kibana-8ed5ae872d0ec221626bf8540ece9a75-346ce.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 25.615763546798032%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAIAAADKYVtkAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA5klEQVQY0y2PS0/EIBSF+f9x58b/oImJiXGhMTUjk9mNK1cm41gzpTwKbekDCoOHjl/gQrjn3nsgMQbgFxCc9875eD7jcV1x8Rmk7DB2PcLo/1mgJPM8W2t9LnPTNHHOVWN0OyjdN+2QO6WEHS9DVlJKiBCTlHMZXNDgcDhuiyf6cF3cXe0eb477+9PnMzuVNaulEEopTEopogh6Ao9oE1dgXWttOzO23OrKaiar74aXQnBjTN91MJil60CcJAS4dxfb+EL580spLd42L6/FO92yWgjZCFRzLqXgQlXlF/u49WO7hPgHF2UZcV1DaxMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Kibana logs&quot;
+        title=&quot;&quot;
+        src=&quot;/static/kibana-8ed5ae872d0ec221626bf8540ece9a75-fb8a0.png&quot;
+        srcset=&quot;/static/kibana-8ed5ae872d0ec221626bf8540ece9a75-1a291.png 148w,
+/static/kibana-8ed5ae872d0ec221626bf8540ece9a75-2bc4a.png 295w,
+/static/kibana-8ed5ae872d0ec221626bf8540ece9a75-fb8a0.png 590w,
+/static/kibana-8ed5ae872d0ec221626bf8540ece9a75-526de.png 885w,
+/static/kibana-8ed5ae872d0ec221626bf8540ece9a75-346ce.png 1015w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;The following diagram illustrates the high-level process:&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/uml.overview-4208fbb6468f6a6c2700009968a93d3c-9d375.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 365px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 115.89041095890411%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAIAAACEf/j0AAAACXBIWXMAAAsSAAALEgHS3X78AAAC7ElEQVQ4y5VUW1PaQBTmr/apL31pn/rcafvScez4Zp2pnaEtUghRCJFLNXJRgSoiFyEJCUlIwiUSDIRAyK0LOt4Gqj2zkzm7+b7znd09Z13OEtvyegkCB45t28swrkdzgLxGv3n1GkUjwLEs67lkYIaqTvvdUakybfHGlewsFX5EnmtqYomjIZZDms0QVwv2eWFZ8q6H3Bli2Gbr+SiRQcmzaDUXV3rys8g3ISzbtByFlfAyyTVbLMc1m03DMJ5FNtWBPVKU06Im8hNZmmgaYD6pPPtt61OJwtqtKM+gHBOWeFSqF2ZM27At8yll0+7gGaYSaZyhVAElTlCmenEX+qG+C1yjeWuGAT6TsT4aaRfxwy7buhILg05SkzOanNY6NdOwAeBfe742BEGyGCbTq+TFi1rxJUu95ApvB9LlfX0XRVGgEiF42x+AISgAwbAPgsB0c3PT7f7+7ev650/v1lY+rK28X1v96Ha7Y/H4dDq9ISuDQfm8eHF6ilfKGQ+Men5FQ8FcMkVTNI7j1UKJJuul3+n9n3B0NxILIbFYnKbpRqMhy7LLMR1dqg0vk0onPWgllHZiIKWHYmIktZyxqoiJnoj1wRCwq27yijsY9brXBQ+SdzmWM+7gTTrCUTGejre4fYHdY6vhDkM5+ljisAaxy5LRNljn9tjKrizyt9t2yf1+IV/IYamTo8z+hucQif1JHWWwVKlcIQgif5jNH2dT3uDBjwAAHGNJgiTvDoxl2UAggKDhEIrswNshJBgKhxAUgT1b3i2PD/L5A36/3xcMBgFmJ7gTi0V1Xb8WX3RV88AT4bIjdCSpdyn1enJ/cUuCANbMTHACU3WoCqQqklq30c2mVbY27ja0dl3rCqZp3drjIrFvOrnO1CGKgllmh6Rgng+TJGjsbeY8pCrqgvK8n6o+VMRaVqgdC3i2lU+2qxmhBsZxo5jT9enz+nkeKOFHWYr5nwdwhpsdAnDXN74kEgfzejDnz+IC8l9ztu2qHgG8fQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;UML overview&quot;
+        title=&quot;&quot;
+        src=&quot;/static/uml.overview-4208fbb6468f6a6c2700009968a93d3c-9d375.png&quot;
+        srcset=&quot;/static/uml.overview-4208fbb6468f6a6c2700009968a93d3c-d2584.png 148w,
+/static/uml.overview-4208fbb6468f6a6c2700009968a93d3c-d7d33.png 295w,
+/static/uml.overview-4208fbb6468f6a6c2700009968a93d3c-9d375.png 365w&quot;
+        sizes=&quot;(max-width: 365px) 100vw, 365px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;And this is a piece of code, causing a problem:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-csharp&quot;&gt;&lt;code class=&quot;language-csharp&quot;&gt;_hhtpClient&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Timeout &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; TimeSpan&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;FromMilliseconds&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;timeout&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; response &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; _httpClient&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;SendAsync&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;request&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Even though the request timed out, the parking action has still been created. Look what happened. The API Gateway aborted the request to Parking service once timeout exceeded, but it did not cancel it. At that moment the Parking service was waiting for the database operation to complete. You are totally right if you thought of what is known as Compensating Transaction pattern. And to make it right, we have to inform the Parking service that the operation was cancelled and we should stop processing and rollback all the actions performed (if any). And here the CancellationToken comes into play.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-csharp&quot;&gt;&lt;code class=&quot;language-csharp&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; tokenSource &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; CancellationTokenSource&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;CreateLinkedTokenSource&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;cancellationToken&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+tokenSource&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;CancelAfter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;timeout&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; response &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; _httpClient&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;SendAsync&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;request&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; tokenSource&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Token&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[Hackatrain 2018]]></title><description><![CDATA[How about having a hackathon on a train? 6 hours on a train, without internet, with the speed over 180 km/h. Sounds crazy but rather cool…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackatrain2018/</guid><pubDate>Wed, 20 Jun 2018 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;How about having a hackathon on a train? 6 hours on a train, without internet, with the speed over 180 km/h. Sounds crazy but rather cool, isn’t it? Consider high-speed train heading to Berlin with 100+ participants spread over two train wagons. Here at &lt;a href=&quot;https://parkmobile.nl&quot;&gt;Parkmobile&lt;/a&gt;, we like cool things and the spirit of innovation, needless to say, I’m in!&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
