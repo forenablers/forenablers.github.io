@@ -14,21 +14,55 @@ The following diagram illustrates the high-level process:
 
 ![UML overview](./images/uml.overview.png)
 
-And this is a piece of code, causing a problem:
+And this is a piece of code in API Gateway causing the problem:
 
 ```csharp
 _hhtpClient.Timeout = TimeSpan.FromMilliseconds(timeout);
 var response = await _httpClient.SendAsync(request);
-
 ```
 
 Even though the request timed out, the parking action has still been created. Look what happened. The API Gateway aborted the request to Parking service once timeout exceeded, but it did not cancel it. At that moment the Parking service was waiting for the database operation to complete. You are totally right if you thought of what is known as Compensating Transaction pattern. And to make it right, we have to inform the Parking service that the operation was cancelled and we should stop processing and rollback all the actions performed (if any). And here the CancellationToken comes into play.
 
-```csharp
+This is what you would change at the API Gateway:
 
+```csharp
 var tokenSource = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
 tokenSource.CancelAfter(timeout);
 var response = await _httpClient.SendAsync(request, tokenSource.Token);
-
 ```
 
+And the changes on the Parking service. First we modify controller to accept the cancellation token:
+
+```csharp
+ public async Task<IHttpActionResult> CreateParkingright(CreateParkingrightRequest request, CancellationToken cancellationToken)
+{
+    cancellationToken.ThrowIfCancellationRequested();
+    var parkingright = _parkingrightConverter.ToParkingrightEntity(request);
+    var parkingrightId = await _parkingrightRepository.Insert(parkingright, cancellationToken);
+    ...
+}
+```
+
+Finally, the repository is adjusted as following:
+
+```csharp
+public async Task<T> Insert<T>(IModel model, object param, CancellationToken cancellationToken)
+{
+    T result;
+    using (var connection = CreateSqlConnection())
+    {
+        using (var transaction = connection.BeginTransaction())
+        {
+            //NOTE: we can not use DapperExtensions here as they do not support cancellation tokens
+            var sql = _sqlGenerator.GetInsertCommandText(model);
+            var command = new CommandDefinition(sql, param, transaction, cancellationToken);
+            result = await connection.ExecuteScalarAsync<T>(command);
+            if(!cancellationToken.IsCancellationRequested)
+                transaction.Commit();
+        }
+    }
+    return result;
+}
+```
+
+Now, whenever the timeout exceeded, the request is cancelled, propagating the cancellation from API Gateway to the Parking service, so that it cancels the activity as well. This reduces the number of false-positive errors and provide consistent results
