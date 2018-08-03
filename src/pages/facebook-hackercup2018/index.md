@@ -29,6 +29,43 @@ It is very helpful to take an example and solve it step by step on paper or on a
 
 // TODO: polynomial example
 
+<details><summary>Example</summary>
+<p>
+<hr/>
+Suppose we have following challange:
+
+>Consider an N-degree polynomial, expressed as follows:
+>
+>$$P_N * x^N + P_N-1 * x^N-1 + ... + P_1 * x^1 + P_0 * x^0$$
+>
+>You'd like to find all of the polynomial's $x$ ( 
+>all distinct real values of $x$ for which the expression evaluates to $0$).
+>
+>The order of operations has been reversed: Addition ($+$) now has 
+>the highest precedence, followed by multiplication ($*$), followed by exponentiation (^). 
+>
+>Constraints: $P_N ≠ 0$
+
+It might take some time to realise how a polynomial would look like after applying new operations order. It is better to take something like $N=3$ and write it down as:
+
+
+$P_3 * x$ ^ $3 + P_2 * x$ ^ $2 + P_1 * x$ ^ $1 + P_0 * x$ ^ 0
+
+According to the order of operations it should look as following:
+
+$(P_3 * x)$ ^ $((3 + P_2) * x)$ ^ $((2 + P_1) * x)$ ^ $((1 + P_0) * x)$ ^ $0$
+
+From that we can see that we have $(P_3 * x)$ as a base and the rest as an exponent. We will refer to the exponent as $a$ and will get the expression:
+
+$$P_3 * x ^ a = 0$$ 
+
+It can be evaluated to $0$ only in two cases. First when $P_3 = 0$ which is impossible according to the constraints. Second when $x^a = 0$. 
+
+
+<hr/>
+</p>
+</details>
+
 Solve it brute force and improve.
 
 - What are the boundaries of the problem run-time regardless algorithm?
