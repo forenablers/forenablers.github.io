@@ -13,4 +13,6 @@ Since we are a cool and progressive company, we have hackathons! Sound fun. But 
 
 - Not enough data
 - Everyone in a team wants to go his own direction
-- Technology driven people VS goal driven 
+- Technology driven people VS goal driven
+- Pitch: Speaker should speak with his own words, make it fun
+- Number of free parking spots doesn't matter (every 15 min in fully occupied zone someone is leaving).
