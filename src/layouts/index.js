@@ -1,4 +1,4 @@
-require("prismjs/themes/prism-solarizedlight.css");
+require("../themes/prism-vs.css");
 import React from 'react'
 import Link from 'gatsby-link'
 
