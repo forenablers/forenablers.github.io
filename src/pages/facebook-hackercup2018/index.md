@@ -1,38 +1,19 @@
 ---
-title: "Facebook Hackercup 2018"
-date: "2018-08-01T10:45:00Z"
+title: "Facebook Hackercup. 5 tips"
+date: "2018-08-11T10:45:00Z"
 author: "Sergey Zavoloka"
 authorProfileLink: "https://github.com/zavolokas"
 ---
 
-Curious how good your skills are in problem solving in comparison to others? One of the ways to check is to participate in Facebook Hackercup.
+It is always interesting to measure your skills in problem solving. One of the ways to check how good you are, is to participate in Facebook Hackercup. If you consider participating next year - I'd like to share my top 5 learnings from this year.
 
-### Why to participate? 
+### 1. Train yourself to understand challenge quickly 
+Challenges' descriptions are huge. You have to be very attentive to get it right. After the problem is understood, it needs to be translated into a technical problem. You can train this skill using the [challanges from previous years](https://www.facebook.com/hackercup/past_rounds/1825579961046099/).
 
-- Compare your skills
-- Refresh your CS knowladge
-- Train your brain
-- Have fun
+### 2. Solve without coding first
+Every challenge has a sample input and output. Use this information. Although it is tempting to start coding right away, try to solve it step by step on paper or on a white board. Make sure that you have the same output. 
 
-
-### What kind of challanges?
-The challanges that you will find vary.
-
-### What is a good approach to solve them?
-
-Challange description is huge. It requires some attention to understand it completely. It is needs to be translated into a technical problem and what would be a solution. Train on the challanges from previous years.
-
-It is very helpful to take an example and solve it step by step on paper or on a white board. 
-
-- Allows to see patterns
-- Allows to find a simple solution
-
-// TODO: polynomial example
-
-<details><summary>Example</summary>
-<p>
-<hr/>
-Suppose we have following challange:
+This approach will help you to see patterns or even to find a simple solution. For example here is one of the challenges:
 
 >Consider an N-degree polynomial, expressed as follows:
 >
@@ -46,6 +27,23 @@ Suppose we have following challange:
 >
 >Constraints: $P_N ≠ 0$
 
+After reading this you might think that this problem is somehow similar to [3-sum problem](https://en.wikipedia.org/wiki/3SUM). However if you put it down on paper or whiteboard it will be obvious that the solution is quite simple:
+- The polynomial can be evaluated to $0$ when $x = 0$ and polynomial's degree is odd.
+- Otherwise it cannot be evaluated to $0$.
+
+The code in the end will be simply:
+
+```python
+def calculatePolynomialInterceptions(degree)
+    if degree % 2 !=0:
+        return [0.0] # the only possible solution
+    else:
+        return [] # no such x
+```
+
+<details><summary>Explanation</summary>
+<p>
+
 It might take some time to realise how a polynomial would look like after applying new operations order. It is better to take something like $N=3$ and write it down as:
 
 
@@ -55,28 +53,53 @@ According to the order of operations it should look as following:
 
 $(P_3 * x)$ ^ $((3 + P_2) * x)$ ^ $((2 + P_1) * x)$ ^ $((1 + P_0) * x)$ ^ $0$
 
-From that we can see that we have $(P_3 * x)$ as a base and the rest as an exponent. We will refer to the exponent as $a$ and will get the expression:
+From that we can see that we have $(P_3 * x)$ as a base and the rest as an exponent. We will refer to the exponent as $a$:
+
+$a = ((3 + P_2) * x)$ ^ $((2 + P_1) * x)$ ^ $((1 + P_0) * x)$ ^ $0$
+
+and will get the expression:
 
 $$P_3 * x ^ a = 0$$ 
 
-It can be evaluated to $0$ only in two cases. First when $P_3 = 0$ which is impossible according to the constraints. Second when $x^a = 0$. 
+Since $P_3 ≠ 0$ according to the problem description, the polynomial can be evaluated to $0$ only and only when $x = 0$ and $a ≠ 0$. 
 
+We have found the $x$ and the only thing we need to do is to make sure that $a ≠ 0$, otherwise $P_3 * 0^0 = P_3$. 
 
-<hr/>
+Let's take a look at $a$. Since $x = 0$, we will get:
+
+$a = ((3 + P_2) * 0)$ ^ $((2 + P_1) * 0)$ ^ $((1 + P_0) * 0)$ ^ $0$
+
+$a = 0$ ^ $0$ ^ $0$ ^ $0$
+
+$a = 1$
+
+The answer is that the *3rd-degree* polynomial does evaluate to $0$ only and only when $x = 0$. However if it would be *2nd-degree* polynomial, it does not evaluate to $0$ for any real value $x$:
+
+$a = 0$ ^ $0$ ^ $0$
+
+$a = 0$
+
+$P_2 * x^0 = P_2 * 1 = P_2 (≠ 0)$
+
+It turns out that the final solution of this problem is quite easy - we just need to check whether the polynomial degree is odd, and if it is so then it can be evaluated to $0$ when $x = 0$.
+
 </p>
 </details>
 
-Solve it brute force and improve.
-
-- What are the boundaries of the problem run-time regardless algorithm?
-- Check where bottlenecks are and eleminate them
+### 3. Use brute force and improve
+Use a naive approach and solve a problem as quick as possible. Once you have a solution ask yourself following questions and try to improve these aspects if an answer is positive:
+- Are there bottlenecks?
 - Are there duplicated work? 
 - Are there useless work?
 
-Forget about your CS skills and try to solve this problem as a human or as a small kid. Got a solution? Reverse engineer your thoght process and convert it into an algorithm.
+### 4. Solve and reverse engineer your thought process
+Forget about your CS skills and try to solve a problem as a human or as a small kid. Got a solution? Reverse engineer your thought process and convert it into an algorithm.
 
+### 5. Be careful about details
 Once the code is written, check it twice. Pay attention to boundary cases. 
+- 0-indexed vs 1-indexed? 
+- Is there code where you add or substruct 1? Is it correct?
+- Are there comparisons? Should the comparisons be strict? (*greater* or *greater or equal*)?
+- Do you handle incorrect input?
 
-- 0 indexed / 1 indexed? 
-- +1/-1?
-- incorrect input
+These were my learnings from this year Hackercup. Some of them were crucial. Solve challenges and have fun! Good luck!
