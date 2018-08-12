@@ -31,7 +31,7 @@ After reading this you might think that this problem is somehow similar to [3-su
 - The polynomial can be evaluated to $0$ when $x = 0$ and polynomial's degree is odd.
 - Otherwise it cannot be evaluated to $0$.
 
-The code in the end will be simply:
+The code in the end will be simple:
 
 ```python
 def calculatePolynomialInterceptions(degree)
@@ -98,8 +98,8 @@ Forget about your CS skills and try to solve a problem as a human or as a small 
 ### 5. Be careful about details
 Once the code is written, check it twice. Pay attention to boundary cases. 
 - 0-indexed vs 1-indexed? 
-- Is there code where you add or substruct 1? Is it correct?
-- Are there comparisons? Should the comparisons be strict? (*greater* or *greater or equal*)?
+- Double check the code where you add or substruct 1(if you do). Make sure that these boundaries are correct.
+- Do you compare values anywhere? Check them - should a value be *greater* or *greater or equal*?
 - Do you handle incorrect input?
 
-These were my learnings from this year Hackercup. Some of them were crucial. Solve challenges and have fun! Good luck!
+These were my learnings from this year Hackercup. If you ask me how far did I go, I tell you that I almost did it to round 3(not bad for the first try). Solve challenges and have fun! Good luck!
