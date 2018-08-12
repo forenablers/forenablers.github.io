@@ -44,7 +44,7 @@ def calculatePolynomialInterceptions(degree)
 <details><summary>Explanation</summary>
 <p>
 
-It might take some time to realise how a polynomial would look like after applying new operations order. It is better to take something like $N=3$ and write it down as:
+It might take some time to realise how a polynomial would look like after applying new operations order. Let's start with $N=3$ and write the polynomial down:
 
 
 $P_3 * x$ ^ $3 + P_2 * x$ ^ $2 + P_1 * x$ ^ $1 + P_0 * x$ ^ 0
