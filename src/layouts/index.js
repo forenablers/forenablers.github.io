@@ -1,4 +1,4 @@
-require("../themes/prism-vs.css");
+require("../themes/prism-darcula.css");
 import React from 'react'
 import Link from 'gatsby-link'
 
