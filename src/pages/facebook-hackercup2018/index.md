@@ -95,9 +95,6 @@ Use a naive approach and solve a problem as quick as possible. Once you have a s
 ### 4. Solve and reverse engineer your thought process
 Forget about your CS skills and try to solve a problem as a human or as a small kid. Got a solution? Reverse engineer your thought process and convert it into an algorithm.
 
-<details><summary>Example</summary>
-<p>
-
 For example you are challenged:
 > Given [Pre-order](https://en.wikipedia.org/wiki/Tree_traversal#Pre-order_(NLR)) and [In-order](https://en.wikipedia.org/wiki/Tree_traversal#In-order_(LNR)) traversals of a tree, reconstruct the tree.
 >
@@ -164,8 +161,6 @@ def reconstructTree(in_order, pre_order):
 
 ```
 
-</p>
-</details>
 
 ### 5. Be careful about details
 Once the code is written, check it twice. Pay attention to boundary cases. 
