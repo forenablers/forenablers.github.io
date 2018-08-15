@@ -95,6 +95,78 @@ Use a naive approach and solve a problem as quick as possible. Once you have a s
 ### 4. Solve and reverse engineer your thought process
 Forget about your CS skills and try to solve a problem as a human or as a small kid. Got a solution? Reverse engineer your thought process and convert it into an algorithm.
 
+<details><summary>Example</summary>
+<p>
+
+For example you are challenged:
+> Given [Pre-order](https://en.wikipedia.org/wiki/Tree_traversal#Pre-order_(NLR)) and [In-order](https://en.wikipedia.org/wiki/Tree_traversal#In-order_(LNR)) traversals of a tree, reconstruct the tree.
+>
+> In-order: A, B, C, D, E, F, I, G, H
+>
+> Pre-order: F, B, A, D, C, E, G, I, H
+
+What you can try is to reconstruct the tree without thinking about algorithms, loops, recursions, stacks whatsoever.
+
+What we know is that in pre-order the left element is the root. Let's draw the root:
+
+```mermaid
+graph TD;
+    F((F))
+```
+
+Next root element is `B` but where to put it - we don't know yet. Looking at the in-order traversal result, we can notice that `F` splits it into two: `A, B, C, D, E` and `I, G, H`.
+
+These are nodes that are on the left and on the right from our root `F`. Which nodes are children of `F`? The ones that come first in the pre-order - `B` and `G`:
+
+```mermaid
+graph TD;
+    F((F))-->B((B));
+    F-->G((G));
+```
+
+Now `B` splits the in-order `A, B, C, D, E` into the only left child `A` and descendant ondes on the right `C, D, E`. Which node is the right child of `B`? The answer is `D`, since it comes first in the pre-order.
+
+```mermaid
+graph TD;
+    F((F))-->B((B));
+    F-->G((G));
+    B-->A((A));
+    B-->D((D));
+```
+After repeating this process you will reconstruct the whole tree:
+
+```mermaid
+graph TD;
+    F((F))-->B((B));
+    F-->G((G));
+    B-->A((A));
+    B-->D((D));
+    D-->C((C));
+    D-->E((E));
+    G-->I((I));
+    G-->H((H));
+```
+
+What you can do now is to wrap this process into an algorithm: 
+
+```python
+def reconstructTree(in_order, pre_order):
+    # if pre_order is empty - return None
+    # extract first from pre_order as root
+    # split in_order based on the root into:
+    #    in_order_left
+    #    in_order_right
+    # split pre_order based on in_order_right &in_order_left into:
+    #    pre_order_left
+    #    pre_order_right
+    # attach reconstructTree(in_order_left, pre_order_left) to root as left child
+    # attach reconstructTree(in_order_right, pre_order_right) to root as right child
+
+```
+
+</p>
+</details>
+
 ### 5. Be careful about details
 Once the code is written, check it twice. Pay attention to boundary cases. 
 - 0-indexed vs 1-indexed? 
