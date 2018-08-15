@@ -149,15 +149,28 @@ What you can do now is to wrap this process into an algorithm:
 ```python
 def reconstructTree(in_order, pre_order):
     # if pre_order is empty - return None
+    if len(pre_order) == 0:
+        return None
+
     # extract first from pre_order as root
+    root = Node(pre_order[0])
+    pre_order = pre_order[1:]
+
     # split in_order based on the root into:
-    #    in_order_left
-    #    in_order_right
+    in_order_left = in_order[0:in_order.index(root)]
+    in_order_right = in_order[in_order.index(root)+1:]
+    
     # split pre_order based on in_order_right &in_order_left into:
-    #    pre_order_left
-    #    pre_order_right
-    # attach reconstructTree(in_order_left, pre_order_left) to root as left child
-    # attach reconstructTree(in_order_right, pre_order_right) to root as right child
+    pre_order_left = pre_order[0:len(in_order_left)]
+    pre_order_right = pre_order[-len(in_order_right):]
+
+    leftNode = reconstructTree(in_order_left, pre_order_left)
+    rightNode = reconstructTree(in_order_right, pre_order_right)
+
+    root.addLeft(leftNode)
+    root.addRight(rightNode)
+
+    return root
 
 ```
 
