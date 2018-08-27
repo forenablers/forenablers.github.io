@@ -22,18 +22,22 @@ We returned back to the drawing board. This time we focus on the most important 
 
 ![Parkmobile US](./images/parkmobile.png)
 
-- Indication of how busy is the are, like Google Maps
+- Indication of how busy is the area, like Google Maps:
 
 ![Google maps](./images/googlemaps.png)
 
-- Exact number showing the available parking spots, like ParkMe
+- Exact number showing the available parking spots, like ParkMe:
 
 ![Parkme](./images/parkme.png)
 
-Ok, here we see where we can fill the gap and join the competition offering yet better solution. As agreed, these solutions are not solving the problem, but give you insight only. The problem is
+We quickly figured out that these existing approaches are not solving the **availabilty** problem as we see it. They rather give you an insight on what's going on. But the problem is:
 
-> Whether I can park or not, taking into account my personal situation
+> Whether or not I can park (taking into account my personal situation)
 
+You see it, right? It's different whether you drive luxurious 5 meter long BMW 5 Series vs Mini One. It does matter whether you are experienced driver or a rookie. Are you a woman with small children(s)? Then perhaps you do not want to park in 15 minutes walking distance. Are you a student? Most likely you do not mind to park cheap outside of the center and walk 15-20 minutes. 
 
-TODO:
-Note that we are taking into account the nearest future, hence the driver is not only a human, but the self-driving autonomous vehicle as well.
+None of existing solutions take your personal situation into account. And none of them answers whether or not you can park. All you see is a number or load distribution and this is not enough. You do not think so? What if the parking lot is vacant, but it is too narrow to park there.
+
+![Parking narrow](./images/narrowparking.jpg)
+
+What if the parking lot is technically free, but far away from desired location? And it's freaking cold, and raining/snowing? Are you sure that you still do not mind walking? It depends right? For some people it's still ok, for some not. Proper solution must take the user's preferences into account as well as collect user feedbacks. Was it easy to find parking lot here? Was it convenient to park here or you would rather park somewhere else? 
