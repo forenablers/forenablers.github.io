@@ -32,12 +32,31 @@ We returned back to the drawing board. This time we focus on the most important 
 
 We quickly figured out that these existing approaches are not solving the **availabilty** problem as we see it. They rather give you an insight on what's going on. But the problem is:
 
-> Whether or not I can park (taking into account my personal situation)
+> Whether or not I can park, taking into account my personal situation
 
-You see it, right? It's different whether you drive luxurious 5 meter long BMW 5 Series vs Mini One. It does matter whether you are experienced driver or a rookie. Are you a woman with small children(s)? Then perhaps you do not want to park in 15 minutes walking distance. Are you a student? Most likely you do not mind to park cheap outside of the center and walk 15-20 minutes. 
+It's different whether you drive luxurious 5 meter long BMW 5 Series vs Mini One. It does matter whether you are experienced driver or a rookie. Do you have small children with you? Then, perhaps, you do not want to park nearby in 15 minutes walking distance. Are you a student? Then, most likely you do not mind to park cheaper (outside of the city center) and walk 15-20 minutes. Are you by any chance driving an electric vehicle and need to charge it? Or you might be using the car sharing services and you are limited in options where you can leave the car.
 
-None of existing solutions take your personal situation into account. And none of them answers whether or not you can park. All you see is a number or load distribution and this is not enough. You do not think so? What if the parking lot is vacant, but it is too narrow to park there.
+None of the existing solutions take your personal situation into account. And none of them answers whether or not you can park. All you see is the number or load distribution which is not enough to decide if you can park or not. We did a mini-survey to better understand the process of how people chose where to park. Most of us use the Google Maps to check street view and get an idea of how busy is the area. Some people go further and check the traffic and adjacent streets. Finally people evaluate the alternate transport, for example getting by car to the nearest P+R and then use the public transportation. And this is what we want to change and simplify for the user. Now, that the **what** is clear we focused on analyzing the edge cases that would affect the accuraccy of our solution.  
 
-![Parking narrow](./images/narrowparking.jpg)
+### Edge cases
 
-What if the parking lot is technically free, but far away from desired location? And it's freaking cold, and raining/snowing? Are you sure that you still do not mind walking? It depends right? For some people it's still ok, for some not. Proper solution must take the user's preferences into account as well as collect user feedbacks. Was it easy to find parking lot here? Was it convenient to park here or you would rather park somewhere else? 
+ What if the parking lot seems to be vacant, but it is too narrow to park there? For example someone parked the car inappropriately.
+![Parking idiot](./images/idiot.gif)
+
+What if the parking lot is technically free, but far away from desired location? Or it's raining and you need to walk through mud.
+What if the parking lot is technically free, but far away from desired location? Or it's raining and you need to walk through mud.
+![Parking rain](./images/parkingrain.jpg)
+
+How many free parking spots you can see here?
+![Illegal parking](./images/illegalparking.jpg)
+
+What if someone parked illegally and this prevents you from accessing the only available parking space?
+![Blocked parking](./images/parkingblocked.jpg)
+
+There might be a false positive situation where the street is very busy in terms of traffic and it's always occupied at 100%, but people constanly come and leave, hence waiting just 5 minutes will definitely give you a chance to park there. And the opposite: the street is half occupied, but once people park there they leave the car for the whole working day. Hence if you came there at 08:50 AM and there were 10 parking spots available, then at 09:00AM all of them will be taken and they will be free starting from 05:00PM and later.
+
+Consider scenario when there are a few parking spots available and you do not know if you should take the first one or drive further hoping that there is better spot closer to your target. It will be very frustrating if remaining parking spots are at the end of the street, whereas you skipped the one at the beginning of the street, right? It would be great if our tool is able to figure out all this and recommend you the best parking spot.
+
+Very soon we admitted that proper solution must take the user's preferences into account. We need to know the original intention of the user in order to say 'Hey, go and park here, this is the best parking spot for you'. The intention is a key here. The user wanted to park somewhere else, but for whatever reason our user could not park there. Why? If people can not park there, should we still send others there?
+
+Now, if we start collecting the users feedback, we will greatly improve the accurracy and solve the issues caused by the edge cases. Is there a free spot next to you? This would confirm that our prediction is correct, otherwise we adjust it. Was it easy to find parking lot here? If we predicted "easy to moderate" and the user says "hard" - we need to adjust our model. Was it convenient to park here or you would rather park somewhere else? Having the preferences and feedback we can recommend 'best matches' and the user does not need to waste time checking how many parking spots are available and then checking Google Maps to see the occupancy of an area and/or how to get to the desired location from parking place.

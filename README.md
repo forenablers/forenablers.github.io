@@ -26,4 +26,5 @@ gatsby build
 ```
 
 ## Mermaid support
+
 There is installed Mermaid plugin that allows to draw diagramms, flow charts etc. Check [here](https://mermaidjs.github.io/)
