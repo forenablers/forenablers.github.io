@@ -5,15 +5,26 @@ author: ""
 authorProfileLink: ""
 ---
 
-## Technology driven(ism)
-As it was mentioned before, the first solution that poped up in our technology driven minds was to use Machine Learning. 
+Do you have a lot of data that you were collecting many years and now you consider doing some magic by applying Machine Learning? It might be dissapointing to get to know that the data you were collecting is not complete. 
 
+In this post I'll summarize our experience of trying to apply Machine Learning during our company's internal hackathon([here are more info about the hackathon]()). 
+
+## Problem
+We tried to use Machine Learning to takle **parking availability** problem that was stated as follows:
+
+> As a customer I want to search for parking in a specific area and get insight if there are spaces available? So show our customers parking prediction per street/area using our transaction history.
+
+To be honest - Machine Learning was the first solution that poped up in our technology driven minds. 
+
+## Machine Learning
 What do we know about Machine Learning?
 > Machine learning is like teenage sex: everyone talks about it, nobody really knows how to do it, everyone thinks everyone else is doing it, so everyone claims they are doing it.. 
 >
 > (c) Someone smart and funny
 
-What we want essentually is that our program learns how to solve a problem. There are following types of learning methods available to solve different types of problems:
+What we want essentually is that our program learns how to solve a problem **itself**. We could write a piece of software that has a lots of `if` statements for all kind of situations, but we are lazy and it's also doesn't look feasible.
+
+There are following types of learning methods available to solve different types of problems:
 - Supervised learning for predictions and classifications
 - Unsupervised learning for clustering and associations
 - Reinforcement learning (learn smth)
@@ -27,9 +38,20 @@ How does the supervised learning works? In supervise learning we teach our model
 - method adjusts model based on the error 
 - repeat from the first point
 
-The key is that we must know what should be the output for each input in the training data set. This paired data of *inputs and outputs* is named **labeled** data.
+The key point is that **we must know the output for each input** in the training data set. This paired data of *inputs and outputs* is named **labeled** data.
 
-The classical example of labeled data for supervised learning is a data set of images with dogs and cats. For each image we know who is there. That is why we can train a model giving a picture of dog and decide whether we need
+The classical example of labeled data for supervised learning is a data set of labeled images with dogs and cats. We know who is pictured on each image: a cat or a dog.
+
+![Cats & Dogs](./images/casndogs.jpg)
+
+The knowledge of the output allows us to train the model in supervised manner. 
+
+## Prediction of Parking Availability with Supervised Learning
+Now let's try to answer the question - **how our data set should look like so that we could predict parking availability?**
+
+**The output data** should be either *parking is available* or *unavailable*. It can have a different forms ofcourse - binary(yes, no), probability of availability(87% is available).
+
+**The input data** preferebly should have some subset of features that influence parking availability directly or indirectly. This is quite chellanging problem to select the features wisely so that our model will make quite accurate predictions but at the same time doesn't get overfitted.**(TODO: explain)**
 
 ## ML chellanges
 - Not enough data when you are not PRDB owner
