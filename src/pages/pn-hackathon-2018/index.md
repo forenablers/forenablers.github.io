@@ -15,26 +15,7 @@ During the hackathon we takled a **parking availability** problem that was state
 
 > As a customer I want to search for parking in a specific area and get insight if there are spaces available? Show our customers parking prediction per street/area using our transaction history.
 
-The brute force approach would be to hardcode the availability for all possible parameters' values that affect the availability in particular parking location. Suppose that as parameters we have only `month`, `date`, `week day` and `time`, then the lookup table for one of the parking locations will look like:
-
-|Month|Date|Week day|Time|Availability|
-|-----|----|--------|----|------------|
-|January| 1 | Monday| 00:00| Available|
-|January| 1 | Monday| 00:05| Available|
-|January| 1 | Monday| 00:10| Available|
-|January| 1 | Monday| 00:15| Available|
-|...| ... | ...| ...| ... |
-|January| 1 | Tuesday| 00:25| Unavailable|
-|January| 1 | Tuesday| 00:30| Unavailable|
-|January| 1 | Tuesday| 00:35| Available|
-|...| ... | ...| ...| ... |
-|December| 31 | Sunday| 23:55| Available|
-
-Having such a lookup table we could tell to someone who wants to park in this location on Tuesday January 1st at 0:27 that there are no available parking spots.
-
-Unfortunately we don't know **what** and **how** influences the availability. That is why creating such a lookup table is not feasible. 
-
-To be honest, we didn't even consider that because the first solution that poped up in our technology driven minds was Machine Learning. 
+The first solution that poped up in our technology driven minds was Machine Learning. 
 
 ### Machine Learning
 What do we know about Machine Learning?
@@ -72,7 +53,7 @@ Now let's try to answer the question - **how our training data set should look l
 
 **The output data** should be either *parking is available* or *unavailable*. It can have different forms ofcourse - binary(yes, no), or probability of availability(87% is available), or something else.
 
-**The input data** should have features that influence parking availability. Features selection is a quite chellanging problem itself. We need to select them wisely so that our model will make quite accurate predictions for inputs that it haven't seen before.
+**The input data** should have features that influence parking availability.
 
 Desired data set could look like this:
 
@@ -92,13 +73,13 @@ What data do we have in reality? As the problem states - we need to give a predi
 
 Clients of CPP use the provided services once they are parked and want to pay for the parking. Therefore CPP receives transactions only for successful parkings - *client managed to park in a particular area*. 
 
-Moreover the **successful parkings** might be *false positives* since we don't know where the client wanted to park **initially**. It is possible that the client wanted to park in one place but it was completely full so he ended up parking in another place far away from the initial destination point.
+What data we don't have is the data about **unsuccessful parkings** because we don't know where the client wanted to park **initially**. It is possible that the client wanted to park in one place but it was completely full so he ended up parking in another place far away from the initial destination point.
 
 The conclusion is that the **transactions cannot be used as labeled training data set** to train a model to predict parking availability.
 
 ### Availability = Amount of Free Spots?
 
-Can we derive availability from the amount of free parking spots? Why not? Whenever we can say that there will be `X` parking spots free, we can say that parking in the area is available.
+Can we derive availability from the amount of free parking spots? Whenever we can say that there will be `X` parking spots free, we can say that parking in the area is available.
 
 In order to train our model to predict amount of free parking spots, our desired labeled training data set should look like:
 
