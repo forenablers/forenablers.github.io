@@ -90,13 +90,33 @@ Important part of the data set is the **labels** because we must know whether a 
 
 What data do we have in reality? As the problem states - we need to give a prediction based on **transaction history**. These transaction history comes from a cashless parking provider(CPP) and basically are payments for parking in a particular zone at particular time.
 
-Clients of CPP use the provided services once they are parked and want to pay for the parking. Therefore CPP receives transactions only for successful parkings - *client managed to park in that area*. 
+Clients of CPP use the provided services once they are parked and want to pay for the parking. Therefore CPP receives transactions only for successful parkings - *client managed to park in a particular area*. 
 
-The stored **successful parkings** might be *false positives* since we don't know where the client wanted to park **initially**. It is possible that the client wanted to park in one place but it was completely full so he ended up parking in another place far away from the initial destination point.
+Moreover the **successful parkings** might be *false positives* since we don't know where the client wanted to park **initially**. It is possible that the client wanted to park in one place but it was completely full so he ended up parking in another place far away from the initial destination point.
 
-The conclusion is that **transactions don't have lables** to train a model to predict parking availability.
+The conclusion is that the **transactions cannot be used as labeled training data set** to train a model to predict parking availability.
 
->//TODO: another approach - predict amount of parking spots
+### Availability = Amount of Free Spots?
+
+Can we derive availability from the amount of free parking spots? Why not? Whenever we can say that there will be `X` parking spots free, we can say that parking in the area is available.
+
+In order to train our model to predict amount of free parking spots, our desired labeled training data set should look like:
+
+|input <br /> curLat, curLon, destLat, destLon, day, minute |label (output) <br /> amount of free parking spots|
+|-----|------|
+|`52.3485772, 5.0082082, 52.356612, 4.895434, 244, 772`|<span style="color:#0a0">23</span>|
+|`52.3485241, 5.0082011, 52.356278, 4.995423, 345, 631`|<span style="color:#0a0">68<span>|
+|`52.3485789, 5.0082022, 52.353972, 4.995412, 134, 1083`|<span style="color:#f00">0</span>|
+|`52.3489271, 5.0082082, 52.356129, 4.993729, 245, 890`|<span style="color:#f00">0</span>|
+|`52.3485772, 5.0082090, 52.356605, 4.995392, 64, 402`|<span style="color:#0a0">45<span>|
+
+In order to label the data we should know amount of free parking spots. The math here is pretty simple:
+1. Estimate a $$Capacity$$ of the parking area. As the capacity we can consider a historical maximum amount of simultanious parking transactions at the area.
+2. Amount of $$Occupied$$ spots is amount of simultanious transactions for a given time and location. 
+3. $$Free = Capacity - Occupied$$
+
+### Accuracy of Free spots prediction
+
 
 >//TODO: when it is possible - chart
 
