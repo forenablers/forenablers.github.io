@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[For Enablers]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 02 Sep 2018 14:38:11 GMT</lastBuildDate><item><title><![CDATA[Hackathon: Parking availability]]></title><description><![CDATA[It’s been a week since our regular hackathon at Parkmobile and it’s a good time to recap and share key takeaways. The aim of the hackathon…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackathon-availability/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackathon-availability/</guid><pubDate>Tue, 14 Aug 2018 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It’s been a week since our regular hackathon at Parkmobile and it’s a good time to recap and share key takeaways. The aim of the hackathon was to find innovative solutions that improve the life of drivers dealing with the parking challenges. I teamed up with a few like-minded people and we focused on Parking Availability challenge. Here I am going to deep-dive into the availability problem and share our findings.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[For Enablers]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 02 Sep 2018 18:09:21 GMT</lastBuildDate><item><title><![CDATA[Hackathon: Parking availability]]></title><description><![CDATA[It’s been a week since our regular hackathon at Parkmobile and it’s a good time to recap and share key takeaways. The aim of the hackathon…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackathon-availability/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackathon-availability/</guid><pubDate>Tue, 14 Aug 2018 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It’s been a week since our regular hackathon at Parkmobile and it’s a good time to recap and share key takeaways. The aim of the hackathon was to find innovative solutions that improve the life of drivers dealing with the parking challenges. I teamed up with a few like-minded people and we focused on Parking Availability challenge. Here I am going to deep-dive into the availability problem and share our findings.&lt;/p&gt;
 &lt;h3&gt;The challenge&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;As a customer I want to search for parking in a specific area and get insight if there are spaces available? So show our customers parking prediction per street/area using our transaction history.&lt;/p&gt;
@@ -2209,32 +2209,82 @@ true
 &lt;p&gt;Important part of the data set is the &lt;strong&gt;labels&lt;/strong&gt; because we must know whether a parking was available in the given situation. Do we have these labels in our data that we have been collecting for years?&lt;/p&gt;
 &lt;h3&gt;Cashless Parking Providers and data&lt;/h3&gt;
 &lt;p&gt;What data do we have in reality? As the problem states - we need to give a prediction based on &lt;strong&gt;transaction history&lt;/strong&gt;. These transaction history comes from a cashless parking provider(CPP) and basically are payments for parking in a particular zone at particular time.&lt;/p&gt;
-&lt;p&gt;Clients of CPP use the provided services once they are parked and want to pay for the parking. Therefore CPP receives transactions only for successful parkings - &lt;em&gt;client managed to park in that area&lt;/em&gt;. &lt;/p&gt;
-&lt;p&gt;The stored &lt;strong&gt;successful parkings&lt;/strong&gt; might be &lt;em&gt;false positives&lt;/em&gt; since we don’t know where the client wanted to park &lt;strong&gt;initially&lt;/strong&gt;. It is possible that the client wanted to park in one place but it was completely full so he ended up parking in another place far away from the initial destination point.&lt;/p&gt;
-&lt;p&gt;The conclusion is that &lt;strong&gt;transactions don’t have lables&lt;/strong&gt; to train a model to predict parking availability.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;//TODO: another approach - predict amount of parking spots&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;//TODO: when it is possible - chart&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;//TODO: our experement and unreliable result&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;//TODO: main conclusion - we have to collect data&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3&gt;Data&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;PRDB states for Parking Rights Data Base&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Clients of CPP use the provided services once they are parked and want to pay for the parking. Therefore CPP receives transactions only for successful parkings - &lt;em&gt;client managed to park in a particular area&lt;/em&gt;. &lt;/p&gt;
+&lt;p&gt;Moreover the &lt;strong&gt;successful parkings&lt;/strong&gt; might be &lt;em&gt;false positives&lt;/em&gt; since we don’t know where the client wanted to park &lt;strong&gt;initially&lt;/strong&gt;. It is possible that the client wanted to park in one place but it was completely full so he ended up parking in another place far away from the initial destination point.&lt;/p&gt;
+&lt;p&gt;The conclusion is that the &lt;strong&gt;transactions cannot be used as labeled training data set&lt;/strong&gt; to train a model to predict parking availability.&lt;/p&gt;
+&lt;h3&gt;Availability = Amount of Free Spots?&lt;/h3&gt;
+&lt;p&gt;Can we derive availability from the amount of free parking spots? Why not? Whenever we can say that there will be &lt;code class=&quot;language-text&quot;&gt;X&lt;/code&gt; parking spots free, we can say that parking in the area is available.&lt;/p&gt;
+&lt;p&gt;In order to train our model to predict amount of free parking spots, our desired labeled training data set should look like:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;input 
+&lt;br /&gt;
+ curLat, curLon, destLat, destLon, day, minute&lt;/th&gt;
+&lt;th&gt;label (output) 
+&lt;br /&gt;
+ amount of free parking spots&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;52.3485772, 5.0082082, 52.356612, 4.895434, 244, 772&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span style=&quot;color:#0a0&quot;&gt;
+23
+&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;52.3485241, 5.0082011, 52.356278, 4.995423, 345, 631&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span style=&quot;color:#0a0&quot;&gt;
+68
+&lt;span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;52.3485789, 5.0082022, 52.353972, 4.995412, 134, 1083&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span style=&quot;color:#f00&quot;&gt;
+0
+&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;52.3489271, 5.0082082, 52.356129, 4.993729, 245, 890&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span style=&quot;color:#f00&quot;&gt;
+0
+&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;52.3485772, 5.0082090, 52.356605, 4.995392, 64, 402&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span style=&quot;color:#0a0&quot;&gt;
+45
+&lt;span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;In order to label the data we should know amount of free parking spots. The math here is pretty simple:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Estimate a &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;Capacity&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.68333em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;strut bottom&quot; style=&quot;height:0.8777699999999999em;vertical-align:-0.19444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord mathit&quot; style=&quot;margin-right:0.07153em;&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mord mathit&quot; style=&quot;margin-right:0.03588em;&quot;&gt;y&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; of the parking area. As the capacity we can consider a historical maximum amount of simultanious parking transactions at the area.&lt;/li&gt;
+&lt;li&gt;Amount of &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;u&lt;/mi&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;Occupied&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.69444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;strut bottom&quot; style=&quot;height:0.8888799999999999em;vertical-align:-0.19444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord mathit&quot; style=&quot;margin-right:0.02778em;&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;u&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;d&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; spots is amount of simultanious transactions for a given time and location. &lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;F&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;u&lt;/mi&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;Free = Capacity - Occupied&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.69444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;strut bottom&quot; style=&quot;height:0.8888799999999999em;vertical-align:-0.19444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord mathit&quot; style=&quot;margin-right:0.13889em;&quot;&gt;F&lt;/span&gt;&lt;span class=&quot;mord mathit&quot; style=&quot;margin-right:0.02778em;&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathit&quot; style=&quot;margin-right:0.07153em;&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mord mathit&quot; style=&quot;margin-right:0.03588em;&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mbin&quot;&gt;−&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathit&quot; style=&quot;margin-right:0.02778em;&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;u&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;d&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Accuracy of Free spots prediction&lt;/h3&gt;
+&lt;p&gt;The accuracy of such model will depend on several factors and will vary per city.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Do we have all transactions in a City?&lt;/strong&gt; If we don’t we cannot estimate a capacity of a parking location and how many spots are occupied. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Does enforcement works good?&lt;/strong&gt; In worse case (when there is no enforcement)drivers won’t pay for parking. This will lead to situation where we see that there are 5 free parking spots, however they are occupied without paying.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Transactions reflect exect parking duration?&lt;/strong&gt; There are cases when driver buys 20 minutes to park but leaves after 10 minutes. In couple minutes this spot gets occupied by another car that also creates a transaction. That can influence our estimations of parking space capacity by making it bigger.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Are there special tariffs?&lt;/strong&gt; In a case when resedents don’t pay for the parking they will occupy a spot but it will not create a transaction. In residential area we will see many free spots that are occupied by resedents in reality.&lt;/p&gt;
 &lt;div class=&quot;mermaid&quot;&gt;graph TD
-    A[What data you have?] --&gt; C{PRDB owner}
-    C --&gt;|Yes| D{Enforced}
-    D --&gt; |Yes| F{Buy time}
+    start --&gt; K{Major provider?}
+    D{Enforced?} --&gt; |Yes| F{Buy time?}
     D --&gt; |No| B
-    C --&gt; |No| K{Major provider}
     K --&gt; |No| B[Incomplete]
     K --&gt; |Yes| D
     F --&gt; |Yes| G[Inaccurate]
-    F --&gt; |No| H[Complete]&lt;/div&gt;</content:encoded></item></channel></rss>
+    F --&gt; |No| H[Complete]&lt;/div&gt;
+&lt;p&gt;It worth mentioning that attempt to predict amount of free parking spots in a parking location in Amsterdam (where we didn’t have majority of all the transactions) resulted in weird numbers that exceeded amount of historical maximum of simultanious parkings.&lt;/p&gt;
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;Main conclusion we came to was that the CPP should get feedback from the users with regard to the parking experience. Simple questions can be asked after user parked: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Have you parked where you initially wanted?&lt;/li&gt;
+&lt;li&gt;How long did it take to park?&lt;/li&gt;
+&lt;li&gt;Do you see more available parking spots nearby?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This feedback will allow to build labeled training data set that will not depend on city specifics.&lt;/p&gt;</content:encoded></item></channel></rss>
