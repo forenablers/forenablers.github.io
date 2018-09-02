@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[For Enablers]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 30 Aug 2018 20:49:31 GMT</lastBuildDate><item><title><![CDATA[Hackathon: Parking availability]]></title><description><![CDATA[It’s been a week since our regular hackathon at Parkmobile and it’s a good time to recap and share key takeaways. The aim of the hackathon…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackathon-availability/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackathon-availability/</guid><pubDate>Tue, 14 Aug 2018 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It’s been a week since our regular hackathon at Parkmobile and it’s a good time to recap and share key takeaways. The aim of the hackathon was to find innovative solutions that improve the life of drivers dealing with the parking challenges. I teamed up with a few like-minded people and we focused on Parking Availability challenge. Here I am going to deep-dive into the availability problem and share our findings.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[For Enablers]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 02 Sep 2018 08:16:09 GMT</lastBuildDate><item><title><![CDATA[Hackathon: Parking availability]]></title><description><![CDATA[It’s been a week since our regular hackathon at Parkmobile and it’s a good time to recap and share key takeaways. The aim of the hackathon…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackathon-availability/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackathon-availability/</guid><pubDate>Tue, 14 Aug 2018 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It’s been a week since our regular hackathon at Parkmobile and it’s a good time to recap and share key takeaways. The aim of the hackathon was to find innovative solutions that improve the life of drivers dealing with the parking challenges. I teamed up with a few like-minded people and we focused on Parking Availability challenge. Here I am going to deep-dive into the availability problem and share our findings.&lt;/p&gt;
 &lt;h3&gt;The challenge&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;As a customer I want to search for parking in a specific area and get insight if there are spaces available? So show our customers parking prediction per street/area using our transaction history.&lt;/p&gt;
@@ -2004,4 +2004,176 @@ Simply, [].valueOf() returns the array itself. Then the call [].toString() is ma
 &lt;p&gt;About three weeks ago I published my first app for the Windows Phone 7 to the Marketplace. The app tries to erase a marked object on the photo in elegant way, so it is hard to notice. The app does its job pretty well in many cases. At the same time, it is impossible to cover all the possible cases and create the magic app that never fails, therefore there are a plenty of cases where the algorithm fails…&lt;/p&gt;
 &lt;p&gt;I didn’t describe in which cases you won’t get a really satisfying results, but I should’ve done that. For someone the app works great and he/she rates app for 5 stars but for someone it didn’t work and he/she rates app for 1 star and writes something not very pleasant.&lt;/p&gt;
 &lt;p&gt;Since the app offers to a user to do some fancy things which he is excited about and then delivers just a mess… it’s no wonder that the user is getting angry.&lt;/p&gt;
-&lt;p&gt;I learned for myself - if an app has some issues, it’s better to tell about it as soon as possible to not disappoint your user. &lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;I learned for myself - if an app has some issues, it’s better to tell about it as soon as possible to not disappoint your user. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Machine Learning and Parking Availability]]></title><description><![CDATA[Do you have a lot of data that you were collecting many years and now you consider doing some magic by applying Machine Learning? It might…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//pn-hackathon-2018/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//pn-hackathon-2018/</guid><pubDate>Thu, 19 Jul 2012 10:45:00 GMT</pubDate><content:encoded>&lt;p&gt;Do you have a lot of data that you were collecting many years and now you consider doing some magic by applying Machine Learning? It might be dissapointing to get to know that the data you were collecting is not complete. &lt;/p&gt;
+&lt;p&gt;In this post I’ll summarize our experience of trying to apply Machine Learning during our company’s internal hackathon(&lt;a href=&quot;&quot;&gt;here are more info about the hackathon&lt;/a&gt;). &lt;/p&gt;
+&lt;h3&gt;Problem&lt;/h3&gt;
+&lt;p&gt;During the hackathon we takled a &lt;strong&gt;parking availability&lt;/strong&gt; problem that was stated as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As a customer I want to search for parking in a specific area and get insight if there are spaces available? Show our customers parking prediction per street/area using our transaction history.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The brute force approach would be to take into account all possible parameters that affect the availability in particular parking location and code these as a bunch of &lt;code class=&quot;language-text&quot;&gt;if&lt;/code&gt; statements. Take a look at a tiny part of a possible prediction flow:&lt;/p&gt;
+&lt;div class=&quot;mermaid&quot;&gt;graph TD
+    Start --&gt; A{12:00?}
+    A --&gt; |Yes| C{Monday?}
+    C --&gt; |No| L{Tuesday?}
+    L --&gt; |Yes| P[...]
+    L --&gt; |No| I[...]
+    P --&gt; O[Unavailable]
+    I --&gt; U[Available]
+    A --&gt; |No| B{12:15?}
+    C --&gt; |Yes| F[....]
+    F --&gt; D[Available]
+    B --&gt; |Yes| G{Monday?}
+    B --&gt; |No| Y[...]
+    Y --&gt; T[Available]
+    G --&gt; |Yes| R[...]
+    R --&gt; E[Unavailable]
+    G --&gt; |No| W[...]
+    W --&gt; Q[Unavailable]&lt;/div&gt;
+&lt;p&gt;There are couple of problems with this approach:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;It doesn’t look feasible to code such a flow even with a couple of parameters&lt;/li&gt;
+&lt;li&gt;We don’t know what influences the availability &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To be honest, we didn’t even consider that because the first solution that poped up in our technology driven minds was Machine Learning. &lt;/p&gt;
+&lt;h3&gt;Machine Learning&lt;/h3&gt;
+&lt;p&gt;What do we know about Machine Learning?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Machine learning is like teenage sex: everyone talks about it, nobody really knows how to do it, everyone thinks everyone else is doing it, so everyone claims they are doing it.. &lt;/p&gt;
+&lt;p&gt;(c) Someone smart and funny&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;What we want essentually is that our program learns how to solve a problem &lt;strong&gt;itself&lt;/strong&gt; and we don’t have to write that ugly piece of software with lots of &lt;code class=&quot;language-text&quot;&gt;if&lt;/code&gt; statements for all kind of situations.&lt;/p&gt;
+&lt;p&gt;There are following types of learning methods available to solve different types of problems:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Supervised learning for predictions and classifications&lt;/li&gt;
+&lt;li&gt;Unsupervised learning for clustering and associations&lt;/li&gt;
+&lt;li&gt;Reinforcement learning for learning from experience&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As we can see above, to be able to make predictions about parking availability we need to utilize supervised learning. &lt;/p&gt;
+&lt;h3&gt;Supervised learning&lt;/h3&gt;
+&lt;p&gt;How does the supervised learning works? In supervise learning we perform followind steps to train our model:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;initialize a model with random parameters&lt;/li&gt;
+&lt;li&gt;ask model to make predictions based on an input data&lt;/li&gt;
+&lt;li&gt;evaluate the prediction based on &lt;strong&gt;known output&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;adjusts model’s parameters to minimize the error &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The key point is that &lt;strong&gt;we must know the prediction(output) for each input&lt;/strong&gt; in the training data set. This paired data of &lt;em&gt;inputs and results&lt;/em&gt; is named &lt;strong&gt;labeled&lt;/strong&gt; data.&lt;/p&gt;
+&lt;p&gt;The classical example of labeled data for supervised learning is a data set of labeled images with dogs and cats. We know who is pictured on each image: a cat or a dog.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/casndogs-b3c0a3acb51b96da704cb63ec641e860-778cc.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.07836990595611%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHcTiWDD//EABkQAQACAwAAAAAAAAAAAAAAAAEAAhAhQf/aAAgBAQABBQLuLagqT//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABcQAQADAAAAAAAAAAAAAAAAABAAETH/2gAIAQEABj8Cmlv/xAAdEAEAAgEFAQAAAAAAAAAAAAABABExIUFRYYHR/9oACAEBAAE/IXXJPY5+oXzElpfUAKU7l4hP/9oADAMBAAIAAwAAABCwD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQEAAgMBAAAAAAAAAAAAAAERACExUWFB/9oACAEBAAE/ENk0JxigAodnFEhn15wALzQXzeWu5duurN4Gb5z/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Cats &amp; Dogs&quot;
+        title=&quot;&quot;
+        src=&quot;/static/casndogs-b3c0a3acb51b96da704cb63ec641e860-f8fb9.jpg&quot;
+        srcset=&quot;/static/casndogs-b3c0a3acb51b96da704cb63ec641e860-e8976.jpg 148w,
+/static/casndogs-b3c0a3acb51b96da704cb63ec641e860-63df2.jpg 295w,
+/static/casndogs-b3c0a3acb51b96da704cb63ec641e860-f8fb9.jpg 590w,
+/static/casndogs-b3c0a3acb51b96da704cb63ec641e860-778cc.jpg 638w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;The knowledge of the output allows us to train the model in supervised manner. &lt;/p&gt;
+&lt;h3&gt;Parking Availability Training Data Set&lt;/h3&gt;
+&lt;p&gt;Now let’s try to answer the question - &lt;strong&gt;how our training data set should look like so that we could predict parking availability?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The output data&lt;/strong&gt; should be either &lt;em&gt;parking is available&lt;/em&gt; or &lt;em&gt;unavailable&lt;/em&gt;. It can have different forms ofcourse - binary(yes, no), or probability of availability(87% is available), or something else.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The input data&lt;/strong&gt; should have features that influence parking availability. Features selection is a quite chellanging problem itself. We need to select them wisely so that our model will make quite accurate predictions for inputs that it haven’t seen before.&lt;/p&gt;
+&lt;p&gt;Desired data set could look like this:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;input 
+&lt;br /&gt;
+ curLat, curLon, destLat, destLon, day, minute&lt;/th&gt;
+&lt;th&gt;label 
+&lt;br /&gt;
+ available&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;52.3485772, 5.0082082, 52.356612, 4.895434, 244, 772&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span style=&quot;color:#0a0&quot;&gt;
+true
+&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;52.3485241, 5.0082011, 52.356278, 4.995423, 345, 631&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span style=&quot;color:#0a0&quot;&gt;
+true
+&lt;span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;52.3485789, 5.0082022, 52.353972, 4.995412, 134, 1083&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span style=&quot;color:#f00&quot;&gt;
+false
+&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;52.3489271, 5.0082082, 52.356129, 4.993729, 245, 890&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span style=&quot;color:#f00&quot;&gt;
+false
+&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;52.3485772, 5.0082090, 52.356605, 4.995392, 64, 402&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span style=&quot;color:#0a0&quot;&gt;
+true
+&lt;span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Important part of the data set is the &lt;strong&gt;labels&lt;/strong&gt; because we must know whether a parking was available in the given situation.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;//TODO: specific of our app&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;//TODO: no labeled data&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;//TODO: another approach - predict amount of parking spots&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;//TODO: when it is possible - chart&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;//TODO: our experement and unreliable result&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;//TODO: main conclusion - we have to collect data&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Data&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;PRDB states for Parking Rights Data Base&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;mermaid&quot;&gt;graph TD
+    A[What data you have?] --&gt; C{PRDB owner}
+    C --&gt;|Yes| D{Enforced}
+    D --&gt; |Yes| F{Buy time}
+    D --&gt; |No| B
+    C --&gt; |No| K{Major provider}
+    K --&gt; |No| B[Incomplete]
+    K --&gt; |Yes| D
+    F --&gt; |Yes| G[Inaccurate]
+    F --&gt; |No| H[Complete]&lt;/div&gt;</content:encoded></item></channel></rss>
