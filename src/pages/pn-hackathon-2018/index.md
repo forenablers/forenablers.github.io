@@ -91,8 +91,9 @@ Desired data set could look like this:
 |`52.3489271, 5.0082082, 52.356129, 4.993729, 245, 890`|<span style="color:#f00">false</span>|
 |`52.3485772, 5.0082090, 52.356605, 4.995392, 64, 402`|<span style="color:#0a0">true<span>|
 
-Important part of the data set is the **labels** because we must know whether a parking was available in the given situation.
+Important part of the data set is the **labels** because we must know whether a parking was available in the given situation. Do we have these labels in our data that we have collected in the course of 10+ years?
 
+###  Parking app 
 
 >//TODO: specific of our app
 
