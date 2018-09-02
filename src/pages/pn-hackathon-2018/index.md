@@ -117,8 +117,17 @@ In order to label the data we should know amount of free parking spots. The math
 
 ### Accuracy of Free spots prediction
 
+The accuracy of such model will depend on several factors and will vary per city.
 
->//TODO: when it is possible - chart
+**Do we have all transactions in a City?** If we don't we cannot estimate a capacity of a parking location and how many spots are occupied. 
+
+**Does enforcement works good?** In worse case (when there is no enforcement)drivers won't pay for parking. This will lead to situation where we see that there are 5 free parking spots, however they are occupied without paying.
+
+**Transactions reflect exect parking duration?** There are cases when driver buys 20 minutes to park but leaves after 10 minutes. In couple minutes this spot gets occupied by another car that also creates a transaction. That can influence our estimations of parking space capacity by making it bigger.
+
+**Are there special tariffs?** In a case when resedents don't pay for the parking they will occupy a spot but it will not create a transaction. In residential area we will see many free spots that are occupied by resedents in reality.
+
+
 
 >//TODO: our experement and unreliable result
 
@@ -131,7 +140,7 @@ In order to label the data we should know amount of free parking spots. The math
 ```mermaid
 graph TD
     A[What data you have?] --> C{PRDB owner}
-    C -->|Yes| D{Enforced}
+    C --> |Yes| D{Enforced}
     D --> |Yes| F{Buy time}
     D --> |No| B
     C --> |No| K{Major provider}
