@@ -1,6 +1,6 @@
 ---
-title: "Challanges during PN hackathon 2018"
-date: "2018-07-19T10:45:00Z"
+title: "Machine Learning and Parking Availability"
+date: "2012-07-19T10:45:00Z"
 author: ""
 authorProfileLink: ""
 ---
