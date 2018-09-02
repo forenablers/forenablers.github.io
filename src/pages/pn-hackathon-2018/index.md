@@ -76,7 +76,7 @@ Now let's try to answer the question - **how our training data set should look l
 
 Desired data set could look like this:
 
-|input <br /> curLat, curLon, destLat, destLon, day, minute |label <br /> available|
+|input <br /> curLat, curLon, destLat, destLon, day, minute |label (output) <br /> availability|
 |-----|------|
 |`52.3485772, 5.0082082, 52.356612, 4.895434, 244, 772`|<span style="color:#0a0">true</span>|
 |`52.3485241, 5.0082011, 52.356278, 4.995423, 345, 631`|<span style="color:#0a0">true<span>|
@@ -84,13 +84,17 @@ Desired data set could look like this:
 |`52.3489271, 5.0082082, 52.356129, 4.993729, 245, 890`|<span style="color:#f00">false</span>|
 |`52.3485772, 5.0082090, 52.356605, 4.995392, 64, 402`|<span style="color:#0a0">true<span>|
 
-Important part of the data set is the **labels** because we must know whether a parking was available in the given situation. Do we have these labels in our data that we have collected in the course of 10+ years?
+Important part of the data set is the **labels** because we must know whether a parking was available in the given situation. Do we have these labels in our data that we have been collecting for years?
 
-###  Parking app 
+###  Cashless Parking Providers and data
 
->//TODO: specific of our app
+What data do we have in reality? As the problem states - we need to give a prediction based on **transaction history**. These transaction history comes from a cashless parking provider(CPP) and basically are payments for parking in a particular zone at particular time.
 
->//TODO: no labeled data
+Clients of CPP use the provided services once they are parked and want to pay for the parking. Therefore CPP receives transactions only for successful parkings - *client managed to park in that area*. 
+
+The stored **successful parkings** might be *false positives* since we don't know where the client wanted to park **initially**. It is possible that the client wanted to park in one place but it was completely full so he ended up parking in another place far away from the initial destination point.
+
+The conclusion is that **transactions don't have lables** to train a model to predict parking availability.
 
 >//TODO: another approach - predict amount of parking spots
 
