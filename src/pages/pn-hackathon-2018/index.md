@@ -15,31 +15,24 @@ During the hackathon we takled a **parking availability** problem that was state
 
 > As a customer I want to search for parking in a specific area and get insight if there are spaces available? Show our customers parking prediction per street/area using our transaction history.
 
-The brute force approach would be to take into account all possible parameters that affect the availability in particular parking location and code these as a bunch of `if` statements. Take a look at a tiny part of a possible prediction flow:
+The brute force approach would be to hardcode the availability for all possible parameters' values that affect the availability in particular parking location. Suppose that as parameters we have only `month`, `date`, `week day` and `time`, then the lookup table for one of the parking locations will look like:
 
-```mermaid
-graph TD
-    Start --> A{12:00?}
-    A --> |Yes| C{Monday?}
-    C --> |No| L{Tuesday?}
-    L --> |Yes| P[...]
-    L --> |No| I[...]
-    P --> O[Unavailable]
-    I --> U[Available]
-    A --> |No| B{12:15?}
-    C --> |Yes| F[....]
-    F --> D[Available]
-    B --> |Yes| G{Monday?}
-    B --> |No| Y[...]
-    Y --> T[Available]
-    G --> |Yes| R[...]
-    R --> E[Unavailable]
-    G --> |No| W[...]
-    W --> Q[Unavailable]
-```
-There are couple of problems with this approach:
-1. It doesn't look feasible to code such a flow even with a couple of parameters
-2. We don't know what influences the availability 
+|Month|Date|Week day|Time|Availability|
+|-----|----|--------|----|------------|
+|January| 1 | Monday| 00:00| Available|
+|January| 1 | Monday| 00:05| Available|
+|January| 1 | Monday| 00:10| Available|
+|January| 1 | Monday| 00:15| Available|
+|...| ... | ...| ...| ... |
+|January| 1 | Tuesday| 00:25| Unavailable|
+|January| 1 | Tuesday| 00:30| Unavailable|
+|January| 1 | Tuesday| 00:35| Available|
+|...| ... | ...| ...| ... |
+|December| 31 | Sunday| 23:55| Available|
+
+Having such a lookup table we could tell to someone who wants to park in this location on Tuesday January 1st at 0:27 that there are no available parking spots.
+
+Unfortunately we don't know **what** and **how** influences the availability. That is why creating such a lookup table is not feasible. 
 
 To be honest, we didn't even consider that because the first solution that poped up in our technology driven minds was Machine Learning. 
 
@@ -49,12 +42,12 @@ What do we know about Machine Learning?
 >
 > (c) Someone smart and funny
 
-What we want essentually is that our program learns how to solve a problem **itself** and we don't have to write that ugly piece of software with lots of `if` statements for all kind of situations.
+What we want essentually is that our program learns how to solve a problem **itself** by discovering hidden patterns in the training data set.
 
 There are following types of learning methods available to solve different types of problems:
 - Supervised learning for predictions and classifications
 - Unsupervised learning for clustering and associations
-- Reinforcement learning for learning from experience
+- Reinforcement learning for learning from experiments
 
 As we can see above, to be able to make predictions about parking availability we need to utilize supervised learning. 
 
