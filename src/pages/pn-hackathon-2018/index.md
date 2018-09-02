@@ -127,25 +127,24 @@ The accuracy of such model will depend on several factors and will vary per city
 
 **Are there special tariffs?** In a case when resedents don't pay for the parking they will occupy a spot but it will not create a transaction. In residential area we will see many free spots that are occupied by resedents in reality.
 
-
-
->//TODO: our experement and unreliable result
-
->//TODO: main conclusion - we have to collect data
-
-### Data
-
-> PRDB states for Parking Rights Data Base
-
 ```mermaid
 graph TD
-    A[What data you have?] --> C{PRDB owner}
-    C --> |Yes| D{Enforced}
-    D --> |Yes| F{Buy time}
+    start --> K{Major provider?}
+    D{Enforced?} --> |Yes| F{Buy time?}
     D --> |No| B
-    C --> |No| K{Major provider}
     K --> |No| B[Incomplete]
     K --> |Yes| D
     F --> |Yes| G[Inaccurate]
     F --> |No| H[Complete]
 ```
+
+It worth mentioning that attempt to predict amount of free parking spots in a parking location in Amsterdam (where we didn't have majority of all the transactions) resulted in weird numbers that exceeded amount of historical maximum of simultanious parkings.
+
+### Conclusion
+
+Main conclusion we came to was that the CPP should get feedback from the users with regard to the parking experience. Simple questions can be asked after user parked: 
+- Have you parked where you initially wanted?
+- How long did it take to park?
+- Do you see more available parking spots nearby?
+
+This feedback will allow to build labeled training data set that will not depend on city specifics.
