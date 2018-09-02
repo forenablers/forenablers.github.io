@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[For Enablers]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 02 Sep 2018 08:29:28 GMT</lastBuildDate><item><title><![CDATA[Hackathon: Parking availability]]></title><description><![CDATA[It’s been a week since our regular hackathon at Parkmobile and it’s a good time to recap and share key takeaways. The aim of the hackathon…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackathon-availability/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackathon-availability/</guid><pubDate>Tue, 14 Aug 2018 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It’s been a week since our regular hackathon at Parkmobile and it’s a good time to recap and share key takeaways. The aim of the hackathon was to find innovative solutions that improve the life of drivers dealing with the parking challenges. I teamed up with a few like-minded people and we focused on Parking Availability challenge. Here I am going to deep-dive into the availability problem and share our findings.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[For Enablers]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 02 Sep 2018 14:38:11 GMT</lastBuildDate><item><title><![CDATA[Hackathon: Parking availability]]></title><description><![CDATA[It’s been a week since our regular hackathon at Parkmobile and it’s a good time to recap and share key takeaways. The aim of the hackathon…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackathon-availability/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackathon-availability/</guid><pubDate>Tue, 14 Aug 2018 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It’s been a week since our regular hackathon at Parkmobile and it’s a good time to recap and share key takeaways. The aim of the hackathon was to find innovative solutions that improve the life of drivers dealing with the parking challenges. I teamed up with a few like-minded people and we focused on Parking Availability challenge. Here I am going to deep-dive into the availability problem and share our findings.&lt;/p&gt;
 &lt;h3&gt;The challenge&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;As a customer I want to search for parking in a specific area and get insight if there are spaces available? So show our customers parking prediction per street/area using our transaction history.&lt;/p&gt;
@@ -2011,30 +2011,92 @@ Simply, [].valueOf() returns the array itself. Then the call [].toString() is ma
 &lt;blockquote&gt;
 &lt;p&gt;As a customer I want to search for parking in a specific area and get insight if there are spaces available? Show our customers parking prediction per street/area using our transaction history.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;The brute force approach would be to take into account all possible parameters that affect the availability in particular parking location and code these as a bunch of &lt;code class=&quot;language-text&quot;&gt;if&lt;/code&gt; statements. Take a look at a tiny part of a possible prediction flow:&lt;/p&gt;
-&lt;div class=&quot;mermaid&quot;&gt;graph TD
-    Start --&gt; A{12:00?}
-    A --&gt; |Yes| C{Monday?}
-    C --&gt; |No| L{Tuesday?}
-    L --&gt; |Yes| P[...]
-    L --&gt; |No| I[...]
-    P --&gt; O[Unavailable]
-    I --&gt; U[Available]
-    A --&gt; |No| B{12:15?}
-    C --&gt; |Yes| F[....]
-    F --&gt; D[Available]
-    B --&gt; |Yes| G{Monday?}
-    B --&gt; |No| Y[...]
-    Y --&gt; T[Available]
-    G --&gt; |Yes| R[...]
-    R --&gt; E[Unavailable]
-    G --&gt; |No| W[...]
-    W --&gt; Q[Unavailable]&lt;/div&gt;
-&lt;p&gt;There are couple of problems with this approach:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;It doesn’t look feasible to code such a flow even with a couple of parameters&lt;/li&gt;
-&lt;li&gt;We don’t know what influences the availability &lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;The brute force approach would be to hardcode the availability for all possible parameters’ values that affect the availability in particular parking location. Suppose that as parameters we have only &lt;code class=&quot;language-text&quot;&gt;month&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;date&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;week day&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;time&lt;/code&gt;, then the lookup table for one of the parking locations will look like:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Month&lt;/th&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Week day&lt;/th&gt;
+&lt;th&gt;Time&lt;/th&gt;
+&lt;th&gt;Availability&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;January&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Monday&lt;/td&gt;
+&lt;td&gt;00:00&lt;/td&gt;
+&lt;td&gt;Available&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;January&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Monday&lt;/td&gt;
+&lt;td&gt;00:05&lt;/td&gt;
+&lt;td&gt;Available&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;January&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Monday&lt;/td&gt;
+&lt;td&gt;00:10&lt;/td&gt;
+&lt;td&gt;Available&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;January&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Monday&lt;/td&gt;
+&lt;td&gt;00:15&lt;/td&gt;
+&lt;td&gt;Available&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;…&lt;/td&gt;
+&lt;td&gt;…&lt;/td&gt;
+&lt;td&gt;…&lt;/td&gt;
+&lt;td&gt;…&lt;/td&gt;
+&lt;td&gt;…&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;January&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Tuesday&lt;/td&gt;
+&lt;td&gt;00:25&lt;/td&gt;
+&lt;td&gt;Unavailable&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;January&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Tuesday&lt;/td&gt;
+&lt;td&gt;00:30&lt;/td&gt;
+&lt;td&gt;Unavailable&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;January&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Tuesday&lt;/td&gt;
+&lt;td&gt;00:35&lt;/td&gt;
+&lt;td&gt;Available&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;…&lt;/td&gt;
+&lt;td&gt;…&lt;/td&gt;
+&lt;td&gt;…&lt;/td&gt;
+&lt;td&gt;…&lt;/td&gt;
+&lt;td&gt;…&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;December&lt;/td&gt;
+&lt;td&gt;31&lt;/td&gt;
+&lt;td&gt;Sunday&lt;/td&gt;
+&lt;td&gt;23:55&lt;/td&gt;
+&lt;td&gt;Available&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Having such a lookup table we could tell to someone who wants to park in this location on Tuesday January 1st at 0:27 that there are no available parking spots.&lt;/p&gt;
+&lt;p&gt;Unfortunately we don’t know &lt;strong&gt;what&lt;/strong&gt; and &lt;strong&gt;how&lt;/strong&gt; influences the availability. That is why creating such a lookup table is not feasible. &lt;/p&gt;
 &lt;p&gt;To be honest, we didn’t even consider that because the first solution that poped up in our technology driven minds was Machine Learning. &lt;/p&gt;
 &lt;h3&gt;Machine Learning&lt;/h3&gt;
 &lt;p&gt;What do we know about Machine Learning?&lt;/p&gt;
@@ -2042,12 +2104,12 @@ Simply, [].valueOf() returns the array itself. Then the call [].toString() is ma
 &lt;p&gt;Machine learning is like teenage sex: everyone talks about it, nobody really knows how to do it, everyone thinks everyone else is doing it, so everyone claims they are doing it.. &lt;/p&gt;
 &lt;p&gt;(c) Someone smart and funny&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;What we want essentually is that our program learns how to solve a problem &lt;strong&gt;itself&lt;/strong&gt; and we don’t have to write that ugly piece of software with lots of &lt;code class=&quot;language-text&quot;&gt;if&lt;/code&gt; statements for all kind of situations.&lt;/p&gt;
+&lt;p&gt;What we want essentually is that our program learns how to solve a problem &lt;strong&gt;itself&lt;/strong&gt; by discovering hidden patterns in the training data set.&lt;/p&gt;
 &lt;p&gt;There are following types of learning methods available to solve different types of problems:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Supervised learning for predictions and classifications&lt;/li&gt;
 &lt;li&gt;Unsupervised learning for clustering and associations&lt;/li&gt;
-&lt;li&gt;Reinforcement learning for learning from experience&lt;/li&gt;
+&lt;li&gt;Reinforcement learning for learning from experiments&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;As we can see above, to be able to make predictions about parking availability we need to utilize supervised learning. &lt;/p&gt;
 &lt;h3&gt;Supervised learning&lt;/h3&gt;
@@ -2106,9 +2168,9 @@ Simply, [].valueOf() returns the array itself. Then the call [].toString() is ma
 &lt;th&gt;input 
 &lt;br /&gt;
  curLat, curLon, destLat, destLon, day, minute&lt;/th&gt;
-&lt;th&gt;label 
+&lt;th&gt;label (output) 
 &lt;br /&gt;
- available&lt;/th&gt;
+ availability&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
@@ -2144,14 +2206,12 @@ true
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Important part of the data set is the &lt;strong&gt;labels&lt;/strong&gt; because we must know whether a parking was available in the given situation. Do we have these labels in our data that we have collected in the course of 10+ years?&lt;/p&gt;
-&lt;h3&gt;Parking app&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;//TODO: specific of our app&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;//TODO: no labeled data&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Important part of the data set is the &lt;strong&gt;labels&lt;/strong&gt; because we must know whether a parking was available in the given situation. Do we have these labels in our data that we have been collecting for years?&lt;/p&gt;
+&lt;h3&gt;Cashless Parking Providers and data&lt;/h3&gt;
+&lt;p&gt;What data do we have in reality? As the problem states - we need to give a prediction based on &lt;strong&gt;transaction history&lt;/strong&gt;. These transaction history comes from a cashless parking provider(CPP) and basically are payments for parking in a particular zone at particular time.&lt;/p&gt;
+&lt;p&gt;Clients of CPP use the provided services once they are parked and want to pay for the parking. Therefore CPP receives transactions only for successful parkings - &lt;em&gt;client managed to park in that area&lt;/em&gt;. &lt;/p&gt;
+&lt;p&gt;The stored &lt;strong&gt;successful parkings&lt;/strong&gt; might be &lt;em&gt;false positives&lt;/em&gt; since we don’t know where the client wanted to park &lt;strong&gt;initially&lt;/strong&gt;. It is possible that the client wanted to park in one place but it was completely full so he ended up parking in another place far away from the initial destination point.&lt;/p&gt;
+&lt;p&gt;The conclusion is that &lt;strong&gt;transactions don’t have lables&lt;/strong&gt; to train a model to predict parking availability.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;//TODO: another approach - predict amount of parking spots&lt;/p&gt;
 &lt;/blockquote&gt;
