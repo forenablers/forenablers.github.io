@@ -5,11 +5,13 @@ author: ""
 authorProfileLink: ""
 ---
 
-Do you have a lot of data that you were collecting many years and now you consider doing some magic by applying Machine Learning? It might be dissapointing to get to know that the data you were collecting is not complete. 
+Do you have a lot of data that you were collecting many years and now you consider doing some magic by applying Machine Learning? What are you able to achive with the data you have? 
 
-In this post I'll summarize our experience of trying to apply Machine Learning during our company's internal hackathon([here are more info about the hackathon]()). 
+In this post I'll summarize our experience of trying to apply Machine Learning during the [hackathon](/hackathon-availability/). 
 
-### Problem
+In the beginning we will take a look at the problem. After that there will be a small refresher/introduction into Machine Learning and its methods. Then we choose an appropriate method that supposed to solve the problem. Once we know the method, we will figure out what data do we need and what data are actually available. In the end as a bonus, we will consider slightly different approach and will reason about it's pros & cons.
+
+## Problem
 
 During the hackathon we takled a **parking availability** problem that was stated as follows:
 
@@ -17,7 +19,7 @@ During the hackathon we takled a **parking availability** problem that was state
 
 The first solution that poped up in our technology driven minds was Machine Learning. 
 
-### Machine Learning
+## Machine Learning
 What do we know about Machine Learning?
 > Machine learning is like teenage sex: everyone talks about it, nobody really knows how to do it, everyone thinks everyone else is doing it, so everyone claims they are doing it.. 
 >
@@ -32,7 +34,7 @@ There are following types of learning methods available to solve different types
 
 As we can see above, to be able to make predictions about parking availability we need to utilize supervised learning. 
 
-### Supervised learning
+## Supervised learning
 How does the supervised learning works? In supervise learning we perform followind steps to train our model:
 - initialize a model with random parameters
 - ask model to make predictions based on an input data
@@ -47,7 +49,7 @@ The classical example of labeled data for supervised learning is a data set of l
 
 The knowledge of the output allows us to train the model in supervised manner. 
 
-### Parking Availability Training Data Set
+## Parking Availability Training Data Set
 
 Now let's try to answer the question - **how our training data set should look like so that we could predict parking availability?**
 
@@ -67,7 +69,7 @@ Desired data set could look like this:
 
 Important part of the data set is the **labels** because we must know whether a parking was available in the given situation. Do we have these labels in our data that we have been collecting for years?
 
-###  Cashless Parking Providers and data
+##  Cashless Parking Providers and data
 
 What data do we have in reality? As the problem states - we need to give a prediction based on **transaction history**. These transaction history comes from a cashless parking provider(CPP) and basically are payments for parking in a particular zone at particular time.
 
@@ -75,8 +77,18 @@ Clients of CPP use the provided services once they are parked and want to pay fo
 
 What data we don't have is the data about **unsuccessful parkings** because we don't know where the client wanted to park **initially**. It is possible that the client wanted to park in one place but it was completely full so he ended up parking in another place far away from the initial destination point.
 
+## Conclusion
+
 The conclusion is that the **transactions cannot be used as labeled training data set** to train a model to predict parking availability.
 
+Main outcome was that the CPP should start collecting feedback from the users with regard to the parking experience. Simple questions can be asked after user parked: 
+- Have you parked where you initially wanted?
+- How long did it take to park?
+- Do you see more available parking spots nearby?
+
+This feedback will allow to build labeled training data set that will not depend on city specifics.
+
+## Bonus
 ### Availability = Amount of Free Spots?
 
 Can we derive availability from the amount of free parking spots? Whenever we can say that there will be `X` parking spots free, we can say that parking in the area is available.
@@ -120,12 +132,3 @@ graph TD
 ```
 
 It worth mentioning that attempt to predict amount of free parking spots in a parking location in Amsterdam (where we didn't have majority of all the transactions) resulted in weird numbers that exceeded amount of historical maximum of simultanious parkings.
-
-### Conclusion
-
-Main conclusion we came to was that the CPP should get feedback from the users with regard to the parking experience. Simple questions can be asked after user parked: 
-- Have you parked where you initially wanted?
-- How long did it take to park?
-- Do you see more available parking spots nearby?
-
-This feedback will allow to build labeled training data set that will not depend on city specifics.
