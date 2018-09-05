@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[For Enablers]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 02 Sep 2018 19:04:05 GMT</lastBuildDate><item><title><![CDATA[Hackathon: Parking availability]]></title><description><![CDATA[It’s been a week since our regular hackathon at Parkmobile and it’s a good time to recap and share key takeaways. The aim of the hackathon…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackathon-availability/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackathon-availability/</guid><pubDate>Tue, 14 Aug 2018 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It’s been a week since our regular hackathon at Parkmobile and it’s a good time to recap and share key takeaways. The aim of the hackathon was to find innovative solutions that improve the life of drivers dealing with the parking challenges. I teamed up with a few like-minded people and we focused on Parking Availability challenge. Here I am going to deep-dive into the availability problem and share our findings.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[For Enablers]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 05 Sep 2018 15:26:46 GMT</lastBuildDate><item><title><![CDATA[Hackathon: Parking availability]]></title><description><![CDATA[It’s been a week since our regular hackathon at Parkmobile and it’s a good time to recap and share key takeaways. The aim of the hackathon…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackathon-availability/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackathon-availability/</guid><pubDate>Tue, 14 Aug 2018 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It’s been a week since our regular hackathon at Parkmobile and it’s a good time to recap and share key takeaways. The aim of the hackathon was to find innovative solutions that improve the life of drivers dealing with the parking challenges. I teamed up with a few like-minded people and we focused on Parking Availability challenge. Here I am going to deep-dive into the availability problem and share our findings.&lt;/p&gt;
 &lt;h3&gt;The challenge&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;As a customer I want to search for parking in a specific area and get insight if there are spaces available? So show our customers parking prediction per street/area using our transaction history.&lt;/p&gt;
@@ -2004,15 +2004,16 @@ Simply, [].valueOf() returns the array itself. Then the call [].toString() is ma
 &lt;p&gt;About three weeks ago I published my first app for the Windows Phone 7 to the Marketplace. The app tries to erase a marked object on the photo in elegant way, so it is hard to notice. The app does its job pretty well in many cases. At the same time, it is impossible to cover all the possible cases and create the magic app that never fails, therefore there are a plenty of cases where the algorithm fails…&lt;/p&gt;
 &lt;p&gt;I didn’t describe in which cases you won’t get a really satisfying results, but I should’ve done that. For someone the app works great and he/she rates app for 5 stars but for someone it didn’t work and he/she rates app for 1 star and writes something not very pleasant.&lt;/p&gt;
 &lt;p&gt;Since the app offers to a user to do some fancy things which he is excited about and then delivers just a mess… it’s no wonder that the user is getting angry.&lt;/p&gt;
-&lt;p&gt;I learned for myself - if an app has some issues, it’s better to tell about it as soon as possible to not disappoint your user. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Machine Learning and Parking Availability]]></title><description><![CDATA[Do you have a lot of data that you were collecting many years and now you consider doing some magic by applying Machine Learning? It might…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//pn-hackathon-2018/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//pn-hackathon-2018/</guid><pubDate>Thu, 19 Jul 2012 10:45:00 GMT</pubDate><content:encoded>&lt;p&gt;Do you have a lot of data that you were collecting many years and now you consider doing some magic by applying Machine Learning? It might be dissapointing to get to know that the data you were collecting is not complete. &lt;/p&gt;
-&lt;p&gt;In this post I’ll summarize our experience of trying to apply Machine Learning during our company’s internal hackathon(&lt;a href=&quot;&quot;&gt;here are more info about the hackathon&lt;/a&gt;). &lt;/p&gt;
-&lt;h3&gt;Problem&lt;/h3&gt;
+&lt;p&gt;I learned for myself - if an app has some issues, it’s better to tell about it as soon as possible to not disappoint your user. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Machine Learning and Parking Availability]]></title><description><![CDATA[Do you have a lot of data that you were collecting many years and now you consider doing some magic by applying Machine Learning? What are…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//pn-hackathon-2018/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//pn-hackathon-2018/</guid><pubDate>Thu, 19 Jul 2012 10:45:00 GMT</pubDate><content:encoded>&lt;p&gt;Do you have a lot of data that you were collecting many years and now you consider doing some magic by applying Machine Learning? What are you able to achive with the data you have? &lt;/p&gt;
+&lt;p&gt;In this post I’ll summarize our experience of trying to apply Machine Learning during the &lt;a href=&quot;/hackathon-availability/&quot;&gt;hackathon&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;In the beginning we will take a look at the problem. After that there will be a small refresher/introduction into Machine Learning and its methods. Then we choose an appropriate method that supposed to solve the problem. Once we know the method, we will figure out what data do we need and what data are actually available. In the end as a bonus, we will consider slightly different approach and will reason about it’s pros &amp;#x26; cons.&lt;/p&gt;
+&lt;h2&gt;Problem&lt;/h2&gt;
 &lt;p&gt;During the hackathon we takled a &lt;strong&gt;parking availability&lt;/strong&gt; problem that was stated as follows:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;As a customer I want to search for parking in a specific area and get insight if there are spaces available? Show our customers parking prediction per street/area using our transaction history.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;The first solution that poped up in our technology driven minds was Machine Learning. &lt;/p&gt;
-&lt;h3&gt;Machine Learning&lt;/h3&gt;
+&lt;h2&gt;Machine Learning&lt;/h2&gt;
 &lt;p&gt;What do we know about Machine Learning?&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Machine learning is like teenage sex: everyone talks about it, nobody really knows how to do it, everyone thinks everyone else is doing it, so everyone claims they are doing it.. &lt;/p&gt;
@@ -2026,7 +2027,7 @@ Simply, [].valueOf() returns the array itself. Then the call [].toString() is ma
 &lt;li&gt;Reinforcement learning for learning from experiments&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;As we can see above, to be able to make predictions about parking availability we need to utilize supervised learning. &lt;/p&gt;
-&lt;h3&gt;Supervised learning&lt;/h3&gt;
+&lt;h2&gt;Supervised learning&lt;/h2&gt;
 &lt;p&gt;How does the supervised learning works? In supervise learning we perform followind steps to train our model:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;initialize a model with random parameters&lt;/li&gt;
@@ -2071,7 +2072,7 @@ Simply, [].valueOf() returns the array itself. Then the call [].toString() is ma
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;p&gt;The knowledge of the output allows us to train the model in supervised manner. &lt;/p&gt;
-&lt;h3&gt;Parking Availability Training Data Set&lt;/h3&gt;
+&lt;h2&gt;Parking Availability Training Data Set&lt;/h2&gt;
 &lt;p&gt;Now let’s try to answer the question - &lt;strong&gt;how our training data set should look like so that we could predict parking availability?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The output data&lt;/strong&gt; should be either &lt;em&gt;parking is available&lt;/em&gt; or &lt;em&gt;unavailable&lt;/em&gt;. It can have different forms ofcourse - binary(yes, no), or probability of availability(87% is available), or something else.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The input data&lt;/strong&gt; should have features that influence parking availability.&lt;/p&gt;
@@ -2121,11 +2122,20 @@ true
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Important part of the data set is the &lt;strong&gt;labels&lt;/strong&gt; because we must know whether a parking was available in the given situation. Do we have these labels in our data that we have been collecting for years?&lt;/p&gt;
-&lt;h3&gt;Cashless Parking Providers and data&lt;/h3&gt;
+&lt;h2&gt;Cashless Parking Providers and data&lt;/h2&gt;
 &lt;p&gt;What data do we have in reality? As the problem states - we need to give a prediction based on &lt;strong&gt;transaction history&lt;/strong&gt;. These transaction history comes from a cashless parking provider(CPP) and basically are payments for parking in a particular zone at particular time.&lt;/p&gt;
 &lt;p&gt;Clients of CPP use the provided services once they are parked and want to pay for the parking. Therefore CPP receives transactions only for successful parkings - &lt;em&gt;client managed to park in a particular area&lt;/em&gt;. &lt;/p&gt;
 &lt;p&gt;What data we don’t have is the data about &lt;strong&gt;unsuccessful parkings&lt;/strong&gt; because we don’t know where the client wanted to park &lt;strong&gt;initially&lt;/strong&gt;. It is possible that the client wanted to park in one place but it was completely full so he ended up parking in another place far away from the initial destination point.&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;The conclusion is that the &lt;strong&gt;transactions cannot be used as labeled training data set&lt;/strong&gt; to train a model to predict parking availability.&lt;/p&gt;
+&lt;p&gt;Main outcome was that the CPP should start collecting feedback from the users with regard to the parking experience. Simple questions can be asked after user parked: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Have you parked where you initially wanted?&lt;/li&gt;
+&lt;li&gt;How long did it take to park?&lt;/li&gt;
+&lt;li&gt;Do you see more available parking spots nearby?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This feedback will allow to build labeled training data set that will not depend on city specifics.&lt;/p&gt;
+&lt;h2&gt;Bonus&lt;/h2&gt;
 &lt;h3&gt;Availability = Amount of Free Spots?&lt;/h3&gt;
 &lt;p&gt;Can we derive availability from the amount of free parking spots? Whenever we can say that there will be &lt;code class=&quot;language-text&quot;&gt;X&lt;/code&gt; parking spots free, we can say that parking in the area is available.&lt;/p&gt;
 &lt;p&gt;In order to train our model to predict amount of free parking spots, our desired labeled training data set should look like:&lt;/p&gt;
@@ -2193,12 +2203,4 @@ true
     K --&gt; |Yes| D
     F --&gt; |Yes| G[Inaccurate]
     F --&gt; |No| H[Complete]&lt;/div&gt;
-&lt;p&gt;It worth mentioning that attempt to predict amount of free parking spots in a parking location in Amsterdam (where we didn’t have majority of all the transactions) resulted in weird numbers that exceeded amount of historical maximum of simultanious parkings.&lt;/p&gt;
-&lt;h3&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;Main conclusion we came to was that the CPP should get feedback from the users with regard to the parking experience. Simple questions can be asked after user parked: &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Have you parked where you initially wanted?&lt;/li&gt;
-&lt;li&gt;How long did it take to park?&lt;/li&gt;
-&lt;li&gt;Do you see more available parking spots nearby?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This feedback will allow to build labeled training data set that will not depend on city specifics.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;It worth mentioning that attempt to predict amount of free parking spots in a parking location in Amsterdam (where we didn’t have majority of all the transactions) resulted in weird numbers that exceeded amount of historical maximum of simultanious parkings.&lt;/p&gt;</content:encoded></item></channel></rss>
