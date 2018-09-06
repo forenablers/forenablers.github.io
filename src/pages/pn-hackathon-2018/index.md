@@ -5,7 +5,7 @@ author: ""
 authorProfileLink: ""
 ---
 
-Do you have a lot of data that you were collecting many years and now you consider doing some magic by applying Machine Learning? What are you able to achive with the data you have? 
+Do you have a lot of data that you were collecting many years and now you consider doing some magic by applying Machine Learning? What are you able to achieve with the data you have? 
 
 In this post I'll summarize our experience of trying to apply Machine Learning during the [hackathon](/hackathon-availability/). 
 
@@ -13,11 +13,11 @@ In the beginning we will take a look at the problem. After that there will be a 
 
 ## Problem
 
-During the hackathon we takled a **parking availability** problem that was stated as follows:
+During the hackathon we tackled a **parking availability** problem that was stated as follows:
 
 > As a customer I want to search for parking in a specific area and get insight if there are spaces available? Show our customers parking prediction per street/area using our transaction history.
 
-The first solution that poped up in our technology driven minds was Machine Learning. 
+The first solution that popped up in our technology driven minds was Machine Learning. 
 
 ## Machine Learning
 What do we know about Machine Learning?
@@ -25,7 +25,7 @@ What do we know about Machine Learning?
 >
 > (c) Someone smart and funny
 
-What we want essentually is that our program learns how to solve a problem **itself** by discovering hidden patterns in the training data set.
+What we want essentially is that our program learns how to solve a problem **itself** by discovering hidden patterns in the training data set.
 
 There are following types of learning methods available to solve different types of problems:
 - Supervised learning for predictions and classifications
@@ -35,7 +35,7 @@ There are following types of learning methods available to solve different types
 As we can see above, to be able to make predictions about parking availability we need to utilize supervised learning. 
 
 ## Supervised learning
-How does the supervised learning works? In supervise learning we perform followind steps to train our model:
+How does the supervised learning works? In supervise learning we perform following steps to train our model:
 - initialize a model with random parameters
 - ask model to make predictions based on an input data
 - evaluate the prediction based on **known output**
@@ -53,7 +53,7 @@ The knowledge of the output allows us to train the model in supervised manner.
 
 Now let's try to answer the question - **how our training data set should look like so that we could predict parking availability?**
 
-**The output data** should be either *parking is available* or *unavailable*. It can have different forms ofcourse - binary(yes, no), or probability of availability(87% is available), or something else.
+**The output data** should be either *parking is available* or *unavailable*. It can have different forms of course - binary(yes, no), or probability of availability(87% is available), or something else.
 
 **The input data** should have features that influence parking availability.
 
@@ -73,9 +73,9 @@ Important part of the data set is the **labels** because we must know whether a 
 
 What data do we have in reality? As the problem states - we need to give a prediction based on **transaction history**. These transaction history comes from a cashless parking provider(CPP) and basically are payments for parking in a particular zone at particular time.
 
-Clients of CPP use the provided services once they are parked and want to pay for the parking. Therefore CPP receives transactions only for successful parkings - *client managed to park in a particular area*. 
+Clients of CPP use the provided services once they are parked and want to pay for the parking. Therefore CPP receives transactions only for successful parking - *client managed to park in a particular area*.
 
-What data we don't have is the data about **unsuccessful parkings** because we don't know where the client wanted to park **initially**. It is possible that the client wanted to park in one place but it was completely full so he ended up parking in another place far away from the initial destination point.
+What data we don't have is the data about **unsuccessful parking** because we don't know where the client wanted to park **initially**. It is possible that the client wanted to park in one place but it was completely full so he ended up parking in another place far away from the initial destination point.
 
 ## Conclusion
 
@@ -86,7 +86,7 @@ Main outcome was that the CPP should start collecting feedback from the users wi
 - How long did it take to park?
 - Do you see more available parking spots nearby?
 
-This feedback will allow to build labeled training data set that will not depend on city specifics.
+This feedback will allow building labeled training data set that will not depend on city specifics.
 
 ## Bonus
 ### Availability = Amount of Free Spots?
@@ -104,8 +104,8 @@ In order to train our model to predict amount of free parking spots, our desired
 |`52.3485772, 5.0082090, 52.356605, 4.995392, 64, 402`|<span style="color:#0a0">45<span>|
 
 In order to label the data we should know amount of free parking spots. The math here is pretty simple:
-1. Estimate a $$Capacity$$ of the parking area. As the capacity we can consider a historical maximum amount of simultanious parking transactions at the area.
-2. Amount of $$Occupied$$ spots is amount of simultanious transactions for a given time and location. 
+1. Estimate a $$Capacity$$ of the parking area. As the capacity we can consider a historical maximum amount of simultaneous parking transactions at the area.
+2. Amount of $$Occupied$$ spots is amount of simultanious transactions for a given time and location.
 3. $$Free = Capacity - Occupied$$
 
 ### Accuracy of Free spots prediction
@@ -114,11 +114,11 @@ The accuracy of such model will depend on several factors and will vary per city
 
 **Do we have all transactions in a City?** If we don't we cannot estimate a capacity of a parking location and how many spots are occupied. 
 
-**Does enforcement works good?** In worse case (when there is no enforcement)drivers won't pay for parking. This will lead to situation where we see that there are 5 free parking spots, however they are occupied without paying.
+**Does enforcement work good?** In worse case (when there is no enforcement)drivers won't pay for parking. This will lead to situation where we see that there are 5 free parking spots, however they are occupied without paying.
 
-**Transactions reflect exect parking duration?** There are cases when driver buys 20 minutes to park but leaves after 10 minutes. In couple minutes this spot gets occupied by another car that also creates a transaction. That can influence our estimations of parking space capacity by making it bigger.
+**Transactions reflect exact parking duration?** There are cases when driver buys 20 minutes to park but leaves after 10 minutes. In couple minutes this spot gets occupied by another car that also creates a transaction. That can influence our estimations of parking space capacity by making it bigger.
 
-**Are there special tariffs?** In a case when resedents don't pay for the parking they will occupy a spot but it will not create a transaction. In residential area we will see many free spots that are occupied by resedents in reality.
+**Are there special tariffs?** In a case when residents don't pay for the parking they will occupy a spot but it will not create a transaction. In residential area we will see many free spots that are occupied by residents in reality.
 
 ```mermaid
 graph TD
@@ -131,4 +131,4 @@ graph TD
     F --> |No| H[Complete]
 ```
 
-It worth mentioning that attempt to predict amount of free parking spots in a parking location in Amsterdam (where we didn't have majority of all the transactions) resulted in weird numbers that exceeded amount of historical maximum of simultanious parkings.
+It worth mentioning that attempt to predict amount of free parking spots in a parking location in Amsterdam (where we didn't have majority of all the transactions) resulted in weird numbers that exceeded amount of historical maximum of simultaneous parking actions.
