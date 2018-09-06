@@ -12,18 +12,18 @@ It’s been a week since our regular hackathon at Parkmobile and it's a good tim
 
 ### Naive approach
 
-The first reaction was, not surprisingly ... Machine Learning. And here we go: people started to argue whether it should be TensorFlow or AWS SageMaker, should we use the data from Amsterdam or from Paris, how accurate must be the prediction and so on and so forth. People that know absolutely nothing about the data science or machine learning, those suddenly turned into experts and started to show off their intelligence :) Tell you what, the Machine Learning is as useless here as blockchain. Never start from the technology! 
+The first reaction was, not surprisingly ... Machine Learning. And here we go: people started to argue whether it should be TensorFlow or AWS SageMaker, should we use the data from Amsterdam or from Paris, how accurate must be the prediction and so on and so forth. People that do not have hands-on experience with the data science or machine learning, those suddenly turned into experts and started to show off their intelligence :) Tell you what, the Machine Learning is as useless here as blockchain. Never start from the technology! 
 
 <details><summary>Explanation</summary>
 <p>
-At the minimum you are coupled to this exact technology and limited due to all the constrains that come with the chosen technology. Moreover, there is no unique selling point when you rely on technology. Your competitors will do the same, i.e. adopt the same techhology and you all end up with the same results. Take cryptocurrency for example, they all based on blockchain and there is more than 1600 of them, whereas only 5-10 of them are really worth to invest.
+At the minimum you are coupled to this exact technology and limited due to all the constrains that come with the chosen technology. Moreover, there is no unique selling point when you rely on technology. Your competitors will do the same, i.e. adopt the same technology and you all end up with the same results. Take cryptocurrency for example, they all based on blockchain and there is more than 1600 of them, whereas only 5-10 of them are really worth to invest.
 </p>
 </details>
 
 
 ### Right approach
 
-We returned back to the drawing board. This time we focus on the most important thing: **what** we are trying to solve, rather than **how**. And immediately an excellent question popped up: are we reinventing the wheel, i.e. is there an existing solution on a market? The research resulted in the following three  approaches for addressing the parking availability:
+We returned to the drawing board. This time we focus on the most important thing: **what** we are trying to solve, rather than **how**. And immediately an excellent question popped up: are we reinventing the wheel, i.e. is there an existing solution on a market? The research resulted in the following three  approaches for addressing the parking availability:
 
 - Heatmap with colors indicating the occupancy on the street level, e.g. Parkmobile US:
 
@@ -37,7 +37,7 @@ We returned back to the drawing board. This time we focus on the most important 
 
 ![Parkme](./images/parkme.png)
 
-We quickly figured out that these existing approaches are not solving the **availabilty** problem as we expected. They rather give you an insight on what's going on in realtime and show you the occuppancy of certain street. We do not want to know the exact number nor the color of the street. Finally, we worked out the **what** :
+We quickly figured out that these existing approaches are not solving the **availability** problem as we expected. They rather give you an insight on what's going on in realtime and show you the occupancy of certain street. We do not want to know the exact number nor the color of the street. Finally, we worked out the **what** :
 
 > Whether or not the users can park in target area. If not, where can they park?
 
@@ -59,7 +59,7 @@ The first step is to understand your target users and customers. We used Persona
 
 ### Edge cases
 
-There are many things that will affect the accuraccy of the results, here are the most annoying:
+There are many things that will affect the accuracy of the results, here are the most annoying:
 
 * The parking lot seems to be vacant, but it is too narrow to park there. E.g. someone parked the car inappropriately:
 ![Parking idiot](./images/idiot.gif)
@@ -74,9 +74,9 @@ There are many things that will affect the accuraccy of the results, here are th
 
 We know what we want to solve, we identified the target audience and highlighted the edge cases. Having analyzed all the data we tried to imagine the user interface. We had to take into account a few more very important things that affected technical solution:
 
-* There is a very busy street that is always occupied at 100%, but it is very dynamic and cars constanly come and leave. Parking time is 5-15 minutes. Hence  the parking is relatively easy and available. This brings us to important metric **parking duration** and **waiting time**
+* There is a very busy street that is always occupied at 100%, but it is very dynamic and cars constanly come and leave. Parking time is 5-15 minutes. Hence, the parking is relatively easy and available. This brings us to important metric **parking duration** and **waiting time**
 
-* Opposite situation. At the given moment the street is half busy. However, parking duration is long, e.g. whole working day. Hence if you came there at 08:50 AM and there were 10 parking spots available, at 09:00AM all of them will be taken and they will be free starting from 05:00PM. The parking is very difficult there amd depends on **time of the day**
+* Opposite situation. At the given moment the street is half busy. However, parking duration is long, e.g. whole working day. Hence, if you came there at 08:50 AM and there were 10 parking spots available, at 09:00AM all of them will be taken and they will be free starting from 05:00PM. The parking is very difficult there and depends on **time of the day**
 
 * Consider scenario when there are a few parking spots available and you do not know if you should take the first one or drive further hoping that there is better spot closer to your target. It will be very frustrating if remaining parking spots are at the end of the street, whereas you skipped the one at the beginning of the street, right? It would be great if our tool is able to figure out this and **recommend you the best parking spot**.
 
@@ -84,7 +84,7 @@ We know what we want to solve, we identified the target audience and highlighted
 
 Very soon we understood that proper solution must take the user's preferences into account. We need to know the original intention of the user in order to say 'Hey, go and park here, this is the best parking spot that suits you'. The intention is a key here. The user wanted to park somewhere else, but could not. We think it is important information. If people can not park there, we should adjust the recommendation and do not send others there.
 
-Now, if we start collecting the users feedback, we will greatly improve the accurracy and solve the issues caused by the edge cases. Is there a free spot next to you? This would confirm that our prediction is correct, otherwise we adjust it. Was it easy to find parking lot here? If we predicted "easy to moderate" and the user says "hard" - we need to adjust our model. Was it convenient to park here or you would rather park somewhere else? Having the preferences and feedback we can recommend 'best matches' and the user does not need to waste time checking how many parking spots are available and then checking Google Maps to see the occupancy of an area and/or how to get to the desired location from parking place.
+Now, if we start collecting the users' feedback, we will greatly improve the accuracy and solve the issues caused by the edge cases. Is there a free spot next to you? This would confirm that our prediction is correct, otherwise we adjust it. Was it easy to find parking lot here? If we predicted "easy to moderate" and the user says "hard" - we need to adjust our model. Was it convenient to park here or you would rather park somewhere else? Having the preferences and feedback we can recommend 'best matches' and the user does not need to waste time checking how many parking spots are available and then checking Google Maps to see the occupancy of an area and/or how to get to the desired location from parking place.
 
 ### Solution
 
