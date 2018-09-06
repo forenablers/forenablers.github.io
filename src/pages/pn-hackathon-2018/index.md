@@ -32,7 +32,9 @@ There are following types of learning methods available to solve different types
 - Unsupervised learning for clustering and associations
 - Reinforcement learning for learning from experiments
 
-As we can see above, to be able to make predictions about parking availability we need to utilize supervised learning. 
+What these methods do is train *a model* that can either predict, classify, associate etc. In other words **the model is an outcome of a learning process**.
+
+As we can see above, to be able to make predictions about parking availability we need to utilize supervised learning to train our model. 
 
 ## Supervised learning
 How does the supervised learning works? In supervise learning we perform following steps to train our model:
@@ -62,20 +64,22 @@ Desired data set could look like this:
 |input <br /> curLat, curLon, destLat, destLon, day, minute |label (output) <br /> availability|
 |-----|------|
 |`52.3485772, 5.0082082, 52.356612, 4.895434, 244, 772`|<span style="color:#0a0">true</span>|
-|`52.3485241, 5.0082011, 52.356278, 4.995423, 345, 631`|<span style="color:#0a0">true<span>|
+|`52.3485241, 5.0082011, 52.356278, 4.995423, 345, 631`|<span style="color:#0a0">true</span>|
 |`52.3485789, 5.0082022, 52.353972, 4.995412, 134, 1083`|<span style="color:#f00">false</span>|
 |`52.3489271, 5.0082082, 52.356129, 4.993729, 245, 890`|<span style="color:#f00">false</span>|
-|`52.3485772, 5.0082090, 52.356605, 4.995392, 64, 402`|<span style="color:#0a0">true<span>|
+|`52.3485772, 5.0082090, 52.356605, 4.995392, 64, 402`|<span style="color:#0a0">true</span>|
 
-Important part of the data set is the **labels** because we must know whether a parking was available in the given situation. Do we have these labels in our data that we have been collecting for years?
+Important part of the data set is the availability **labels**. The labels reflect the availability situation whether the parking was available(<span style="color:#0a0">true</span>) or unavailable(<span style="color:#f00">false</span>) at the given time in the given location. 
+
+Do we have these labels in provided data set?
 
 ##  Cashless Parking Providers and data
 
 What data do we have in reality? As the problem states - we need to give a prediction based on **transaction history**. These transaction history comes from a cashless parking provider(CPP) and basically are payments for parking in a particular zone at particular time.
 
-Clients of CPP use the provided services once they are parked and want to pay for the parking. Therefore CPP receives transactions only for successful parking - *client managed to park in a particular area*.
+Clients of CPP use the provided services once they are parked and want to pay for the parking. Therefore CPP receives transactions only for successful parking - *client managed to park in a particular area, thus parking was available*.
 
-What data we don't have is the data about **unsuccessful parking** because we don't know where the client wanted to park **initially**. It is possible that the client wanted to park in one place but it was completely full so he ended up parking in another place far away from the initial destination point.
+What data we don't have is the data about **unsuccessful parkings** because we don't know where the client wanted to park **initially**. It is possible that the client wanted to park in one place but it was completely full so he ended up parking in another place far away from the initial destination point. In other words - client dealt with **unavailable parking** but this data **was not captured**.
 
 ## Conclusion
 
