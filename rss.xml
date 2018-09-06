@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[For Enablers]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 06 Sep 2018 11:10:22 GMT</lastBuildDate><item><title><![CDATA[Hackathon: Parking availability]]></title><description><![CDATA[It’s been a week since our regular hackathon at Parkmobile and it’s a good time to recap and share key takeaways. The aim of the hackathon…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackathon-availability/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackathon-availability/</guid><pubDate>Tue, 14 Aug 2018 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It’s been a week since our regular hackathon at Parkmobile and it’s a good time to recap and share key takeaways. The aim of the hackathon was to find innovative solutions that improve the life of drivers dealing with the parking challenges. I teamed up with a few like-minded people and we focused on Parking Availability challenge. Here I am going to deep-dive into the availability problem and share our findings.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[For Enablers]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 06 Sep 2018 12:18:54 GMT</lastBuildDate><item><title><![CDATA[Hackathon: Parking availability]]></title><description><![CDATA[It’s been a week since our regular hackathon at Parkmobile and it’s a good time to recap and share key takeaways. The aim of the hackathon…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hackathon-availability/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hackathon-availability/</guid><pubDate>Tue, 14 Aug 2018 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It’s been a week since our regular hackathon at Parkmobile and it’s a good time to recap and share key takeaways. The aim of the hackathon was to find innovative solutions that improve the life of drivers dealing with the parking challenges. I teamed up with a few like-minded people and we focused on Parking Availability challenge. Here I am going to deep-dive into the availability problem and share our findings.&lt;/p&gt;
 &lt;h3&gt;The challenge&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;As a customer I want to search for parking in a specific area and get insight if there are spaces available? So show our customers parking prediction per street/area using our transaction history.&lt;/p&gt;
@@ -2026,7 +2026,8 @@ Simply, [].valueOf() returns the array itself. Then the call [].toString() is ma
 &lt;li&gt;Unsupervised learning for clustering and associations&lt;/li&gt;
 &lt;li&gt;Reinforcement learning for learning from experiments&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;As we can see above, to be able to make predictions about parking availability we need to utilize supervised learning. &lt;/p&gt;
+&lt;p&gt;What these methods do is train &lt;em&gt;a model&lt;/em&gt; that can either predict, classify, associate etc. In other words &lt;strong&gt;the model is an outcome of a learning process&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;As we can see above, to be able to make predictions about parking availability we need to utilize supervised learning to train our model. &lt;/p&gt;
 &lt;h2&gt;Supervised learning&lt;/h2&gt;
 &lt;p&gt;How does the supervised learning works? In supervise learning we perform following steps to train our model:&lt;/p&gt;
 &lt;ul&gt;
@@ -2099,7 +2100,7 @@ true
 &lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;52.3485241, 5.0082011, 52.356278, 4.995423, 345, 631&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;&lt;span style=&quot;color:#0a0&quot;&gt;
 true
-&lt;span&gt;&lt;/td&gt;
+&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;52.3485789, 5.0082022, 52.353972, 4.995412, 134, 1083&lt;/code&gt;&lt;/td&gt;
@@ -2117,15 +2118,16 @@ false
 &lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;52.3485772, 5.0082090, 52.356605, 4.995392, 64, 402&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;&lt;span style=&quot;color:#0a0&quot;&gt;
 true
-&lt;span&gt;&lt;/td&gt;
+&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Important part of the data set is the &lt;strong&gt;labels&lt;/strong&gt; because we must know whether a parking was available in the given situation. Do we have these labels in our data that we have been collecting for years?&lt;/p&gt;
+&lt;p&gt;Important part of the data set is the availability &lt;strong&gt;labels&lt;/strong&gt;. The labels reflect the availability situation whether the parking was available(&lt;span style=&quot;color:#0a0&quot;&gt;true&lt;/span&gt;) or unavailable(&lt;span style=&quot;color:#f00&quot;&gt;false&lt;/span&gt;) at the given time in the given location. &lt;/p&gt;
+&lt;p&gt;Do we have these labels in provided data set?&lt;/p&gt;
 &lt;h2&gt;Cashless Parking Providers and data&lt;/h2&gt;
 &lt;p&gt;What data do we have in reality? As the problem states - we need to give a prediction based on &lt;strong&gt;transaction history&lt;/strong&gt;. These transaction history comes from a cashless parking provider(CPP) and basically are payments for parking in a particular zone at particular time.&lt;/p&gt;
-&lt;p&gt;Clients of CPP use the provided services once they are parked and want to pay for the parking. Therefore CPP receives transactions only for successful parking - &lt;em&gt;client managed to park in a particular area&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;What data we don’t have is the data about &lt;strong&gt;unsuccessful parking&lt;/strong&gt; because we don’t know where the client wanted to park &lt;strong&gt;initially&lt;/strong&gt;. It is possible that the client wanted to park in one place but it was completely full so he ended up parking in another place far away from the initial destination point.&lt;/p&gt;
+&lt;p&gt;Clients of CPP use the provided services once they are parked and want to pay for the parking. Therefore CPP receives transactions only for successful parking - &lt;em&gt;client managed to park in a particular area, thus parking was available&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;What data we don’t have is the data about &lt;strong&gt;unsuccessful parkings&lt;/strong&gt; because we don’t know where the client wanted to park &lt;strong&gt;initially&lt;/strong&gt;. It is possible that the client wanted to park in one place but it was completely full so he ended up parking in another place far away from the initial destination point. In other words - client dealt with &lt;strong&gt;unavailable parking&lt;/strong&gt; but this data &lt;strong&gt;was not captured&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;The conclusion is that the &lt;strong&gt;transactions cannot be used as labeled training data set&lt;/strong&gt; to train a model to predict parking availability.&lt;/p&gt;
 &lt;p&gt;Main outcome was that the CPP should start collecting feedback from the users with regard to the parking experience. Simple questions can be asked after user parked: &lt;/p&gt;
