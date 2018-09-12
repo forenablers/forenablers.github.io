@@ -1,8 +1,8 @@
 ---
 title: "Machine Learning and Parking Availability"
-date: "2012-07-19T10:45:00Z"
-author: ""
-authorProfileLink: ""
+date: "2018-09-05T10:45:00Z"
+author: "Sergey Zavoloka"
+authorProfileLink: "https://github.com/zavolokas"
 ---
 
 Do you have a lot of data that you were collecting many years and now you consider doing some magic by applying Machine Learning? What are you able to achieve with the data you have? 
@@ -80,6 +80,9 @@ What data do we have in reality? As the problem states - we need to give a predi
 Clients of CPP use the provided services once they are parked and want to pay for the parking. Therefore CPP receives transactions only for successful parking - *client managed to park in a particular area, thus parking was available*.
 
 What data we don't have is the data about **unsuccessful parkings** because we don't know where the client wanted to park **initially**. It is possible that the client wanted to park in one place but it was completely full so he ended up parking in another place far away from the initial destination point. In other words - client dealt with **unavailable parking** but this data **was not captured**.
+
+> Disclosure: all the data is anonymized according to the [GDPR](https://eugdpr.org/).
+
 
 ## Conclusion
 
